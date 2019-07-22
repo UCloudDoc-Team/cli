@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== delete ======
-
 ## ucloud ulb vserver backend delete
 
 Delete ULB VServer backend nodes
@@ -22,10 +20,10 @@ ucloud ulb vserver backend delete [flags]
   --backend-id     strings   Required. BackendID of backend nodes to update 
 
   --region     string        Optional. Override default region, see 'ucloud region' (default
-                             "cn-bj2") 
+                             "cn-sh2") 
 
   --project-id     string    Optional. Override default project-id, see 'ucloud project list'
-                             (default "org-ryrmms") 
+                             (default "org-oxjwoi") 
 
   --help, -h                 help for delete 
 

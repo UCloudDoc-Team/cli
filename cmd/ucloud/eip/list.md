@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== list ======
-
 ## ucloud eip list
 
 List all EIP instances
@@ -31,9 +29,9 @@ ucloud eip list
 
   --offset     int          Optional. Offset default 0 
 
-  --project-id     string   Assign project-id (default "org-ryrmms") 
+  --project-id     string   Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Assign region (default "cn-bj2") 
+  --region     string       Assign region (default "cn-sh2") 
 
 ```
 

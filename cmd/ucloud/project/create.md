@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== create ======
-
 ## ucloud project create
 
 Create project

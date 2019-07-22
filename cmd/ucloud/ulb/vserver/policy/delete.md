@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== delete ======
-
 ## ucloud ulb vserver policy delete
 
 Delete content forward policies of ULB VServer
@@ -18,10 +16,10 @@ ucloud ulb vserver policy delete [flags]
 
 ```
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --policy-id     strings   Required. PolicyID of policies to delete 
 

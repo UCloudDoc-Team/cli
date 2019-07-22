@@ -1,7 +1,5 @@
 {{indexmenu_n>8}}
 
-====== join-shared-bw ======
-
 ## ucloud eip join-shared-bw
 
 Join shared bandwidth
@@ -27,10 +25,10 @@ ucloud eip join-shared-bw --eip-id eip-xxx --shared-bw-id bwshare-xxx
 
   --shared-bw-id     string   Required. Resource ID of shared bandwidth to be joined 
 
-  --region     string         Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string         Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
   --project-id     string     Optional. Project-id, see 'ucloud project list' (default
-                              "org-ryrmms") 
+                              "org-oxjwoi") 
 
   --help, -h                  help for join-shared-bw 
 

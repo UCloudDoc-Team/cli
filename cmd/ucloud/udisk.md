@@ -1,6 +1,4 @@
-{{indexmenu_n>14}}
-
-====== udisk ======
+{{indexmenu_n>12}}
 
 ## ucloud udisk
 
@@ -28,7 +26,7 @@ Read and manipulate udisk instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud udisk attach](software/cli/cmd/ucloud/udisk/attach)	 - Attach udisk instances to an uhost
 * [ucloud udisk clone](software/cli/cmd/ucloud/udisk/clone)	 - Clone an udisk
 * [ucloud udisk create](software/cli/cmd/ucloud/udisk/create)	 - Create udisk instance

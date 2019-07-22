@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== release ======
-
 ## ucloud eip release
 
 Release EIP
@@ -26,10 +24,10 @@ ucloud eip release --eip-id eip-xx1,eip-xx2
   --eip-id     strings      Required. Resource ID of the EIPs you want to release 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --help, -h                help for release 
 

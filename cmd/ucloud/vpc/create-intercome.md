@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== create-intercome ======
-
 ## ucloud vpc create-intercome
 
 Create intercome with other vpc
@@ -28,14 +26,14 @@ ucloud vpc create-intercome --vpc-id xx --dst-vpc-id xx --dst-region xx
   --dst-vpc-id     string       Required. The target vpc you want to establish the intercome 
 
   --dst-region     string       Required. If the intercome established across different
-                                regions (default "cn-bj2") 
+                                regions (default "cn-sh2") 
 
   --region     string           Optioanl. The region of source vpc which will establish the
-                                intercome (default "cn-bj2") 
+                                intercome (default "cn-sh2") 
 
-  --project-id     string       Optional. The project id of the source vpc (default "org-ryrmms") 
+  --project-id     string       Optional. The project id of the source vpc (default "org-oxjwoi") 
 
-  --dst-project-id     string   Optional. The project id of the source vpc (default "org-ryrmms") 
+  --dst-project-id     string   Optional. The project id of the source vpc (default "org-oxjwoi") 
 
   --help, -h                    help for create-intercome 
 

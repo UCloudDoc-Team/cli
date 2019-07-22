@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== modify-bw ======
-
 ## ucloud udpn modify-bw
 
 Modify bandwidth of UDPN tunnel
@@ -21,9 +19,9 @@ ucloud udpn modify-bw [flags]
 
   --bandwidth-mb     int    Required. Bandwidth of UDPN tunnel. Unit:Mb. Range [2,1000] 
 
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --help, -h                help for modify-bw 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>8}}
 
-====== restore ======
-
 ## ucloud mysql db restore
 
 Create MySQL instance and restore the newly created db to the specified DB at a specified point in time
@@ -26,13 +24,13 @@ ucloud mysql db restore [flags]
                                  2019-02-23T23:45:00Z 
 
   --region     string            Optional. Override default region, see 'ucloud region'
-                                 (default "cn-bj2") 
+                                 (default "cn-sh2") 
 
   --zone     string              Optional. Override default availability zone, see 'ucloud
-                                 region' (default "cn-bj2-02") 
+                                 region' (default "cn-sh2-02") 
 
   --project-id     string        Optional. Override default project-id, see 'ucloud project
-                                 list' (default "org-ryrmms") 
+                                 list' (default "org-oxjwoi") 
 
   --disk-type     string         Optional. Disk type. The default is to be consistent with the
                                  source database. Accept values: normal, ssd 

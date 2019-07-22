@@ -1,6 +1,4 @@
-{{indexmenu_n>20}}
-
-====== memcache ======
+{{indexmenu_n>21}}
 
 ## ucloud memcache
 
@@ -28,8 +26,9 @@ List and manipulate memcache instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud memcache create](software/cli/cmd/ucloud/memcache/create)	 - Create memcache instance
 * [ucloud memcache delete](software/cli/cmd/ucloud/memcache/delete)	 - Delete memcache instances
 * [ucloud memcache list](software/cli/cmd/ucloud/memcache/list)	 - List memcache instances
+* [ucloud memcache restart](software/cli/cmd/ucloud/memcache/restart)	 - Restart memcache instances
 

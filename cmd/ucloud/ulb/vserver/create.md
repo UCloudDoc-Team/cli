@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== create ======
-
 ## ucloud ulb vserver create
 
 Create ULB VServer instance
@@ -21,10 +19,10 @@ ucloud ulb vserver create [flags]
                                        to create belongs to 
 
   --region     string                  Optional. Override default region, see 'ucloud region'
-                                       (default "cn-bj2") 
+                                       (default "cn-sh2") 
 
   --project-id     string              Optional. Override default project-id, see 'ucloud
-                                       project list' (default "org-ryrmms") 
+                                       project list' (default "org-oxjwoi") 
 
   --name     string                    Optional. Name of VServer to create 
 

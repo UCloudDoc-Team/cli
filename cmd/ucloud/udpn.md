@@ -1,6 +1,4 @@
-{{indexmenu_n>16}}
-
-====== udpn ======
+{{indexmenu_n>15}}
 
 ## ucloud udpn
 
@@ -28,7 +26,7 @@ List and manipulate udpn instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud udpn create](software/cli/cmd/ucloud/udpn/create)	 - Create UDPN tunnel
 * [ucloud udpn delete](software/cli/cmd/ucloud/udpn/delete)	 - delete udpn instances
 * [ucloud udpn list](software/cli/cmd/ucloud/udpn/list)	 - List udpn instances

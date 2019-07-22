@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== create ======
-
 ## ucloud udpn create
 
 Create UDPN tunnel
@@ -17,7 +15,7 @@ ucloud udpn create [flags]
 ### Options
 
 ```
-  --peer1     string         Required. One end of the tunnel to create (default "cn-bj2") 
+  --peer1     string         Required. One end of the tunnel to create (default "cn-sh2") 
 
   --peer2     string         Required. The other end of the tunnel create 
 
@@ -28,7 +26,7 @@ ucloud udpn create [flags]
 
   --quantity     int         Optional. The duration of the instance. N years/months. (default 1) 
 
-  --project-id     string    Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string    Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --help, -h                 help for create 
 

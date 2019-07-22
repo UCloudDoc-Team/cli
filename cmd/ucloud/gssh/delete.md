@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud gssh delete
 
 Delete GlobalSSH instance
@@ -27,7 +25,7 @@ ucloud gssh delete --gssh-id uga-xx1  --id uga-xx2
                             Multiple values specified by multiple commas 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --help, -h                help for delete 
 

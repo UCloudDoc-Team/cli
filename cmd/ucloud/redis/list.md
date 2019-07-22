@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== list ======
-
 ## ucloud redis list
 
 List redis instances
@@ -20,12 +18,12 @@ ucloud redis list [flags]
   --umem-id     string      Optional. Resource ID of the redis to list 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region' 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --offset     int          Optional. The index(a number) of resource which start to list 
 

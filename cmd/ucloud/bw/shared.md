@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== shared ======
-
 ## ucloud bw shared
 
 Create and manipulate shared bandwidth instances

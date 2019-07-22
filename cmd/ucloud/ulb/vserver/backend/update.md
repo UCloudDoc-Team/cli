@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== update ======
-
 ## ucloud ulb vserver backend update
 
 Update attributes of ULB backend nodes
@@ -30,10 +28,10 @@ ucloud ulb vserver backend update [flags]
                               [0,100], -1 meaning no update (default -1) 
 
   --region     string         Optional. Override default region, see 'ucloud region' (default
-                              "cn-bj2") 
+                              "cn-sh2") 
 
   --project-id     string     Optional. Override default project-id, see 'ucloud project list'
-                              (default "org-ryrmms") 
+                              (default "org-oxjwoi") 
 
   --help, -h                  help for update 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== allocate ======
-
 ## ucloud eip allocate
 
 Allocate EIP
@@ -33,9 +31,9 @@ ucloud eip allocate --line BGP --bandwidth-mb 2
                                     [1,800] (Unit: Mbps); it could be 0 if the eip belong to
                                     the shared bandwidth 
 
-  --project-id     string           Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string           Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string               Optional. Assign region (default "cn-bj2") 
+  --region     string               Optional. Assign region (default "cn-sh2") 
 
   --traffic-mode     string         Optional. traffic-mode is an enumeration value.
                                     'Traffic','Bandwidth' or 'ShareBandwidth' (default "Bandwidth") 

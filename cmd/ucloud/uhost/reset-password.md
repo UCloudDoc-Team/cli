@@ -1,7 +1,5 @@
 {{indexmenu_n>10}}
 
-====== reset-password ======
-
 ## ucloud uhost reset-password
 
 Reset the administrator password for the UHost instances.
@@ -22,11 +20,11 @@ ucloud uhost reset-password [flags]
 
   --password     string     Required. New Password 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
-  --zone     string         Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string         Optional. Assign availability zone (default "cn-sh2-02") 
 
   --yes, -y                 Optional. Do not prompt for confirmation. 
 

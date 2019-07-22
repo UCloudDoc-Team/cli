@@ -1,6 +1,4 @@
-{{indexmenu_n>13}}
-
-====== firewall ======
+{{indexmenu_n>11}}
 
 ## ucloud firewall
 
@@ -28,7 +26,7 @@ List and manipulate extranet firewall
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud firewall add-rule](software/cli/cmd/ucloud/firewall/add-rule)	 - Add rule to firewall instance
 * [ucloud firewall apply](software/cli/cmd/ucloud/firewall/apply)	 - Applay firewall to ucloud service
 * [ucloud firewall copy](software/cli/cmd/ucloud/firewall/copy)	 - Copy firewall

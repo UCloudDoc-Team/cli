@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== list ======
-
 ## ucloud ulb vserver policy list
 
 List content forward policies of the VServer instance
@@ -18,10 +16,10 @@ ucloud ulb vserver policy list [flags]
 
 ```
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --ulb-id     string       Required. Resource ID of ULB 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== list ======
-
 ## ucloud uphost list
 
 List UPHost instances
@@ -24,10 +22,10 @@ ucloud uphost list [flags]
   --offset     int          Optional. The index(a number) of resource which start to list 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --uphost-id     strings   Optional. Resource ID of uphost instances. List those specified
                             uphost instances 

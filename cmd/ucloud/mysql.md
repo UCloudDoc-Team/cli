@@ -1,6 +1,4 @@
-{{indexmenu_n>18}}
-
-====== mysql ======
+{{indexmenu_n>19}}
 
 ## ucloud mysql
 
@@ -28,7 +26,7 @@ Manipulate MySQL on UCloud platform
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud mysql backup](software/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
 * [ucloud mysql conf](software/cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 * [ucloud mysql db](software/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances

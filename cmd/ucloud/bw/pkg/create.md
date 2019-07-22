@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== create ======
-
 ## ucloud bw pkg create
 
 Create bandwidth package
@@ -34,9 +32,9 @@ ucloud bw pkg create --eip-id eip-xxx --bandwidth-mb 20 --start-time 2018-12-15/
   --bandwidth-mb     int    Required. bandwidth of the bandwidth package to create.Range
                             [1,800]. Unit:'Mb'. 
 
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --help, -h                help for create 
 

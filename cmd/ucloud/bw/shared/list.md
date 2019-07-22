@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== list ======
-
 ## ucloud bw shared list
 
 List shared bandwidth instances
@@ -17,10 +15,10 @@ ucloud bw shared list [flags]
 ### Options
 
 ```
-  --region     string          Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string          Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
   --project-id     string      Optional. Project-id, see 'ucloud project list' (default
-                               "org-ryrmms") 
+                               "org-oxjwoi") 
 
   --shared-bw-id     strings   Resource ID of shared bandwidth instances to list 
 

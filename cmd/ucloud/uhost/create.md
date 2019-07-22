@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== create ======
-
 ## ucloud uhost create
 
 Create UHost instance
@@ -69,13 +67,13 @@ ucloud uhost create [flags]
                                          years/months. (default 1) 
 
   --project-id     string                Optional. Override default project-id, see 'ucloud
-                                         project list' (default "org-ryrmms") 
+                                         project list' (default "org-oxjwoi") 
 
   --region     string                    Optional. Override default region, see 'ucloud
-                                         region' (default "cn-bj2") 
+                                         region' (default "cn-sh2") 
 
   --zone     string                      Optional. Override default availability zone, see
-                                         'ucloud region' (default "cn-bj2-02") 
+                                         'ucloud region' (default "cn-sh2-02") 
 
   --type     string                      Optional. Accept values: N1, N2, N3, G1, G2, G3, I1,
                                          I2, C1. Forward to

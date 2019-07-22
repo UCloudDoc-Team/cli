@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== bind ======
-
 ## ucloud eip bind
 
 Bind EIP with uhost
@@ -30,9 +28,9 @@ ucloud eip bind --eip-id eip-xxx --resource-id uhost-xxx
   --resource-type     string   Requried. ResourceType, type of resource to bind with eip.
                                'uhost','vrouter','ulb','upm','hadoophost'.eg.. (default "uhost") 
 
-  --project-id     string      Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string      Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string          Optional. Assign region (default "cn-bj2") 
+  --region     string          Optional. Assign region (default "cn-sh2") 
 
   --help, -h                   help for bind 
 

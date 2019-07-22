@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud vpc delete
 
 Delete vpc network
@@ -25,9 +23,9 @@ ucloud vpc delete --vpc-id uvnet-xxx
 ```
   --vpc-id     strings      Required. Resource ID of the vpc network to delete 
 
-  --region     string       Optional. Region of the vpc (default "cn-bj2") 
+  --region     string       Optional. Region of the vpc (default "cn-sh2") 
 
-  --project-id     string   Optional. Project id of the vpc (default "org-ryrmms") 
+  --project-id     string   Optional. Project id of the vpc (default "org-oxjwoi") 
 
   --help, -h                help for delete 
 

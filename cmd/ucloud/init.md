@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== init ======
-
 ## ucloud init
 
 Initialize UCloud CLI options
@@ -32,5 +30,5 @@ ucloud init [flags]
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 

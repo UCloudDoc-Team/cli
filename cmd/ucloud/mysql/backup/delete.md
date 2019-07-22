@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud mysql backup delete
 
 Delete backups of MySQL instance
@@ -26,13 +24,13 @@ ucloud udb backup delete --backup-id 65534,65535
   --backup-id     ints      Required. BackupID of backups to delete 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region'
-                            (default "cn-bj2-02") 
+                            (default "cn-sh2-02") 
 
   --help, -h                help for delete 
 

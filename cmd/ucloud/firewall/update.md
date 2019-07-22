@@ -1,7 +1,5 @@
 {{indexmenu_n>9}}
 
-====== update ======
-
 ## ucloud firewall update
 
 Update firewall attribute, such as name,group and remark.
@@ -25,9 +23,9 @@ ucloud firewall update --fw-id firewall-2xxxx/test2 --name test_update.1 --remar
 ```
   --fw-id     strings       Required. Resource ID of firewalls 
 
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --name     string         Name of firewall 
 

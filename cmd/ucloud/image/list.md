@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== list ======
-
 ## ucloud image list
 
 List image
@@ -28,7 +26,7 @@ ucloud image list --image-type Base
   --image-id     string     Optional. Resource ID of image 
 
   --image-type     string   Optional. 'Base',Standard image; 'Business',image market;
-                            'Custom',custom image; Return all types by default 
+                            'Custom',custom image (default "Base") 
 
   --limit     int           Optional. Max count (default 500) 
 
@@ -36,9 +34,9 @@ ucloud image list --image-type Base
 
   --os-type     string      Optional. Linux or Windows. Return all types by default 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
   --zone     string         Optional. Assign availability zone 
 

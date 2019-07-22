@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud udpn delete
 
 delete udpn instances
@@ -19,7 +17,7 @@ ucloud udpn delete [flags]
 ```
   --udpn-id     strings     Required. Resource ID of udpn instances to delete 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --help, -h                help for delete 
 

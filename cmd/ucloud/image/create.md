@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== create ======
-
 ## ucloud image create
 
 Create image from an uhost instance
@@ -23,11 +21,11 @@ ucloud image create [flags]
 
   --image-desc     string   Optional. Description of the image to create 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
-  --zone     string         Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string         Optional. Assign availability zone (default "cn-sh2-02") 
 
   --async, -a               Optional. Do not wait for the long-running operation to finish. 
 

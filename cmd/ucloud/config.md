@@ -1,14 +1,12 @@
 {{indexmenu_n>3}}
 
-====== config ======
-
 ## ucloud config
 
-Configure UCloud CLI options
+add or update configurations
 
 ### Synopsis
 
-Configure UCloud CLI options such as private-key,public-key,default region and default project-id.
+add or update configurations, such as private-key, public-key, default region and zone, base-url, timeout-sec, and default project-id
 
 ```
 ucloud config [flags]
@@ -17,7 +15,7 @@ ucloud config [flags]
 ### Examples
 
 ```
-ucloud config --profile=test --region=cn-bj2 --active
+ucloud config --profile=test --region cn-bj2 --active true
 ```
 
 ### Options
@@ -38,13 +36,12 @@ ucloud config --profile=test --region=cn-bj2 --active
   --project-id     string    Optional. Set default project. For instance 'org-xxxxxx'. See
                              'ucloud project list 
 
-  --base-url     string      Optional. Set default base url. For instance
-                             'https://api.ucloud.cn/' (default "https://api.ucloud.cn/") 
+  --base-url     string      Optional. Set default base url. For instance 'https://api.ucloud.cn/' 
 
-  --timeout-sec     int      Optional. Set default timeout for requesting API. Unit: seconds
-                             (default 15) 
+  --timeout-sec     int      Optional. Set default timeout for requesting API. Unit: seconds 
 
-  --active                   Optional. Mark the profile to be effective 
+  --active     string        Optional. Mark the profile to be effective or not. Accept valeus:
+                             true or false 
 
   --help, -h                 help for config 
 
@@ -61,7 +58,9 @@ ucloud config --profile=test --region=cn-bj2 --active
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
-* [ucloud config delete](software/cli/cmd/ucloud/config/delete)	 - delete settings by profile name
-* [ucloud config list](software/cli/cmd/ucloud/config/list)	 - list all settings
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
+* [ucloud config add](software/cli/cmd/ucloud/config/add)	 - add configuration
+* [ucloud config delete](software/cli/cmd/ucloud/config/delete)	 - delete configurations by profile name
+* [ucloud config list](software/cli/cmd/ucloud/config/list)	 - list all configurations
+* [ucloud config update](software/cli/cmd/ucloud/config/update)	 - update configurations
 

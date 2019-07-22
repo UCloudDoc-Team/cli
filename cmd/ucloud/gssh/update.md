@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== update ======
-
 ## ucloud gssh update
 
 Update GlobalSSH instance
@@ -26,7 +24,7 @@ ucloud gssh update --gssh-id uga-xxx --port 22
   --gssh-id     strings     Required. ResourceID of your GlobalSSH instances 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --port     int            Optional. Port of SSH service. 
 

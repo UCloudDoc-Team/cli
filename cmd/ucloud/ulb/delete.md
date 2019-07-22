@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== delete ======
-
 ## ucloud ulb delete
 
 Delete ULB instances by resource ID
@@ -20,10 +18,10 @@ ucloud ulb delete [flags]
   --ulb-id     strings      Required. Resource ID of the ULB instances to delete 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --help, -h                help for delete 
 

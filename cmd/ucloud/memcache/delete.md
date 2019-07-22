@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud memcache delete
 
 Delete memcache instances
@@ -26,10 +24,10 @@ ucloud memcache delete --umem-id umemcache-rl5xuxx/testcli1,umemcache-xsdfa/test
   --umem-id     strings     Required. Resource ID of memcache intances to delete 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region' 
 

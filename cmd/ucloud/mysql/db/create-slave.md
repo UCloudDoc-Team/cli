@@ -1,7 +1,5 @@
 {{indexmenu_n>10}}
 
-====== create-slave ======
-
 ## ucloud mysql db create-slave
 
 Create slave database
@@ -24,13 +22,13 @@ ucloud mysql db create-slave [flags]
   --port     int               Optional. Port of the slave db service (default 3306) 
 
   --region     string          Optional. Override default region, see 'ucloud region' (default
-                               "cn-bj2") 
+                               "cn-sh2") 
 
   --zone     string            Optional. Override default availability zone, see 'ucloud
-                               region' (default "cn-bj2-02") 
+                               region' (default "cn-sh2-02") 
 
   --project-id     string      Optional. Override default project-id, see 'ucloud project
-                               list' (default "org-ryrmms") 
+                               list' (default "org-oxjwoi") 
 
   --disk-type     string       Optional. Setting this flag means using SSD disk. Accept
                                values: normal, sata_ssd, pcie_ssd (default "Normal") 

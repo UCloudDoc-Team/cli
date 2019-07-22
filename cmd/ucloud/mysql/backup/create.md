@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== create ======
-
 ## ucloud mysql backup create
 
 Create backups for MySQL instance manually
@@ -22,13 +20,13 @@ ucloud mysql backup create [flags]
   --name     string         Required. Name of backup 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region'
-                            (default "cn-bj2-02") 
+                            (default "cn-sh2-02") 
 
   --help, -h                help for create 
 

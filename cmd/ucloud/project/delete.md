@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== delete ======
-
 ## ucloud project delete
 
 Delete project

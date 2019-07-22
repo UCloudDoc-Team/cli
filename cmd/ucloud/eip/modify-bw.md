@@ -1,7 +1,5 @@
 {{indexmenu_n>6}}
 
-====== modify-bw ======
-
 ## ucloud eip modify-bw
 
 Modify bandwith of EIP instances
@@ -28,9 +26,9 @@ ucloud eip modify-bw --eip-id eip-xxx --bandwidth-mb 20
   --bandwidth-mb     int    Required. Bandwidth of EIP after modifed. Charge by traffic, range
                             [1,300]; charge by bandwidth, range [1,800] 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
   --help, -h                help for modify-bw 
 

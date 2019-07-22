@@ -1,6 +1,4 @@
-{{indexmenu_n>12}}
-
-====== vpc ======
+{{indexmenu_n>10}}
 
 ## ucloud vpc
 
@@ -28,7 +26,7 @@ List and manipulate VPC instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud vpc create](software/cli/cmd/ucloud/vpc/create)	 - Create vpc network
 * [ucloud vpc create-intercome](software/cli/cmd/ucloud/vpc/create-intercome)	 - Create intercome with other vpc
 * [ucloud vpc delete](software/cli/cmd/ucloud/vpc/delete)	 - Delete vpc network

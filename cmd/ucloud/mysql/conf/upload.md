@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== upload ======
-
 ## ucloud mysql conf upload
 
 Create configuration file by uploading local DB configuration file
@@ -29,13 +27,13 @@ ucloud mysql conf upload [flags]
   --description     string   Optional. Description of the configuration to clone (default " ") 
 
   --region     string        Optional. Override default region, see 'ucloud region' (default
-                             "cn-bj2") 
+                             "cn-sh2") 
 
   --zone     string          Optional. Override default availability zone, see 'ucloud region'
-                             (default "cn-bj2-02") 
+                             (default "cn-sh2-02") 
 
   --project-id     string    Optional. Override default project-id, see 'ucloud project list'
-                             (default "org-ryrmms") 
+                             (default "org-oxjwoi") 
 
   --help, -h                 help for upload 
 

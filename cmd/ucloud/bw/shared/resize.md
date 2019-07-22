@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== resize ======
-
 ## ucloud bw shared resize
 
 Resize shared bandwidth instance's bandwidth
@@ -21,10 +19,10 @@ ucloud bw shared resize [flags]
 
   --bandwidth-mb     int      Required. Unit:Mb. resize to bandwidth value 
 
-  --region     string         Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string         Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
   --project-id     string     Optional. Project-id, see 'ucloud project list' (default
-                              "org-ryrmms") 
+                              "org-oxjwoi") 
 
   --help, -h                  help for resize 
 

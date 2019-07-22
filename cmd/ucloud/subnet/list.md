@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== list ======
-
 ## ucloud subnet list
 
 List subnet
@@ -17,9 +15,9 @@ ucloud subnet list [flags]
 ### Options
 
 ```
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --subnet-id     strings   Optional. Multiple values separated by commas 
 

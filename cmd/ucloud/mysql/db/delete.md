@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud mysql db delete
 
 Delete MySQL instances by udb-id
@@ -20,13 +18,13 @@ ucloud mysql db delete [flags]
   --udb-id     strings      Required. Resource ID of UDB instances to delete 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region'
-                            (default "cn-bj2-02") 
+                            (default "cn-sh2-02") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --yes, -y                 Optional. Do not prompt for confirmation. 
 

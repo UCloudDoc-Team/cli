@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud subnet delete
 
 Delete subnet
@@ -20,10 +18,10 @@ ucloud subnet delete [flags]
   --subnet-id     strings   Required. Resource ID of subent 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --help, -h                help for delete 
 

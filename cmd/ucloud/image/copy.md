@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== copy ======
-
 ## ucloud image copy
 
 Copy custom images
@@ -19,16 +17,16 @@ ucloud image copy [flags]
 ```
   --source-image-id     strings    Required. Resource ID of source image 
 
-  --project-id     string          Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string          Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string              Optional. Assign region (default "cn-bj2") 
+  --region     string              Optional. Assign region (default "cn-sh2") 
 
-  --zone     string                Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string                Optional. Assign availability zone (default "cn-sh2-02") 
 
-  --target-region     string       Optional. Target region. See 'ucloud region' (default "cn-bj2") 
+  --target-region     string       Optional. Target region. See 'ucloud region' (default "cn-sh2") 
 
   --target-project     string      Optional. Target Project ID. See 'ucloud project list'
-                                   (default "org-ryrmms") 
+                                   (default "org-oxjwoi") 
 
   --target-image-name     string   Optional. Name of target image 
 

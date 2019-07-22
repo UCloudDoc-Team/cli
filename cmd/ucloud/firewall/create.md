@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== create ======
-
 ## ucloud firewall create
 
 Create firewall
@@ -40,9 +38,9 @@ ucloud firewall create --name test3 --rules "TCP|22|0.0.0.0/0|ACCEPT|HIGH" --rul
 
   --name     string         Required. Name of firewall to create 
 
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --group     string        Optional. Group of the firewall to create 
 

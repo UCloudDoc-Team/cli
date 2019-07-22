@@ -1,6 +1,4 @@
-{{indexmenu_n>10}}
-
-====== image ======
+{{indexmenu_n>8}}
 
 ## ucloud image
 
@@ -28,7 +26,7 @@ List and manipulate images
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud image copy](software/cli/cmd/ucloud/image/copy)	 - Copy custom images
 * [ucloud image create](software/cli/cmd/ucloud/image/create)	 - Create image from an uhost instance
 * [ucloud image delete](software/cli/cmd/ucloud/image/delete)	 - Delete custom images

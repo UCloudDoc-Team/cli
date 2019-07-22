@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== archive ======
-
 ## ucloud mysql logs archive
 
 Archive the log of mysql as a compressed file
@@ -36,13 +34,13 @@ ucloud mysql logs archive --name test.cli2 --udb-id udb-xxx/test.cli1 --log-type
                             2019-01-02/15:04:05 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region'
-                            (default "cn-bj2-02") 
+                            (default "cn-sh2-02") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --help, -h                help for archive 
 

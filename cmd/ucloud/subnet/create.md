@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== create ======
-
 ## ucloud subnet create
 
 Create subnet of vpc network
@@ -29,9 +27,9 @@ ucloud subnet create --vpc-id uvnet-vpcxid --name testName --segment 192.168.2.0
 
   --name     string         Optional. Name of subnet to create (default "Subnet") 
 
-  --region     string       Optional. The region of the subnet (default "cn-bj2") 
+  --region     string       Optional. The region of the subnet (default "cn-sh2") 
 
-  --project-id     string   Optional. The project id of the subnet (default "org-ryrmms") 
+  --project-id     string   Optional. The project id of the subnet (default "org-oxjwoi") 
 
   --group     string        Optional. Business group 
 

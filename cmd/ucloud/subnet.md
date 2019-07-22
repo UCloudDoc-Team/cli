@@ -1,6 +1,4 @@
-{{indexmenu_n>11}}
-
-====== subnet ======
+{{indexmenu_n>9}}
 
 ## ucloud subnet
 
@@ -28,7 +26,7 @@ List, create and delete subnet
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud subnet create](software/cli/cmd/ucloud/subnet/create)	 - Create subnet of vpc network
 * [ucloud subnet delete](software/cli/cmd/ucloud/subnet/delete)	 - Delete subnet
 * [ucloud subnet list](software/cli/cmd/ucloud/subnet/list)	 - List subnet

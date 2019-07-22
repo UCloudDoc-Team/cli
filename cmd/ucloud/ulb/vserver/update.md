@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== update ======
-
 ## ucloud ulb vserver update
 
 Update attributes of VServer instances
@@ -23,10 +21,10 @@ ucloud ulb vserver update [flags]
   --vserver-id     strings             Required. Resource ID of Vserver to update 
 
   --region     string                  Optional. Override default region, see 'ucloud region'
-                                       (default "cn-bj2") 
+                                       (default "cn-sh2") 
 
   --project-id     string              Optional. Override default project-id, see 'ucloud
-                                       project list' (default "org-ryrmms") 
+                                       project list' (default "org-oxjwoi") 
 
   --name     string                    Optional. Name of VServer 
 

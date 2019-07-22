@@ -1,7 +1,5 @@
 {{indexmenu_n>7}}
 
-====== poweroff ======
-
 ## ucloud uhost poweroff
 
 Analog power off Uhost instnace
@@ -25,9 +23,9 @@ ucloud uhost poweroff --uhost-id uhost-xxx1,uhost-xxx2
 ```
   --uhost-id     strings    ResourceIDs(UHostIds) of the uhost instance 
 
-  --project-id     string   Assign project-id (default "org-ryrmms") 
+  --project-id     string   Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Assign region (default "cn-bj2") 
+  --region     string       Assign region (default "cn-sh2") 
 
   --zone     string         Assign availability zone 
 

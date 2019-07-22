@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== create ======
-
 ## ucloud mysql db create
 
 Create MySQL instance on UCloud platform
@@ -18,13 +16,13 @@ ucloud mysql db create [flags]
 
 ```
   --project-id     string        Optional. Override default project-id, see 'ucloud project
-                                 list' (default "org-ryrmms") 
+                                 list' (default "org-oxjwoi") 
 
   --region     string            Optional. Override default region, see 'ucloud region'
-                                 (default "cn-bj2") 
+                                 (default "cn-sh2") 
 
   --zone     string              Optional. Override default availability zone, see 'ucloud
-                                 region' (default "cn-bj2-02") 
+                                 region' (default "cn-sh2-02") 
 
   --version     string           Required. Version of udb instance 
 

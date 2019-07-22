@@ -1,7 +1,5 @@
 {{indexmenu_n>7}}
 
-====== expand ======
-
 ## ucloud udisk expand
 
 Expand udisk size
@@ -21,11 +19,11 @@ ucloud udisk expand [flags]
 
   --size-gb     int         Required. Size of the udisk after expanded. Unit: GB. Range [1,8000] 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
-  --zone     string         Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string         Optional. Assign availability zone (default "cn-sh2-02") 
 
   --help, -h                help for expand 
 

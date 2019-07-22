@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== describe ======
-
 ## ucloud ulb ssl describe
 
 Display all data associated with SSL Certificate
@@ -20,10 +18,10 @@ ucloud ulb ssl describe [flags]
   --ssl-id     string       Required. ResouceID of ssl certificate to describe 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --help, -h                help for describe 
 

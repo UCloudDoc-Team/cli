@@ -1,7 +1,5 @@
 {{indexmenu_n>11}}
 
-====== reinstall-os ======
-
 ## ucloud uhost reinstall-os
 
 Reinstall the operating system of the UHost instance
@@ -24,11 +22,11 @@ ucloud uhost reinstall-os [flags]
   --image-id     string     Optional. Resource ID the image to install. See 'ucloud image
                             list'. Default is original image of the uhost 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
-  --zone     string         Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string         Optional. Assign availability zone (default "cn-sh2-02") 
 
   --keep-data-disk          Keep data disk or not. If you keep data disk, you can't change OS
                             type(Linux->Window,e.g.) 

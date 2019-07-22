@@ -1,7 +1,5 @@
 {{indexmenu_n>6}}
 
-====== copy ======
-
 ## ucloud firewall copy
 
 Copy firewall
@@ -28,12 +26,12 @@ ucloud firewall copy --src-fw firewall-xxx --target-region cn-bj2 --name test
   --name     string            Required. Name of new firewall 
 
   --region     string          Optional. Current region, used to fetch source firewall
-                               (default "cn-bj2") 
+                               (default "cn-sh2") 
 
-  --target-region     string   Optional. Copy firewall to target region (default "cn-bj2") 
+  --target-region     string   Optional. Copy firewall to target region (default "cn-sh2") 
 
   --project-id     string      Optional. Project-id, see 'ucloud project list' (default
-                               "org-ryrmms") 
+                               "org-oxjwoi") 
 
   --help, -h                   help for copy 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== db ======
-
 ## ucloud mysql db
 
 Manange MySQL instances

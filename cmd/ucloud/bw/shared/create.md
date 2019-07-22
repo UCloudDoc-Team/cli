@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== create ======
-
 ## ucloud bw shared create
 
 Create shared bandwidth instance
@@ -22,9 +20,9 @@ ucloud bw shared create [flags]
   --bandwidth-mb     int     Optional. Unit:Mb. Bandwidth of the shared bandwidth. Range
                              [20,5000] (default 20) 
 
-  --region     string        Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string        Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string    Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string    Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --charge-type     string   Optional.'Year',pay yearly;'Month',pay monthly;'Dynamic', pay
                              hourly (default "Month") 

@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== list ======
-
 ## ucloud mysql logs list
 
 List mysql log archives(log files)
@@ -26,13 +24,13 @@ ucloud mysql logs list [flags]
   --end-time     string     Optional. For example 2019-01-02/15:04:05 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region'
-                            (default "cn-bj2-02") 
+                            (default "cn-sh2-02") 
 
   --limit     int           Optional. The maximum number of resources per page (default 100) 
 

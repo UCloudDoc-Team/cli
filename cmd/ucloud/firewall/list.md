@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== list ======
-
 ## ucloud firewall list
 
 List extranet firewall
@@ -17,10 +15,10 @@ ucloud firewall list [flags]
 ### Options
 
 ```
-  --region     string                Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string                Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
   --project-id     string            Optional. Project-id, see 'ucloud project list' (default
-                                     "org-ryrmms") 
+                                     "org-oxjwoi") 
 
   --firewall-id     string           Optional. The Rsource ID of firewall. Return all
                                      firewalls by default. 
@@ -29,9 +27,9 @@ ucloud firewall list [flags]
 
   --bound-resource-id     string     Optional. The resource ID of resource bound on the firewall 
 
-  --offset     string                Optional. Offset (default "0") 
+  --offset     int                   Optional. Offset 
 
-  --limit     string                 Optional. Limit (default "50") 
+  --limit     int                    Optional. Limit (default 50) 
 
   --help, -h                         help for list 
 

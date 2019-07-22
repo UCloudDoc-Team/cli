@@ -1,7 +1,5 @@
 {{indexmenu_n>7}}
 
-====== delete ======
-
 ## ucloud firewall delete
 
 Delete firewall by resource ids or names
@@ -25,9 +23,9 @@ ucloud firewall delete --fw-id firewall-xxx
 ```
   --fw-id     strings       Required. Resource IDs of firewall to delete 
 
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --help, -h                help for delete 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== logs ======
-
 ## ucloud mysql logs
 
 List and manipulate logs of MySQL instance

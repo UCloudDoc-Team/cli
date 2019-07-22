@@ -1,6 +1,4 @@
-{{indexmenu_n>8}}
-
-====== eip ======
+{{indexmenu_n>13}}
 
 ## ucloud eip
 
@@ -28,7 +26,7 @@ Manipulate EIP, such as list,allocate and release
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud eip allocate](software/cli/cmd/ucloud/eip/allocate)	 - Allocate EIP
 * [ucloud eip bind](software/cli/cmd/ucloud/eip/bind)	 - Bind EIP with uhost
 * [ucloud eip join-shared-bw](software/cli/cmd/ucloud/eip/join-shared-bw)	 - Join shared bandwidth

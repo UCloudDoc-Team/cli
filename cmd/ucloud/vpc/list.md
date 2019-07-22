@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== list ======
-
 ## ucloud vpc list
 
 List vpc
@@ -17,9 +15,9 @@ ucloud vpc list [flags]
 ### Options
 
 ```
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --group     string        Optional. Group 
 

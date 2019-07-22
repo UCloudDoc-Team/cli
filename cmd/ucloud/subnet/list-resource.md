@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== list-resource ======
-
 ## ucloud subnet list-resource
 
 List resources belong to subnet
@@ -23,10 +21,10 @@ ucloud subnet list-resource [flags]
                                values:'uhost','phost','ulb','uhadoophost','ufortresshost','unatgw','ukafka','umem','docker','udb','udw' and 'vip' 
 
   --region     string          Optional. Override default region, see 'ucloud region' (default
-                               "cn-bj2") 
+                               "cn-sh2") 
 
   --project-id     string      Optional. Override default project-id, see 'ucloud project
-                               list' (default "org-ryrmms") 
+                               list' (default "org-oxjwoi") 
 
   --limit     int              Optional. The maximum number of resources per page (default 100) 
 

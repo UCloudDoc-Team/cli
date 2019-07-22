@@ -1,7 +1,5 @@
 {{indexmenu_n>8}}
 
-====== resize ======
-
 ## ucloud uhost resize
 
 Resize uhost instance,such as cpu core count, memory size and disk size
@@ -25,9 +23,9 @@ ucloud uhost resize --uhost-id uhost-xxx1,uhost-xxx2 --cpu 4 --memory-gb 8
 ```
   --uhost-id     strings          Required. ResourceIDs(or UhostIDs) of the uhost instances 
 
-  --project-id     string         Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string         Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string             Optional. Assign region (default "cn-bj2") 
+  --region     string             Optional. Assign region (default "cn-sh2") 
 
   --zone     string               Optional. Assign availability zone 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== create ======
-
 ## ucloud udisk create
 
 Create udisk instance
@@ -26,11 +24,11 @@ ucloud udisk create [flags]
                                  udisk being created. If you set this option, 'udisk-type'
                                  will be omitted. 
 
-  --project-id     string        Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string        Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string            Optional. Assign region (default "cn-bj2") 
+  --region     string            Optional. Assign region (default "cn-sh2") 
 
-  --zone     string              Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string              Optional. Assign availability zone (default "cn-sh2-02") 
 
   --charge-type     string       Optional.'Year',pay yearly;'Month',pay monthly;'Dynamic', pay
                                  hourly (default "Dynamic") 

@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== create ======
-
 ## ucloud ulb create
 
 Create ULB instance
@@ -23,10 +21,10 @@ ucloud ulb create [flags]
                                          inner. (default "outer") 
 
   --region     string                    Optional. Override default region, see 'ucloud
-                                         region' (default "cn-bj2") 
+                                         region' (default "cn-sh2") 
 
   --project-id     string                Optional. Override default project-id, see 'ucloud
-                                         project list' (default "org-ryrmms") 
+                                         project list' (default "org-oxjwoi") 
 
   --vpc-id     string                    Optional. Resource ID of VPC which the ULB to create
                                          belong to. See 'ucloud vpc list' 

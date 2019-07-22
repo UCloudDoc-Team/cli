@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== update ======
-
 ## ucloud ulb update
 
 Update ULB instance
@@ -18,10 +16,10 @@ ucloud ulb update [flags]
 
 ```
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --ulb-id     strings      Required. Resource ID of ULB instances to update 
 

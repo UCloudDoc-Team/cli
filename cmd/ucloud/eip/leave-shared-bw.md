@@ -1,7 +1,5 @@
 {{indexmenu_n>9}}
 
-====== leave-shared-bw ======
-
 ## ucloud eip leave-shared-bw
 
 Leave shared bandwidth
@@ -35,10 +33,10 @@ ucloud eip leave-shared-bw --eip-id eip-b2gvu3
   --shared-bw-id     string   Optional. Resource ID of shared bandwidth instance, assign this
                               flag to make the operation faster 
 
-  --region     string         Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string         Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
   --project-id     string     Optional. Project-id, see 'ucloud project list' (default
-                              "org-ryrmms") 
+                              "org-oxjwoi") 
 
   --help, -h                  help for leave-shared-bw 
 

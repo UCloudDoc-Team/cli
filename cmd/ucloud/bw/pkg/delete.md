@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud bw pkg delete
 
 Delete bandwidth packages
@@ -25,10 +23,10 @@ ucloud bw pkg delete --resource-id bwpack-xxx
 ```
   --resource-id     strings   Required, Resource ID of bandwidth package to delete 
 
-  --region     string         Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string         Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
   --project-id     string     Optional. Project-id, see 'ucloud project list' (default
-                              "org-ryrmms") 
+                              "org-oxjwoi") 
 
   --help, -h                  help for delete 
 

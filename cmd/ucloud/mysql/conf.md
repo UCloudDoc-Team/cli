@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== conf ======
-
 ## ucloud mysql conf
 
 List and manipulate configuration files of MySQL instances

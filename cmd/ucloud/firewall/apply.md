@@ -1,7 +1,5 @@
 {{indexmenu_n>5}}
 
-====== apply ======
-
 ## ucloud firewall apply
 
 Applay firewall to ucloud service
@@ -31,10 +29,10 @@ ucloud firewall apply --fw-id firewall-xxx --resource-id uhost-xxx --resource-ty
 
   --resource-id     strings    Resource ID of resources to be applied firewall 
 
-  --region     string          Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string          Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
   --project-id     string      Optional. Project-id, see 'ucloud project list' (default
-                               "org-ryrmms") 
+                               "org-oxjwoi") 
 
   --help, -h                   help for apply 
 

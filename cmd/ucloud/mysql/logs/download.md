@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== download ======
-
 ## ucloud mysql logs download
 
 Display url of an archive(log file)
@@ -28,13 +26,13 @@ ucloud mysql logs download --udb-id udb-urixxx/test.cli1 --archive-id 35044
   --udb-id     string       Required. Resource ID of UDB which the archive belongs to 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region'
-                            (default "cn-bj2-02") 
+                            (default "cn-sh2-02") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --help, -h                help for download 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud image delete
 
 Delete custom images
@@ -19,9 +17,9 @@ ucloud image delete [flags]
 ```
   --image-id     strings    Required. Resource ID of images 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
   --zone     string         Optional. Assign availability zone 
 

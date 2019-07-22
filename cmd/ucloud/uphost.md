@@ -1,7 +1,5 @@
 {{indexmenu_n>7}}
 
-====== uphost ======
-
 ## ucloud uphost
 
 List UPHost instances
@@ -28,6 +26,6 @@ List UPHost instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud uphost list](software/cli/cmd/ucloud/uphost/list)	 - List UPHost instances
 

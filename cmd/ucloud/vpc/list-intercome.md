@@ -1,7 +1,5 @@
 {{indexmenu_n>5}}
 
-====== list-intercome ======
-
 ## ucloud vpc list-intercome
 
 list intercome 
@@ -25,9 +23,9 @@ ucloud vpc list-intercome --vpc-id xx
 ```
   --help, -h                help for list-intercome 
 
-  --project-id     string   Optional. The project id of source vpc (default "org-ryrmms") 
+  --project-id     string   Optional. The project id of source vpc (default "org-oxjwoi") 
 
-  --region     string       Optional, The region of source vpc (default "cn-bj2") 
+  --region     string       Optional, The region of source vpc (default "cn-sh2") 
 
   --vpc-id     string       Required. The vpc id which you wnat to describe the information 
 

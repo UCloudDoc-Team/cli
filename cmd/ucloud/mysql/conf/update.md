@@ -1,7 +1,5 @@
 {{indexmenu_n>5}}
 
-====== update ======
-
 ## ucloud mysql conf update
 
 Update parameters of DB's configuration
@@ -18,13 +16,13 @@ ucloud mysql conf update [flags]
 
 ```
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region'
-                            (default "cn-bj2-02") 
+                            (default "cn-sh2-02") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --conf-id     string      Required. ConfID of configuration to update 
 

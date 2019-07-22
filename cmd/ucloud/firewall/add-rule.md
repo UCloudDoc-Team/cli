@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== add-rule ======
-
 ## ucloud firewall add-rule
 
 Add rule to firewall instance
@@ -32,9 +30,9 @@ ucloud firewall add-rule --fw-id firewall-2xxxxz/test.lxj2 --rules "TCP|24|0.0.0
   --rules-file     string   Required if rules is empty. Path of rules file, in which each rule
                             occupies one line. Schema: Protocol|Port|IP|Action|Level. 
 
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --help, -h                help for add-rule 
 

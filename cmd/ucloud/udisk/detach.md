@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== detach ======
-
 ## ucloud udisk detach
 
 Detach udisk instances from an uhost
@@ -19,11 +17,11 @@ ucloud udisk detach [flags]
 ```
   --udisk-id     strings    Required. Resource ID of the udisk instances to detach 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
-  --zone     string         Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string         Optional. Assign availability zone (default "cn-sh2-02") 
 
   --async, -a               Optional. Do not wait for the long-running operation to finish. 
 

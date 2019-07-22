@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== region ======
-
 ## ucloud region
 
 List all region and zone
@@ -38,5 +36,5 @@ ucloud region
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 

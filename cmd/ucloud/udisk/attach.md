@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== attach ======
-
 ## ucloud udisk attach
 
 Attach udisk instances to an uhost
@@ -28,11 +26,11 @@ ucloud udisk attach --uhost-id uhost-xxxx --udisk-id bs-xxx1,bs-xxx2
 
   --udisk-id     strings    Required. Resource ID of the udisk instances to attach 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
-  --zone     string         Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string         Optional. Assign availability zone (default "cn-sh2-02") 
 
   --async                   Optional. Do not wait for the long-running operation to finish. 
 

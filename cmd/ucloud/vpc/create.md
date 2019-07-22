@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== create ======
-
 ## ucloud vpc create
 
 Create vpc network
@@ -31,9 +29,9 @@ ucloud vpc create --name xxx --segment 192.168.0.0/16
 
   --remark     string       Optional. The description of the vpc. 
 
-  --region     string       Optional. Assign the region of the VPC (default "cn-bj2") 
+  --region     string       Optional. Assign the region of the VPC (default "cn-sh2") 
 
-  --project-id     string   Optional. Assign the project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign the project-id (default "org-oxjwoi") 
 
   --help, -h                help for create 
 

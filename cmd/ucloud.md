@@ -1,10 +1,8 @@
 {{indexmenu_n>0}}
 
-# ucloud 
-
 ## ucloud
 
-UCloud CLI v0.1.14
+UCloud CLI v0.1.20
 
 ### Synopsis
 
@@ -36,7 +34,7 @@ ucloud [flags]
 ### SEE ALSO
 
 * [ucloud bw](software/cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
-* [ucloud config](software/cli/cmd/ucloud/config)	 - Configure UCloud CLI options
+* [ucloud config](software/cli/cmd/ucloud/config)	 - add or update configurations
 * [ucloud eip](software/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 * [ucloud firewall](software/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 * [ucloud gendoc](software/cli/cmd/ucloud/gendoc)	 - Generate documents for all commands
@@ -45,6 +43,7 @@ ucloud [flags]
 * [ucloud init](software/cli/cmd/ucloud/init)	 - Initialize UCloud CLI options
 * [ucloud memcache](software/cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
 * [ucloud mysql](software/cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
+* [ucloud pathx](software/cli/cmd/ucloud/pathx)	 - Manipulate uga and upath instances
 * [ucloud project](software/cli/cmd/ucloud/project)	 - List,create,update and delete project
 * [ucloud redis](software/cli/cmd/ucloud/redis)	 - List and manipulate redis instances
 * [ucloud region](software/cli/cmd/ucloud/region)	 - List all region and zone

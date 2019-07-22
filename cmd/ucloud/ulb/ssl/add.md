@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== add ======
-
 ## ucloud ulb ssl add
 
 Add SSL Certificate
@@ -18,10 +16,10 @@ ucloud ulb ssl add [flags]
 
 ```
   --region     string                  Optional. Override default region, see 'ucloud region'
-                                       (default "cn-bj2") 
+                                       (default "cn-sh2") 
 
   --project-id     string              Optional. Override default project-id, see 'ucloud
-                                       project list' (default "org-ryrmms") 
+                                       project list' (default "org-oxjwoi") 
 
   --name     string                    Required. Name of ssl certificate to add 
 

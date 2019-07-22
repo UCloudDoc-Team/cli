@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== stop ======
-
 ## ucloud uhost stop
 
 Shut down uhost instance
@@ -25,9 +23,9 @@ ucloud uhost stop --uhost-id uhost-xxx1,uhost-xxx2
 ```
   --uhost-id     strings    Required. ResourceIDs(UHostIds) of the uhost instances 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
   --zone     string         Optional. Assign availability zone 
 

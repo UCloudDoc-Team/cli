@@ -1,7 +1,5 @@
 {{indexmenu_n>7}}
 
-====== modify-traffic-mode ======
-
 ## ucloud eip modify-traffic-mode
 
 Modify charge mode of EIP instances
@@ -27,9 +25,9 @@ ucloud eip modify-traffic-mode --eip-id eip-xxx --traffic-mode Traffic
 
   --traffic-mode     string   Required, Charge mode of eip, 'traffic' or 'bandwidth' 
 
-  --project-id     string     Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string     Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string         Optional. Assign region (default "cn-bj2") 
+  --region     string         Optional. Assign region (default "cn-sh2") 
 
   --help, -h                  help for modify-traffic-mode 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== delete ======
-
 ## ucloud ulb vserver delete
 
 Delete ULB VServer instances
@@ -23,10 +21,10 @@ ucloud ulb vserver delete [flags]
   --vserver-id     strings   Required. Resource ID of Vserver to update 
 
   --region     string        Optional. Override default region, see 'ucloud region' (default
-                             "cn-bj2") 
+                             "cn-sh2") 
 
   --project-id     string    Optional. Override default project-id, see 'ucloud project list'
-                             (default "org-ryrmms") 
+                             (default "org-oxjwoi") 
 
   --help, -h                 help for delete 
 

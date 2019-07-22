@@ -1,7 +1,5 @@
 {{indexmenu_n>8}}
 
-====== resource ======
-
 ## ucloud firewall resource
 
 List resources that has been applied the firewall
@@ -19,9 +17,9 @@ ucloud firewall resource [flags]
 ```
   --fw-id     string        Required. Resource ID of firewall 
 
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-bj2") 
+  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-ryrmms") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
 
   --offset     string       Optional. Offset (default "0") 
 

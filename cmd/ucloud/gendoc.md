@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== gendoc ======
-
 ## ucloud gendoc
 
 Generate documents for all commands
@@ -37,5 +35,5 @@ ucloud gendoc [flags]
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 

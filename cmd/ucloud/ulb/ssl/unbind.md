@@ -1,7 +1,5 @@
 {{indexmenu_n>6}}
 
-====== unbind ======
-
 ## ucloud ulb ssl unbind
 
 Unbind SSL Certificate with VServer
@@ -18,10 +16,10 @@ ucloud ulb ssl unbind [flags]
 
 ```
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --ssl-id     string       Required. Resource ID of SSL Certificate to unbind 
 

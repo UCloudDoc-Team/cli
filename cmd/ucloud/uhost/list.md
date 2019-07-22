@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== list ======
-
 ## ucloud uhost list
 
 List all UHost Instances
@@ -17,9 +15,9 @@ ucloud uhost list [flags]
 ### Options
 
 ```
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
   --zone     string         Optional. Assign availability zone 
 
@@ -29,6 +27,11 @@ ucloud uhost list [flags]
   --offset     int          Optional. Offset default 0 
 
   --limit     int           Optional. Limit default 50, max value 100 (default 50) 
+
+  --page-off                Optional. Paging or not. If assigned, the limit flag will be
+                            disabled and list all uhost instances 
+
+  --uhost-id-only           Optional. Just display resource id of uhost 
 
   --group     string        Optional. Business group 
 

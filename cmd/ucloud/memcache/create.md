@@ -1,7 +1,5 @@
 {{indexmenu_n>2}}
 
-====== create ======
-
 ## ucloud memcache create
 
 Create memcache instance
@@ -27,13 +25,13 @@ ucloud memcache create [flags]
   --subnet-id     string     Optional. Subnet ID. See 'ucloud subnet list' 
 
   --project-id     string    Optional. Override default project-id, see 'ucloud project list'
-                             (default "org-ryrmms") 
+                             (default "org-oxjwoi") 
 
   --region     string        Optional. Override default region, see 'ucloud region' (default
-                             "cn-bj2") 
+                             "cn-sh2") 
 
   --zone     string          Optional. Override default availability zone, see 'ucloud region'
-                             (default "cn-bj2-02") 
+                             (default "cn-sh2-02") 
 
   --charge-type     string   Optional. Enumeration value.'Year',pay yearly;'Month',pay
                              monthly; 'Dynamic', pay hourly; 'Trial', free trial(need

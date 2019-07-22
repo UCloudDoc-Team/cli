@@ -1,7 +1,5 @@
 {{indexmenu_n>1}}
 
-====== list ======
-
 ## ucloud ulb vserver backend list
 
 List ULB VServer backend nodes
@@ -22,10 +20,10 @@ ucloud ulb vserver backend list [flags]
   --vserver-id     string   Required. Resource ID of VServer which the backend nodes belong to 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --help, -h                help for list 
 

@@ -1,7 +1,5 @@
 {{indexmenu_n>6}}
 
-====== restart ======
-
 ## ucloud mysql db restart
 
 Restart MySQL instances by udb-id
@@ -20,13 +18,13 @@ ucloud mysql db restart [flags]
   --udb-id     strings      Required. Resource ID of UDB instances to restart 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --zone     string         Optional. Override default availability zone, see 'ucloud region'
-                            (default "cn-bj2-02") 
+                            (default "cn-sh2-02") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --async, -a               Optional. Do not wait for the long-running operation to finish. 
 

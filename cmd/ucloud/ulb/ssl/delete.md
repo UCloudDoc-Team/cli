@@ -1,7 +1,5 @@
 {{indexmenu_n>4}}
 
-====== delete ======
-
 ## ucloud ulb ssl delete
 
 Delete SSL Certificates by resource id(ssl id)
@@ -18,10 +16,10 @@ ucloud ulb ssl delete [flags]
 
 ```
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --ssl-id     strings      Required. Resource ID of SSL Certificates to delete 
 

@@ -1,14 +1,12 @@
-{{indexmenu_n>2}}
-
-====== delete ======
+{{indexmenu_n>4}}
 
 ## ucloud config delete
 
-delete settings by profile name
+delete configurations by profile name
 
 ### Synopsis
 
-delete settings by profile name
+delete configurations by profile name
 
 ```
 ucloud config delete [flags]
@@ -23,9 +21,9 @@ ucloud config delete --profile test
 ### Options
 
 ```
-  --help, -h             help for delete 
+  --help, -h              help for delete 
 
-  --profile     string   Required. Name of settings item 
+  --profile     strings   Required. Name of settings item 
 
 ```
 
@@ -40,5 +38,5 @@ ucloud config delete --profile test
 
 ### SEE ALSO
 
-* [ucloud config](software/cli/cmd/ucloud/config)	 - Configure UCloud CLI options
+* [ucloud config](software/cli/cmd/ucloud/config)	 - add or update configurations
 

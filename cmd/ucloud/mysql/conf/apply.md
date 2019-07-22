@@ -1,7 +1,5 @@
 {{indexmenu_n>7}}
 
-====== apply ======
-
 ## ucloud mysql conf apply
 
 Apply configuration for UDB instances
@@ -29,13 +27,13 @@ ucloud mysql conf apply [flags]
   --async, -a                 Optional. Do not wait for the long-running operation to finish. 
 
   --region     string         Optional. Override default region, see 'ucloud region' (default
-                              "cn-bj2") 
+                              "cn-sh2") 
 
   --zone     string           Optional. Override default availability zone, see 'ucloud
-                              region' (default "cn-bj2-02") 
+                              region' (default "cn-sh2-02") 
 
   --project-id     string     Optional. Override default project-id, see 'ucloud project list'
-                              (default "org-ryrmms") 
+                              (default "org-oxjwoi") 
 
   --help, -h                  help for apply 
 

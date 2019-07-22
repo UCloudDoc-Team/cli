@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== update ======
-
 ## ucloud project update
 
 Update project name

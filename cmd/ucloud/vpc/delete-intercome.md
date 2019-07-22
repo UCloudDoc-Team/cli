@@ -1,7 +1,5 @@
 {{indexmenu_n>6}}
 
-====== delete-intercome ======
-
 ## ucloud vpc delete-intercome
 
 delete the vpc intercome
@@ -27,9 +25,9 @@ ucloud vpc delete-intercome --vpc-id xxx --dst-vpc-id xxx
 
   --dst-vpc-id     string   Required. Resource ID of destination VPC to disconnect with source VPC 
 
-  --project-id     string   Optional. The project id of source vpc (default "org-ryrmms") 
+  --project-id     string   Optional. The project id of source vpc (default "org-oxjwoi") 
 
-  --region     string       Optional. The region of source vpc to disconnect (default "cn-bj2") 
+  --region     string       Optional. The region of source vpc to disconnect (default "cn-sh2") 
 
   --dst-region     string   Optional. The region of dest vpc to disconnect 
 

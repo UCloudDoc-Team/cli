@@ -1,6 +1,4 @@
-{{indexmenu_n>17}}
-
-====== ulb ======
+{{indexmenu_n>16}}
 
 ## ucloud ulb
 
@@ -28,7 +26,7 @@ List and manipulate ULB instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.14
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
 * [ucloud ulb create](software/cli/cmd/ucloud/ulb/create)	 - Create ULB instance
 * [ucloud ulb delete](software/cli/cmd/ucloud/ulb/delete)	 - Delete ULB instances by resource ID
 * [ucloud ulb list](software/cli/cmd/ucloud/ulb/list)	 - List ULB instances

@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== delete ======
-
 ## ucloud uhost delete
 
 Delete Uhost instance
@@ -20,10 +18,10 @@ ucloud uhost delete [flags]
   --uhost-id     strings    Requried. ResourceIDs(UhostIds) of the uhost instance 
 
   --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-bj2") 
+                            "cn-sh2") 
 
   --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-ryrmms") 
+                            (default "org-oxjwoi") 
 
   --zone     string         Optional. availability zone 
 
@@ -31,9 +29,10 @@ ucloud uhost delete [flags]
                             if you have permission; true,the uhost instance will be deleted
                             directly 
 
-  --release-eip             Optional. false,Unbind EIP only; true, Unbind EIP and release it 
+  --release-eip             Optional. false,Unbind EIP only; true, Unbind EIP and release it
+                            (default true) 
 
-  --delete-cloud-disk       Optional. false,Detach cloud disk only; true, Detach cloud disk
+  --delete-cloud-disk       Optional. false, detach cloud disk only; true, detach cloud disk
                             and delete it 
 
   --yes, -y                 Optional. Do not prompt for confirmation. 

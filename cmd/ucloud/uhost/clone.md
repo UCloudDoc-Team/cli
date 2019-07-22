@@ -1,7 +1,5 @@
 {{indexmenu_n>9}}
 
-====== clone ======
-
 ## ucloud uhost clone
 
 Create an uhost with the same configuration as another uhost, excluding bound eip and udisk
@@ -23,11 +21,11 @@ ucloud uhost clone [flags]
 
   --name     string         Optional. Name of the uhost to clone 
 
-  --project-id     string   Optional. Assign project-id (default "org-ryrmms") 
+  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
 
-  --region     string       Optional. Assign region (default "cn-bj2") 
+  --region     string       Optional. Assign region (default "cn-sh2") 
 
-  --zone     string         Optional. Assign availability zone (default "cn-bj2-02") 
+  --zone     string         Optional. Assign availability zone (default "cn-sh2-02") 
 
   --async                   Optional. Do not wait for the long-running operation to finish. 
 

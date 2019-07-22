@@ -1,7 +1,5 @@
 {{indexmenu_n>7}}
 
-====== resize ======
-
 ## ucloud mysql db resize
 
 Reszie MySQL instances, such as memory size, disk size and disk type
@@ -20,13 +18,13 @@ ucloud mysql db resize [flags]
   --udb-id     strings        Required. Resource ID of UDB instances to restart 
 
   --region     string         Optional. Override default region, see 'ucloud region' (default
-                              "cn-bj2") 
+                              "cn-sh2") 
 
   --zone     string           Optional. Override default availability zone, see 'ucloud
-                              region' (default "cn-bj2-02") 
+                              region' (default "cn-sh2-02") 
 
   --project-id     string     Optional. Override default project-id, see 'ucloud project list'
-                              (default "org-ryrmms") 
+                              (default "org-oxjwoi") 
 
   --memory-size-gb     int    Optional. Memory size of udb instance. From 1 to 128. Unit GB 
 

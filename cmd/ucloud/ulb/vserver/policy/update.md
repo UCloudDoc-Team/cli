@@ -1,7 +1,5 @@
 {{indexmenu_n>3}}
 
-====== update ======
-
 ## ucloud ulb vserver policy update
 
 Update content forward policies of ULB VServer
@@ -18,10 +16,10 @@ ucloud ulb vserver policy update [flags]
 
 ```
   --region     string               Optional. Override default region, see 'ucloud region'
-                                    (default "cn-bj2") 
+                                    (default "cn-sh2") 
 
   --project-id     string           Optional. Override default project-id, see 'ucloud project
-                                    list' (default "org-ryrmms") 
+                                    list' (default "org-oxjwoi") 
 
   --ulb-id     string               Required. Resource ID of ULB 
 

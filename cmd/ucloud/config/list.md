@@ -1,14 +1,12 @@
-{{indexmenu_n>1}}
-
-====== list ======
+{{indexmenu_n>3}}
 
 ## ucloud config list
 
-list all settings
+list all configurations
 
 ### Synopsis
 
-list all settings
+list all configurations
 
 ```
 ucloud config list [flags]
@@ -32,5 +30,5 @@ ucloud config list [flags]
 
 ### SEE ALSO
 
-* [ucloud config](software/cli/cmd/ucloud/config)	 - Configure UCloud CLI options
+* [ucloud config](software/cli/cmd/ucloud/config)	 - add or update configurations
 
