@@ -21,16 +21,16 @@ ucloud eip bind --eip-id eip-xxx --resource-id uhost-xxx
 ### Options
 
 ```
-  --eip-id     string          Required. EIPId to bind 
+  --eip-id     strings         Required. EIPId to bind 
 
   --resource-id     string     Required. ResourceID , which is the UHostId of uhost 
 
   --resource-type     string   Requried. ResourceType, type of resource to bind with eip.
                                'uhost','vrouter','ulb','upm','hadoophost'.eg.. (default "uhost") 
 
-  --project-id     string      Optional. Assign project-id (default "org-oxjwoi") 
+  --project-id     string      Optional. Assign project-id 
 
-  --region     string          Optional. Assign region (default "cn-sh2") 
+  --region     string          Optional. Assign region 
 
   --help, -h                   help for bind 
 
@@ -39,9 +39,22 @@ ucloud eip bind --eip-id eip-xxx --resource-id uhost-xxx
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --base-url     string       Set base-url to override the base-url in local config file 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --debug, -d                 Running in debug mode 
+
+  --json, -j                  Print result in JSON format whenever possible 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --profile, -p string        Specifies the configuration for the operation 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 

@@ -24,14 +24,11 @@ ucloud memcache create [flags]
 
   --subnet-id     string     Optional. Subnet ID. See 'ucloud subnet list' 
 
-  --project-id     string    Optional. Override default project-id, see 'ucloud project list'
-                             (default "org-oxjwoi") 
+  --project-id     string    Optional. Override default project-id, see 'ucloud project list' 
 
-  --region     string        Optional. Override default region, see 'ucloud region' (default
-                             "cn-sh2") 
+  --region     string        Optional. Override default region, see 'ucloud region' 
 
-  --zone     string          Optional. Override default availability zone, see 'ucloud region'
-                             (default "cn-sh2-02") 
+  --zone     string          Optional. Override default availability zone, see 'ucloud region' 
 
   --charge-type     string   Optional. Enumeration value.'Year',pay yearly;'Month',pay
                              monthly; 'Dynamic', pay hourly; 'Trial', free trial(need
@@ -48,9 +45,22 @@ ucloud memcache create [flags]
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --base-url     string       Set base-url to override the base-url in local config file 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --debug, -d                 Running in debug mode 
+
+  --json, -j                  Print result in JSON format whenever possible 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --profile, -p string        Specifies the configuration for the operation 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 

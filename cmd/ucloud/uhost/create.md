@@ -67,28 +67,35 @@ ucloud uhost create [flags]
                                          years/months. (default 1) 
 
   --project-id     string                Optional. Override default project-id, see 'ucloud
-                                         project list' (default "org-oxjwoi") 
+                                         project list' 
 
-  --region     string                    Optional. Override default region, see 'ucloud
-                                         region' (default "cn-sh2") 
+  --region     string                    Optional. Override default region, see 'ucloud region' 
 
   --zone     string                      Optional. Override default availability zone, see
-                                         'ucloud region' (default "cn-sh2-02") 
+                                         'ucloud region' 
 
-  --type     string                      Optional. Accept values: N1, N2, N3, G1, G2, G3, I1,
-                                         I2, C1. Forward to
+  --machine-type     string              Optional. Accept values: N, C, G, O. Forward to
                                          https://docs.ucloud.cn/api/uhost-api/uhost_type for
-                                         details (default "N2") 
+                                         details 
+
+  --minimal-cpu-platform     string      Optional. Accpet values: Intel/Auto, Intel/IvyBridge,
+                                         Intel/Haswell, Intel/Broadwell, Intel/Skylake,
+                                         Intel/Cascadelake 
+
+  --gpu     int                          Optional. The count of GPU cores. 
 
   --net-capability     string            Optional. Default is 'Normal', also support 'Super'
                                          which will enhance multiple times network capability
                                          as before (default "Normal") 
 
+  --hot-plug     string                  Optional. Enable hot plug feature or not. Accept
+                                         values: true or false (default "false") 
+
   --os-disk-type     string              Optional. Enumeration value. 'LOCAL_NORMAL', Ordinary
                                          local disk; 'CLOUD_NORMAL', Ordinary cloud disk;
                                          'LOCAL_SSD',local ssd disk; 'CLOUD_SSD',cloud ssd
                                          disk; 'EXCLUSIVE_LOCAL_DISK',big data. The disk only
-                                         supports a limited combination. (default "LOCAL_NORMAL") 
+                                         supports a limited combination. (default "CLOUD_SSD") 
 
   --os-disk-size-gb     int              Optional. Default 20G. Windows should be bigger than
                                          40G Unit GB (default 20) 
@@ -103,7 +110,7 @@ ucloud uhost create [flags]
                                          local disk; 'CLOUD_NORMAL', Ordinary cloud disk;
                                          'LOCAL_SSD',local ssd disk; 'CLOUD_SSD',cloud ssd
                                          disk; 'EXCLUSIVE_LOCAL_DISK',big data. The disk only
-                                         supports a limited combination. (default "LOCAL_NORMAL") 
+                                         supports a limited combination. (default "CLOUD_SSD") 
 
   --data-disk-size-gb     int            Optional. Disk size. Unit GB (default 20) 
 
@@ -118,6 +125,9 @@ ucloud uhost create [flags]
 
   --group     string                     Optional. Business group (default "Default") 
 
+  --isolation-group     string           Optional. Resource ID of isolation group. see 'ucloud
+                                         uhost isolation-group list 
+
   --help, -h                             help for create 
 
 ```
@@ -125,9 +135,22 @@ ucloud uhost create [flags]
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --base-url     string       Set base-url to override the base-url in local config file 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --debug, -d                 Running in debug mode 
+
+  --json, -j                  Print result in JSON format whenever possible 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --profile, -p string        Specifies the configuration for the operation 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 

@@ -23,9 +23,9 @@ ucloud firewall update --fw-id firewall-2xxxx/test2 --name test_update.1 --remar
 ```
   --fw-id     strings       Required. Resource ID of firewalls 
 
-  --region     string       Optional. Region, see 'ucloud region' (default "cn-sh2") 
+  --region     string       Optional. Region, see 'ucloud region' 
 
-  --project-id     string   Optional. Project-id, see 'ucloud project list' (default "org-oxjwoi") 
+  --project-id     string   Optional. Project-id, see 'ucloud project list' 
 
   --name     string         Name of firewall 
 
@@ -40,9 +40,22 @@ ucloud firewall update --fw-id firewall-2xxxx/test2 --name test_update.1 --remar
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --base-url     string       Set base-url to override the base-url in local config file 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --debug, -d                 Running in debug mode 
+
+  --json, -j                  Print result in JSON format whenever possible 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --profile, -p string        Specifies the configuration for the operation 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 

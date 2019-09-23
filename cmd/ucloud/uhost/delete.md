@@ -17,15 +17,13 @@ ucloud uhost delete [flags]
 ```
   --uhost-id     strings    Requried. ResourceIDs(UhostIds) of the uhost instance 
 
-  --region     string       Optional. Override default region, see 'ucloud region' (default
-                            "cn-sh2") 
+  --region     string       Optional. Override default region, see 'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list'
-                            (default "org-oxjwoi") 
+  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
 
   --zone     string         Optional. availability zone 
 
-  --destory                 Optional. false,the uhost instance will be thrown to UHost recycle
+  --destroy                 Optional. false,the uhost instance will be thrown to UHost recycle
                             if you have permission; true,the uhost instance will be deleted
                             directly 
 
@@ -44,9 +42,22 @@ ucloud uhost delete [flags]
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --base-url     string       Set base-url to override the base-url in local config file 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --debug, -d                 Running in debug mode 
+
+  --json, -j                  Print result in JSON format whenever possible 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --profile, -p string        Specifies the configuration for the operation 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 

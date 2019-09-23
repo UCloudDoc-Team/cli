@@ -21,19 +21,20 @@ ucloud eip allocate --line BGP --bandwidth-mb 2
 ### Options
 
 ```
-  --line     string                 Required. 'BGP' or 'International'. 'BGP' could be set in
-                                    China mainland regions, such as cn-bj2 etc.
-                                    'International' could be set in the regions beyond
-                                    mainland, such as hk, tw-kh, us-ws etc. 
-
   --bandwidth-mb     int            Required. Bandwidth(Unit:Mbps).The range of value related
                                     to network charge mode. By traffic [1, 200]; by bandwidth
                                     [1,800] (Unit: Mbps); it could be 0 if the eip belong to
                                     the shared bandwidth 
 
-  --project-id     string           Optional. Assign project-id (default "org-oxjwoi") 
+  --line     string                 Optional. 'BGP' or 'International'. 'BGP' could be set in
+                                    China mainland regions, such as cn-bj2 etc.
+                                    'International' could be set in the regions beyond
+                                    mainland, such as hk, tw-kh, us-ws etc. 
 
-  --region     string               Optional. Assign region (default "cn-sh2") 
+  --project-id     string           Optional. Override default project-id, see 'ucloud project
+                                    list' 
+
+  --region     string               Optional. Override default region, see 'ucloud region' 
 
   --traffic-mode     string         Optional. traffic-mode is an enumeration value.
                                     'Traffic','Bandwidth' or 'ShareBandwidth' (default "Bandwidth") 
@@ -64,9 +65,22 @@ ucloud eip allocate --line BGP --bandwidth-mb 2
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --base-url     string       Set base-url to override the base-url in local config file 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --debug, -d                 Running in debug mode 
+
+  --json, -j                  Print result in JSON format whenever possible 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --profile, -p string        Specifies the configuration for the operation 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 

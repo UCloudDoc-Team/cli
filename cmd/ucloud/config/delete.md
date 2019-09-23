@@ -21,18 +21,18 @@ ucloud config delete --profile test
 ### Options
 
 ```
-  --help, -h              help for delete 
-
-  --profile     strings   Required. Name of settings item 
+  --help, -h   help for delete 
 
 ```
 
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --debug, -d            Running in debug mode 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --json, -j             Print result in JSON format whenever possible 
+
+  --profile, -p string   Specifies the configuration for the operation 
 
 ```
 

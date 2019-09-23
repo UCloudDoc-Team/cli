@@ -2,7 +2,7 @@
 
 ## ucloud
 
-UCloud CLI v0.1.20
+UCloud CLI v0.1.24
 
 ### Synopsis
 
@@ -15,19 +15,21 @@ ucloud [flags]
 ### Options
 
 ```
-  --completion       Turn on auto completion according to the prompt 
+  --completion           Turn on auto completion according to the prompt 
 
-  --config           Display configuration 
+  --config               Display configuration 
 
-  --debug, -d        Running in debug mode 
+  --debug, -d            Running in debug mode 
 
-  --help, -h         help for ucloud 
+  --help, -h             help for ucloud 
 
-  --json, -j         Print result in JSON format whenever possible 
+  --json, -j             Print result in JSON format whenever possible 
 
-  --signup           Launch UCloud sign up page in browser 
+  --profile, -p string   Specifies the configuration for the operation 
 
-  --version, -v      Display version 
+  --signup               Launch UCloud sign up page in browser 
+
+  --version, -v          Display version 
 
 ```
 
@@ -36,6 +38,7 @@ ucloud [flags]
 * [ucloud bw](software/cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
 * [ucloud config](software/cli/cmd/ucloud/config)	 - add or update configurations
 * [ucloud eip](software/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud ext](software/cli/cmd/ucloud/ext)	 - extended commands of UCloud CLI
 * [ucloud firewall](software/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 * [ucloud gendoc](software/cli/cmd/ucloud/gendoc)	 - Generate documents for all commands
 * [ucloud gssh](software/cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance

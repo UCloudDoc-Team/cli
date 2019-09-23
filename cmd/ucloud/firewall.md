@@ -11,22 +11,35 @@ List and manipulate extranet firewall
 ### Options
 
 ```
-  --help, -h   help for firewall 
+  --base-url     string       Set base-url to override the base-url in local config file 
+
+  --help, -h                  help for firewall 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --debug, -d            Running in debug mode 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --json, -j             Print result in JSON format whenever possible 
+
+  --profile, -p string   Specifies the configuration for the operation 
 
 ```
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
 * [ucloud firewall add-rule](software/cli/cmd/ucloud/firewall/add-rule)	 - Add rule to firewall instance
 * [ucloud firewall apply](software/cli/cmd/ucloud/firewall/apply)	 - Applay firewall to ucloud service
 * [ucloud firewall copy](software/cli/cmd/ucloud/firewall/copy)	 - Copy firewall

@@ -26,9 +26,9 @@ ucloud eip modify-bw --eip-id eip-xxx --bandwidth-mb 20
   --bandwidth-mb     int    Required. Bandwidth of EIP after modifed. Charge by traffic, range
                             [1,300]; charge by bandwidth, range [1,800] 
 
-  --project-id     string   Optional. Assign project-id (default "org-oxjwoi") 
+  --project-id     string   Optional. Assign project-id 
 
-  --region     string       Optional. Assign region (default "cn-sh2") 
+  --region     string       Optional. Assign region 
 
   --help, -h                help for modify-bw 
 
@@ -37,9 +37,22 @@ ucloud eip modify-bw --eip-id eip-xxx --bandwidth-mb 20
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --base-url     string       Set base-url to override the base-url in local config file 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --debug, -d                 Running in debug mode 
+
+  --json, -j                  Print result in JSON format whenever possible 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --profile, -p string        Specifies the configuration for the operation 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 

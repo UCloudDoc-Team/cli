@@ -11,26 +11,40 @@ List,create,delete,stop,restart,poweroff or resize UHost instance
 ### Options
 
 ```
-  --help, -h   help for uhost 
+  --base-url     string       Set base-url to override the base-url in local config file 
+
+  --help, -h                  help for uhost 
+
+  --max-retry-times     int   Set max-retry-times to override the max-retry-times in local
+                              config file (default -1) 
+
+  --private-key     string    Set private-key to override the private-key in local config file 
+
+  --public-key     string     Set public-key to override the public-key in local config file 
+
+  --timeout-sec     int       Set timeout-sec to override the timeout-sec in local config file 
 
 ```
 
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --debug, -d            Running in debug mode 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --json, -j             Print result in JSON format whenever possible 
+
+  --profile, -p string   Specifies the configuration for the operation 
 
 ```
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
 * [ucloud uhost clone](software/cli/cmd/ucloud/uhost/clone)	 - Create an uhost with the same configuration as another uhost, excluding bound eip and udisk
 * [ucloud uhost create](software/cli/cmd/ucloud/uhost/create)	 - Create UHost instance
 * [ucloud uhost create-image](software/cli/cmd/ucloud/uhost/create-image)	 - Create image from an uhost instance
 * [ucloud uhost delete](software/cli/cmd/ucloud/uhost/delete)	 - Delete Uhost instance
+* [ucloud uhost isolation-group](software/cli/cmd/ucloud/uhost/isolation-group)	 - List and manipulate isolation group of uhost
 * [ucloud uhost list](software/cli/cmd/ucloud/uhost/list)	 - List all UHost Instances
 * [ucloud uhost poweroff](software/cli/cmd/ucloud/uhost/poweroff)	 - Analog power off Uhost instnace
 * [ucloud uhost reinstall-os](software/cli/cmd/ucloud/uhost/reinstall-os)	 - Reinstall the operating system of the UHost instance

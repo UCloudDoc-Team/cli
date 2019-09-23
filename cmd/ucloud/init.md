@@ -22,13 +22,15 @@ ucloud init [flags]
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --debug, -d            Running in debug mode 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --json, -j             Print result in JSON format whenever possible 
+
+  --profile, -p string   Specifies the configuration for the operation 
 
 ```
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.20
+* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
 

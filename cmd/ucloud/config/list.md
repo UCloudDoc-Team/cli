@@ -22,9 +22,11 @@ ucloud config list [flags]
 ### Options inherited from parent commands
 
 ```
-  --debug, -d   Running in debug mode 
+  --debug, -d            Running in debug mode 
 
-  --json, -j    Print result in JSON format whenever possible 
+  --json, -j             Print result in JSON format whenever possible 
+
+  --profile, -p string   Specifies the configuration for the operation 
 
 ```
 
