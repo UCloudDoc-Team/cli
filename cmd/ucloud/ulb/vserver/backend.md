@@ -39,9 +39,9 @@ List and manipulate VServer backend nodes
 
 ### SEE ALSO
 
-* [ucloud ulb vserver](software/cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
-* [ucloud ulb vserver backend add](software/cli/cmd/ucloud/ulb/vserver/backend/add)	 - Add backend nodes for ULB Vserver instance
-* [ucloud ulb vserver backend delete](software/cli/cmd/ucloud/ulb/vserver/backend/delete)	 - Delete ULB VServer backend nodes
-* [ucloud ulb vserver backend list](software/cli/cmd/ucloud/ulb/vserver/backend/list)	 - List ULB VServer backend nodes
-* [ucloud ulb vserver backend update](software/cli/cmd/ucloud/ulb/vserver/backend/update)	 - Update attributes of ULB backend nodes
+* [ucloud ulb vserver](developer/cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
+* [ucloud ulb vserver backend add](developer/cli/cmd/ucloud/ulb/vserver/backend/add)	 - Add backend nodes for ULB Vserver instance
+* [ucloud ulb vserver backend delete](developer/cli/cmd/ucloud/ulb/vserver/backend/delete)	 - Delete ULB VServer backend nodes
+* [ucloud ulb vserver backend list](developer/cli/cmd/ucloud/ulb/vserver/backend/list)	 - List ULB VServer backend nodes
+* [ucloud ulb vserver backend update](developer/cli/cmd/ucloud/ulb/vserver/backend/update)	 - Update attributes of ULB backend nodes
 

@@ -21,14 +21,17 @@ ucloud uphost list [flags]
 
   --offset     int          Optional. The index(a number) of resource which start to list 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
   --uphost-id     strings   Optional. Resource ID of uphost instances. List those specified
                             uphost instances 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
 ```
 
@@ -56,5 +59,5 @@ ucloud uphost list [flags]
 
 ### SEE ALSO
 
-* [ucloud uphost](software/cli/cmd/ucloud/uphost)	 - List UPHost instances
+* [ucloud uphost](developer/cli/cmd/ucloud/uphost)	 - List UPHost instances
 

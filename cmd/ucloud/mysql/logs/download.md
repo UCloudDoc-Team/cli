@@ -25,11 +25,14 @@ ucloud mysql logs download --udb-id udb-urixxx/test.cli1 --archive-id 35044
 
   --udb-id     string       Required. Resource ID of UDB which the archive belongs to 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --help, -h                help for download 
 
@@ -59,5 +62,5 @@ ucloud mysql logs download --udb-id udb-urixxx/test.cli1 --archive-id 35044
 
 ### SEE ALSO
 
-* [ucloud mysql logs](software/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
+* [ucloud mysql logs](developer/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

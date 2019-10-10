@@ -39,14 +39,14 @@ Manipulate EIP, such as list,allocate and release
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud eip allocate](software/cli/cmd/ucloud/eip/allocate)	 - Allocate EIP
-* [ucloud eip bind](software/cli/cmd/ucloud/eip/bind)	 - Bind EIP with uhost
-* [ucloud eip join-shared-bw](software/cli/cmd/ucloud/eip/join-shared-bw)	 - Join shared bandwidth
-* [ucloud eip leave-shared-bw](software/cli/cmd/ucloud/eip/leave-shared-bw)	 - Leave shared bandwidth
-* [ucloud eip list](software/cli/cmd/ucloud/eip/list)	 - List all EIP instances
-* [ucloud eip modify-bw](software/cli/cmd/ucloud/eip/modify-bw)	 - Modify bandwith of EIP instances
-* [ucloud eip modify-traffic-mode](software/cli/cmd/ucloud/eip/modify-traffic-mode)	 - Modify charge mode of EIP instances
-* [ucloud eip release](software/cli/cmd/ucloud/eip/release)	 - Release EIP
-* [ucloud eip unbind](software/cli/cmd/ucloud/eip/unbind)	 - Unbind EIP with uhost
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud eip allocate](developer/cli/cmd/ucloud/eip/allocate)	 - Allocate EIP
+* [ucloud eip bind](developer/cli/cmd/ucloud/eip/bind)	 - Bind EIP with uhost
+* [ucloud eip join-shared-bw](developer/cli/cmd/ucloud/eip/join-shared-bw)	 - Join shared bandwidth
+* [ucloud eip leave-shared-bw](developer/cli/cmd/ucloud/eip/leave-shared-bw)	 - Leave shared bandwidth
+* [ucloud eip list](developer/cli/cmd/ucloud/eip/list)	 - List all EIP instances
+* [ucloud eip modify-bw](developer/cli/cmd/ucloud/eip/modify-bw)	 - Modify bandwith of EIP instances
+* [ucloud eip modify-traffic-mode](developer/cli/cmd/ucloud/eip/modify-traffic-mode)	 - Modify charge mode of EIP instances
+* [ucloud eip release](developer/cli/cmd/ucloud/eip/release)	 - Release EIP
+* [ucloud eip unbind](developer/cli/cmd/ucloud/eip/unbind)	 - Unbind EIP with uhost
 

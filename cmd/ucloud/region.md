@@ -49,5 +49,5 @@ ucloud region
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
 

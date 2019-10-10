@@ -20,9 +20,11 @@ ucloud subnet list-resource [flags]
   --resource-type     string   Optional. Resource type of resources to list. Accept
                                values:'uhost','phost','ulb','uhadoophost','ufortresshost','unatgw','ukafka','umem','docker','udb','udw' and 'vip' 
 
-  --region     string          Optional. Override default region, see 'ucloud region' 
+  --region     string          Optional. Override default region for this command invocation,
+                               see 'ucloud region' 
 
-  --project-id     string      Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string      Optional. Override default project-id for this command
+                               invocation, see 'ucloud project list' 
 
   --limit     int              Optional. The maximum number of resources per page (default 100) 
 
@@ -56,5 +58,5 @@ ucloud subnet list-resource [flags]
 
 ### SEE ALSO
 
-* [ucloud subnet](software/cli/cmd/ucloud/subnet)	 - List, create and delete subnet
+* [ucloud subnet](developer/cli/cmd/ucloud/subnet)	 - List, create and delete subnet
 

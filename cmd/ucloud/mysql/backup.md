@@ -39,9 +39,9 @@ List and manipulate backups of MySQL instance
 
 ### SEE ALSO
 
-* [ucloud mysql](software/cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
-* [ucloud mysql backup create](software/cli/cmd/ucloud/mysql/backup/create)	 - Create backups for MySQL instance manually
-* [ucloud mysql backup delete](software/cli/cmd/ucloud/mysql/backup/delete)	 - Delete backups of MySQL instance
-* [ucloud mysql backup download](software/cli/cmd/ucloud/mysql/backup/download)	 - Display download url of backup
-* [ucloud mysql backup list](software/cli/cmd/ucloud/mysql/backup/list)	 - List backups of MySQL instance
+* [ucloud mysql](developer/cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
+* [ucloud mysql backup create](developer/cli/cmd/ucloud/mysql/backup/create)	 - Create backups for MySQL instance manually
+* [ucloud mysql backup delete](developer/cli/cmd/ucloud/mysql/backup/delete)	 - Delete backups of MySQL instance
+* [ucloud mysql backup download](developer/cli/cmd/ucloud/mysql/backup/download)	 - Display download url of backup
+* [ucloud mysql backup list](developer/cli/cmd/ucloud/mysql/backup/list)	 - List backups of MySQL instance
 

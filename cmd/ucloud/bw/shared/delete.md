@@ -23,9 +23,11 @@ ucloud bw shared delete [flags]
   --traffic-mode     string    Optional. The charge mode of joined EIPs after deleting the
                                shared bandwidth. Accept values:Bandwidth,Traffic 
 
-  --region     string          Optional. Override default region, see 'ucloud region' 
+  --region     string          Optional. Override default region for this command invocation,
+                               see 'ucloud region' 
 
-  --project-id     string      Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string      Optional. Override default project-id for this command
+                               invocation, see 'ucloud project list' 
 
   --help, -h                   help for delete 
 
@@ -55,5 +57,5 @@ ucloud bw shared delete [flags]
 
 ### SEE ALSO
 
-* [ucloud bw shared](software/cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
+* [ucloud bw shared](developer/cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
 

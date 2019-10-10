@@ -61,5 +61,5 @@ ucloud firewall update --fw-id firewall-2xxxx/test2 --name test_update.1 --remar
 
 ### SEE ALSO
 
-* [ucloud firewall](software/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
+* [ucloud firewall](developer/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

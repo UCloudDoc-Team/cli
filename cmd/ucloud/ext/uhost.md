@@ -39,6 +39,6 @@ extended uhost commands
 
 ### SEE ALSO
 
-* [ucloud ext](software/cli/cmd/ucloud/ext)	 - extended commands of UCloud CLI
-* [ucloud ext uhost switch-eip](software/cli/cmd/ucloud/ext/uhost/switch-eip)	 - Switch EIP for UHost instances
+* [ucloud ext](developer/cli/cmd/ucloud/ext)	 - extended commands of UCloud CLI
+* [ucloud ext uhost switch-eip](developer/cli/cmd/ucloud/ext/uhost/switch-eip)	 - Switch EIP for UHost instances
 

@@ -17,11 +17,14 @@ ucloud memcache restart [flags]
 ```
   --umem-id     strings     Required. Resource ID of memcache to restart 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --help, -h                help for restart 
 
@@ -51,5 +54,5 @@ ucloud memcache restart [flags]
 
 ### SEE ALSO
 
-* [ucloud memcache](software/cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
+* [ucloud memcache](developer/cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
 

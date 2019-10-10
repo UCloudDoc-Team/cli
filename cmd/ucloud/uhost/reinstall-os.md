@@ -63,5 +63,5 @@ ucloud uhost reinstall-os [flags]
 
 ### SEE ALSO
 
-* [ucloud uhost](software/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
+* [ucloud uhost](developer/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

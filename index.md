@@ -2,4 +2,4 @@
 
 ====== UCloud CLI ======
 
-{{indexmenu>:software:cli#6 | skipfile=/(list)/ nsort dsort msort}}
+{{indexmenu>:developer:cli#6 | skipfile=/(list)/ nsort dsort msort}}

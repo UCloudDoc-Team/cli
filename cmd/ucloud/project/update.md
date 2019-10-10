@@ -53,5 +53,5 @@ ucloud project update --id org-xxx --name new_name
 
 ### SEE ALSO
 
-* [ucloud project](software/cli/cmd/ucloud/project)	 - List,create,update and delete project
+* [ucloud project](developer/cli/cmd/ucloud/project)	 - List,create,update and delete project
 

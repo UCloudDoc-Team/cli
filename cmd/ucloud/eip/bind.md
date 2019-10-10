@@ -60,5 +60,5 @@ ucloud eip bind --eip-id eip-xxx --resource-id uhost-xxx
 
 ### SEE ALSO
 
-* [ucloud eip](software/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud eip](developer/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

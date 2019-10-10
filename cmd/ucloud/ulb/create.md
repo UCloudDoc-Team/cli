@@ -20,10 +20,11 @@ ucloud ulb create [flags]
   --mode     string                      Required. Network mode of ULB instance, outer or
                                          inner. (default "outer") 
 
-  --region     string                    Optional. Override default region, see 'ucloud region' 
+  --region     string                    Optional. Override default region for this command
+                                         invocation, see 'ucloud region' 
 
-  --project-id     string                Optional. Override default project-id, see 'ucloud
-                                         project list' 
+  --project-id     string                Optional. Override default project-id for this
+                                         command invocation, see 'ucloud project list' 
 
   --vpc-id     string                    Optional. Resource ID of VPC which the ULB to create
                                          belong to. See 'ucloud vpc list' 
@@ -87,5 +88,5 @@ ucloud ulb create [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb](software/cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
+* [ucloud ulb](developer/cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
 

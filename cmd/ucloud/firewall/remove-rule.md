@@ -62,5 +62,5 @@ ucloud firewall remove-rule --fw-id firewall-2cxxxz/test.lxj2 --rules "TCP|24|0.
 
 ### SEE ALSO
 
-* [ucloud firewall](software/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
+* [ucloud firewall](developer/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

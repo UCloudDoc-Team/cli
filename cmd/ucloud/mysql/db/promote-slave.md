@@ -20,11 +20,14 @@ ucloud mysql db promote-slave [flags]
   --is-force                Optional. Force to promote slave db or not. If the slave db falls
                             behind, the force promote may lose some data 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --help, -h                help for promote-slave 
 
@@ -54,5 +57,5 @@ ucloud mysql db promote-slave [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql db](software/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
+* [ucloud mysql db](developer/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

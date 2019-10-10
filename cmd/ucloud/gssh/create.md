@@ -25,7 +25,8 @@ ucloud gssh create --location Washington --target-ip 8.8.8.8
 
   --target-ip     ip         Required. IP of the source server. Required 
 
-  --project-id     string    Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string    Optional. Override default project-id for this command
+                             invocation, see 'ucloud project list' 
 
   --port     int             Optional. Port of The SSH service between 1 and 65535. Do not use
                              ports such as 80,443. (default 22) 
@@ -65,5 +66,5 @@ ucloud gssh create --location Washington --target-ip 8.8.8.8
 
 ### SEE ALSO
 
-* [ucloud gssh](software/cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
+* [ucloud gssh](developer/cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

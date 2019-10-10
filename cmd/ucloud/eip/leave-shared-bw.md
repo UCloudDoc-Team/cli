@@ -65,5 +65,5 @@ ucloud eip leave-shared-bw --eip-id eip-b2gvu3
 
 ### SEE ALSO
 
-* [ucloud eip](software/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud eip](developer/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

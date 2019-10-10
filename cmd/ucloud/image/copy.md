@@ -61,5 +61,5 @@ ucloud image copy [flags]
 
 ### SEE ALSO
 
-* [ucloud image](software/cli/cmd/ucloud/image)	 - List and manipulate images
+* [ucloud image](developer/cli/cmd/ucloud/image)	 - List and manipulate images
 

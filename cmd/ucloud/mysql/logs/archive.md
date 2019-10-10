@@ -33,11 +33,14 @@ ucloud mysql logs archive --name test.cli2 --udb-id udb-xxx/test.cli1 --log-type
   --end-time     string     Optional. Required when log-type is slow. For example
                             2019-01-02/15:04:05 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --help, -h                help for archive 
 
@@ -67,5 +70,5 @@ ucloud mysql logs archive --name test.cli2 --udb-id udb-xxx/test.cli1 --log-type
 
 ### SEE ALSO
 
-* [ucloud mysql logs](software/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
+* [ucloud mysql logs](developer/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

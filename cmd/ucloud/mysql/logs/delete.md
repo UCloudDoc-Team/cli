@@ -23,11 +23,14 @@ ucloud mysql logs delete --archive-id 35025
 ```
   --archive-id     ints     Optional. ArchiveID of log archives to delete 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --help, -h                help for delete 
 
@@ -57,5 +60,5 @@ ucloud mysql logs delete --archive-id 35025
 
 ### SEE ALSO
 
-* [ucloud mysql logs](software/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
+* [ucloud mysql logs](developer/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

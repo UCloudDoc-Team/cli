@@ -39,10 +39,10 @@ Create,list,update and delete globalssh instance
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud gssh create](software/cli/cmd/ucloud/gssh/create)	 - Create GlobalSSH instance
-* [ucloud gssh delete](software/cli/cmd/ucloud/gssh/delete)	 - Delete GlobalSSH instance
-* [ucloud gssh list](software/cli/cmd/ucloud/gssh/list)	 - List all GlobalSSH instances
-* [ucloud gssh location](software/cli/cmd/ucloud/gssh/location)	 - List SSH server locations and covered areas
-* [ucloud gssh update](software/cli/cmd/ucloud/gssh/update)	 - Update GlobalSSH instance
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud gssh create](developer/cli/cmd/ucloud/gssh/create)	 - Create GlobalSSH instance
+* [ucloud gssh delete](developer/cli/cmd/ucloud/gssh/delete)	 - Delete GlobalSSH instance
+* [ucloud gssh list](developer/cli/cmd/ucloud/gssh/list)	 - List all GlobalSSH instances
+* [ucloud gssh location](developer/cli/cmd/ucloud/gssh/location)	 - List SSH server locations and covered areas
+* [ucloud gssh update](developer/cli/cmd/ucloud/gssh/update)	 - Update GlobalSSH instance
 

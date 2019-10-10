@@ -53,5 +53,5 @@ ucloud firewall resource [flags]
 
 ### SEE ALSO
 
-* [ucloud firewall](software/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
+* [ucloud firewall](developer/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

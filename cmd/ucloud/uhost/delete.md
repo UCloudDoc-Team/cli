@@ -17,9 +17,11 @@ ucloud uhost delete [flags]
 ```
   --uhost-id     strings    Requried. ResourceIDs(UhostIds) of the uhost instance 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --zone     string         Optional. availability zone 
 
@@ -63,5 +65,5 @@ ucloud uhost delete [flags]
 
 ### SEE ALSO
 
-* [ucloud uhost](software/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
+* [ucloud uhost](developer/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

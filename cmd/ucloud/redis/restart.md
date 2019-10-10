@@ -17,11 +17,14 @@ ucloud redis restart [flags]
 ```
   --umem-id     strings     Required. Resource ID of redis instances to restart 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
   --help, -h                help for restart 
 
@@ -51,5 +54,5 @@ ucloud redis restart [flags]
 
 ### SEE ALSO
 
-* [ucloud redis](software/cli/cmd/ucloud/redis)	 - List and manipulate redis instances
+* [ucloud redis](developer/cli/cmd/ucloud/redis)	 - List and manipulate redis instances
 

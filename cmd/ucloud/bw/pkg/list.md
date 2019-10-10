@@ -15,9 +15,11 @@ ucloud bw pkg list [flags]
 ### Options
 
 ```
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --offset     int          Optional. Offset 
 
@@ -51,5 +53,5 @@ ucloud bw pkg list [flags]
 
 ### SEE ALSO
 
-* [ucloud bw pkg](software/cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
+* [ucloud bw pkg](developer/cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
 

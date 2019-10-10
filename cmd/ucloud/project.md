@@ -45,9 +45,9 @@ ucloud project
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud project create](software/cli/cmd/ucloud/project/create)	 - Create project
-* [ucloud project delete](software/cli/cmd/ucloud/project/delete)	 - Delete project
-* [ucloud project list](software/cli/cmd/ucloud/project/list)	 - List project
-* [ucloud project update](software/cli/cmd/ucloud/project/update)	 - Update project name
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud project create](developer/cli/cmd/ucloud/project/create)	 - Create project
+* [ucloud project delete](developer/cli/cmd/ucloud/project/delete)	 - Delete project
+* [ucloud project list](developer/cli/cmd/ucloud/project/list)	 - List project
+* [ucloud project update](developer/cli/cmd/ucloud/project/update)	 - Update project name
 

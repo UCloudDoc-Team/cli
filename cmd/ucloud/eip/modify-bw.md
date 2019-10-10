@@ -58,5 +58,5 @@ ucloud eip modify-bw --eip-id eip-xxx --bandwidth-mb 20
 
 ### SEE ALSO
 
-* [ucloud eip](software/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud eip](developer/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

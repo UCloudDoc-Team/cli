@@ -66,13 +66,14 @@ ucloud uhost create [flags]
   --quantity     int                     Optional. The duration of the instance. N
                                          years/months. (default 1) 
 
-  --project-id     string                Optional. Override default project-id, see 'ucloud
-                                         project list' 
+  --project-id     string                Optional. Override default project-id for this
+                                         command invocation, see 'ucloud project list' 
 
-  --region     string                    Optional. Override default region, see 'ucloud region' 
+  --region     string                    Optional. Override default region for this command
+                                         invocation, see 'ucloud region' 
 
-  --zone     string                      Optional. Override default availability zone, see
-                                         'ucloud region' 
+  --zone     string                      Optional. Override default availability zone for this
+                                         command invocation, see 'ucloud region' 
 
   --machine-type     string              Optional. Accept values: N, C, G, O. Forward to
                                          https://docs.ucloud.cn/api/uhost-api/uhost_type for
@@ -156,5 +157,5 @@ ucloud uhost create [flags]
 
 ### SEE ALSO
 
-* [ucloud uhost](software/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
+* [ucloud uhost](developer/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

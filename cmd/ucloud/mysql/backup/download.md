@@ -19,11 +19,14 @@ ucloud mysql backup download [flags]
 
   --udb-id     string       Required. Resource ID of udb which the backup belongs to 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
   --help, -h                help for download 
 
@@ -53,5 +56,5 @@ ucloud mysql backup download [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql backup](software/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
+* [ucloud mysql backup](developer/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
 

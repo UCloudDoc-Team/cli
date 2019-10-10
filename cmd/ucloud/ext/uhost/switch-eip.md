@@ -53,14 +53,14 @@ ucloud ext uhost switch-eip --uhost-id uhost-1n1sxx2,uhost-li4jxx1 --create-eip-
   --create-eip-quantity     int                Optional. The duration of the instance. N
                                                years/months. (default 1) 
 
-  --project-id     string                      Optional. Override default project-id, see
-                                               'ucloud project list' 
+  --project-id     string                      Optional. Override default project-id for this
+                                               command invocation, see 'ucloud project list' 
 
-  --region     string                          Optional. Override default region, see 'ucloud
-                                               region' 
+  --region     string                          Optional. Override default region for this
+                                               command invocation, see 'ucloud region' 
 
-  --zone     string                            Optional. Override default availability zone,
-                                               see 'ucloud region' 
+  --zone     string                            Optional. Override default availability zone
+                                               for this command invocation, see 'ucloud region' 
 
   --help, -h                                   help for switch-eip 
 
@@ -90,5 +90,5 @@ ucloud ext uhost switch-eip --uhost-id uhost-1n1sxx2,uhost-li4jxx1 --create-eip-
 
 ### SEE ALSO
 
-* [ucloud ext uhost](software/cli/cmd/ucloud/ext/uhost)	 - extended uhost commands
+* [ucloud ext uhost](developer/cli/cmd/ucloud/ext/uhost)	 - extended uhost commands
 

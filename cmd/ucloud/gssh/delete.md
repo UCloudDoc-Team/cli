@@ -24,7 +24,8 @@ ucloud gssh delete --gssh-id uga-xx1  --id uga-xx2
   --gssh-id     strings     Required. ID of the GlobalSSH instances you want to delete.
                             Multiple values specified by multiple commas 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --help, -h                help for delete 
 
@@ -54,5 +55,5 @@ ucloud gssh delete --gssh-id uga-xx1  --id uga-xx2
 
 ### SEE ALSO
 
-* [ucloud gssh](software/cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
+* [ucloud gssh](developer/cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

@@ -39,9 +39,9 @@ Manipulate MySQL on UCloud platform
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud mysql backup](software/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
-* [ucloud mysql conf](software/cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
-* [ucloud mysql db](software/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
-* [ucloud mysql logs](software/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud mysql backup](developer/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
+* [ucloud mysql conf](developer/cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
+* [ucloud mysql db](developer/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
+* [ucloud mysql logs](developer/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

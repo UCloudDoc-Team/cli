@@ -51,5 +51,5 @@ ucloud project delete --id org-xxx
 
 ### SEE ALSO
 
-* [ucloud project](software/cli/cmd/ucloud/project)	 - List,create,update and delete project
+* [ucloud project](developer/cli/cmd/ucloud/project)	 - List,create,update and delete project
 

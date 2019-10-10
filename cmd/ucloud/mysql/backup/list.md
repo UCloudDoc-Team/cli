@@ -27,11 +27,14 @@ ucloud mysql backup list [flags]
 
   --end-time     string      Optional. End time of backup. For example, 2019-02-26/11:31:39 
 
-  --region     string        Optional. Override default region, see 'ucloud region' 
+  --region     string        Optional. Override default region for this command invocation,
+                             see 'ucloud region' 
 
-  --zone     string          Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string          Optional. Override default availability zone for this command
+                             invocation, see 'ucloud region' 
 
-  --project-id     string    Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string    Optional. Override default project-id for this command
+                             invocation, see 'ucloud project list' 
 
   --offset     int           Optional. The index(a number) of resource which start to list 
 
@@ -65,5 +68,5 @@ ucloud mysql backup list [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql backup](software/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
+* [ucloud mysql backup](developer/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
 

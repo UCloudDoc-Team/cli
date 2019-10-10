@@ -39,18 +39,18 @@ List,create,delete,stop,restart,poweroff or resize UHost instance
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud uhost clone](software/cli/cmd/ucloud/uhost/clone)	 - Create an uhost with the same configuration as another uhost, excluding bound eip and udisk
-* [ucloud uhost create](software/cli/cmd/ucloud/uhost/create)	 - Create UHost instance
-* [ucloud uhost create-image](software/cli/cmd/ucloud/uhost/create-image)	 - Create image from an uhost instance
-* [ucloud uhost delete](software/cli/cmd/ucloud/uhost/delete)	 - Delete Uhost instance
-* [ucloud uhost isolation-group](software/cli/cmd/ucloud/uhost/isolation-group)	 - List and manipulate isolation group of uhost
-* [ucloud uhost list](software/cli/cmd/ucloud/uhost/list)	 - List all UHost Instances
-* [ucloud uhost poweroff](software/cli/cmd/ucloud/uhost/poweroff)	 - Analog power off Uhost instnace
-* [ucloud uhost reinstall-os](software/cli/cmd/ucloud/uhost/reinstall-os)	 - Reinstall the operating system of the UHost instance
-* [ucloud uhost reset-password](software/cli/cmd/ucloud/uhost/reset-password)	 - Reset the administrator password for the UHost instances.
-* [ucloud uhost resize](software/cli/cmd/ucloud/uhost/resize)	 - Resize uhost instance,such as cpu core count, memory size and disk size
-* [ucloud uhost restart](software/cli/cmd/ucloud/uhost/restart)	 - Restart uhost instance
-* [ucloud uhost start](software/cli/cmd/ucloud/uhost/start)	 - Start Uhost instance
-* [ucloud uhost stop](software/cli/cmd/ucloud/uhost/stop)	 - Shut down uhost instance
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud uhost clone](developer/cli/cmd/ucloud/uhost/clone)	 - Create an uhost with the same configuration as another uhost, excluding bound eip and udisk
+* [ucloud uhost create](developer/cli/cmd/ucloud/uhost/create)	 - Create UHost instance
+* [ucloud uhost create-image](developer/cli/cmd/ucloud/uhost/create-image)	 - Create image from an uhost instance
+* [ucloud uhost delete](developer/cli/cmd/ucloud/uhost/delete)	 - Delete Uhost instance
+* [ucloud uhost isolation-group](developer/cli/cmd/ucloud/uhost/isolation-group)	 - List and manipulate isolation group of uhost
+* [ucloud uhost list](developer/cli/cmd/ucloud/uhost/list)	 - List all UHost Instances
+* [ucloud uhost poweroff](developer/cli/cmd/ucloud/uhost/poweroff)	 - Analog power off Uhost instnace
+* [ucloud uhost reinstall-os](developer/cli/cmd/ucloud/uhost/reinstall-os)	 - Reinstall the operating system of the UHost instance
+* [ucloud uhost reset-password](developer/cli/cmd/ucloud/uhost/reset-password)	 - Reset the administrator password for the UHost instances.
+* [ucloud uhost resize](developer/cli/cmd/ucloud/uhost/resize)	 - Resize uhost instance,such as cpu core count, memory size and disk size
+* [ucloud uhost restart](developer/cli/cmd/ucloud/uhost/restart)	 - Restart uhost instance
+* [ucloud uhost start](developer/cli/cmd/ucloud/uhost/start)	 - Start Uhost instance
+* [ucloud uhost stop](developer/cli/cmd/ucloud/uhost/stop)	 - Shut down uhost instance
 

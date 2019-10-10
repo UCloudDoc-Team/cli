@@ -58,5 +58,5 @@ ucloud eip modify-traffic-mode --eip-id eip-xx1,eip-xx2 --traffic-mode Traffic
 
 ### SEE ALSO
 
-* [ucloud eip](software/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud eip](developer/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

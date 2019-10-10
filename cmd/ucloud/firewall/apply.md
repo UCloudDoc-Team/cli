@@ -61,5 +61,5 @@ ucloud firewall apply --fw-id firewall-xxx --resource-id uhost-xxx --resource-ty
 
 ### SEE ALSO
 
-* [ucloud firewall](software/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
+* [ucloud firewall](developer/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

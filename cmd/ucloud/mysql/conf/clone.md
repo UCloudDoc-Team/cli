@@ -24,11 +24,14 @@ ucloud mysql conf clone [flags]
 
   --description     string   Optional. Description of the configuration to clone (default " ") 
 
-  --region     string        Optional. Override default region, see 'ucloud region' 
+  --region     string        Optional. Override default region for this command invocation,
+                             see 'ucloud region' 
 
-  --zone     string          Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string          Optional. Override default availability zone for this command
+                             invocation, see 'ucloud region' 
 
-  --project-id     string    Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string    Optional. Override default project-id for this command
+                             invocation, see 'ucloud project list' 
 
   --src-conf-id     string   Optional. The ConfID of source configuration which to be cloned from 
 
@@ -60,5 +63,5 @@ ucloud mysql conf clone [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql conf](software/cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
+* [ucloud mysql conf](developer/cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

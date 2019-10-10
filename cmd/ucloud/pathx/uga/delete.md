@@ -15,7 +15,8 @@ ucloud pathx uga delete [flags]
 ### Options
 
 ```
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --uga-id     strings      Required. Resource ID of uga instances to delete. Multiple
                             resource ids separated by comma 
@@ -48,5 +49,5 @@ ucloud pathx uga delete [flags]
 
 ### SEE ALSO
 
-* [ucloud pathx uga](software/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
+* [ucloud pathx uga](developer/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

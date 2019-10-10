@@ -39,7 +39,7 @@ Manipulate bandwidth package and shared bandwidth
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud bw pkg](software/cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
-* [ucloud bw shared](software/cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud bw pkg](developer/cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
+* [ucloud bw shared](developer/cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
 

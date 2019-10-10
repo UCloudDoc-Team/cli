@@ -23,11 +23,14 @@ ucloud mysql logs list [flags]
 
   --end-time     string     Optional. For example 2019-01-02/15:04:05 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
   --limit     int           Optional. The maximum number of resources per page (default 100) 
 
@@ -61,5 +64,5 @@ ucloud mysql logs list [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql logs](software/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
+* [ucloud mysql logs](developer/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

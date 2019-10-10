@@ -17,7 +17,8 @@ ucloud pathx uga list [flags]
 ```
   --uga-id     string       Optional. Resource ID of uga instance 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --help, -h                help for list 
 
@@ -47,5 +48,5 @@ ucloud pathx uga list [flags]
 
 ### SEE ALSO
 
-* [ucloud pathx uga](software/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
+* [ucloud pathx uga](developer/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

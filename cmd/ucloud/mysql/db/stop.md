@@ -17,11 +17,14 @@ ucloud mysql db stop [flags]
 ```
   --udb-id     strings      Required. Resource ID of UDB instances to stop 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --force                   Optional. Stop UDB instances by force or not 
 
@@ -55,5 +58,5 @@ ucloud mysql db stop [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql db](software/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
+* [ucloud mysql db](developer/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

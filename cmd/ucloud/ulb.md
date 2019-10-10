@@ -39,11 +39,11 @@ List and manipulate ULB instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud ulb create](software/cli/cmd/ucloud/ulb/create)	 - Create ULB instance
-* [ucloud ulb delete](software/cli/cmd/ucloud/ulb/delete)	 - Delete ULB instances by resource ID
-* [ucloud ulb list](software/cli/cmd/ucloud/ulb/list)	 - List ULB instances
-* [ucloud ulb ssl](software/cli/cmd/ucloud/ulb/ssl)	 - List and manipulate SSL Certificates for ULB
-* [ucloud ulb update](software/cli/cmd/ucloud/ulb/update)	 - Update ULB instance
-* [ucloud ulb vserver](software/cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud ulb create](developer/cli/cmd/ucloud/ulb/create)	 - Create ULB instance
+* [ucloud ulb delete](developer/cli/cmd/ucloud/ulb/delete)	 - Delete ULB instances by resource ID
+* [ucloud ulb list](developer/cli/cmd/ucloud/ulb/list)	 - List ULB instances
+* [ucloud ulb ssl](developer/cli/cmd/ucloud/ulb/ssl)	 - List and manipulate SSL Certificates for ULB
+* [ucloud ulb update](developer/cli/cmd/ucloud/ulb/update)	 - Update ULB instance
+* [ucloud ulb vserver](developer/cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
 

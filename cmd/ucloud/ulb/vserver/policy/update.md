@@ -15,10 +15,11 @@ ucloud ulb vserver policy update [flags]
 ### Options
 
 ```
-  --region     string               Optional. Override default region, see 'ucloud region' 
+  --region     string               Optional. Override default region for this command
+                                    invocation, see 'ucloud region' 
 
-  --project-id     string           Optional. Override default project-id, see 'ucloud project
-                                    list' 
+  --project-id     string           Optional. Override default project-id for this command
+                                    invocation, see 'ucloud project list' 
 
   --ulb-id     string               Required. Resource ID of ULB 
 
@@ -69,5 +70,5 @@ ucloud ulb vserver policy update [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb vserver policy](software/cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
+* [ucloud ulb vserver policy](developer/cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
 

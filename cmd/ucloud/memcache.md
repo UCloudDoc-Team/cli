@@ -39,9 +39,9 @@ List and manipulate memcache instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud memcache create](software/cli/cmd/ucloud/memcache/create)	 - Create memcache instance
-* [ucloud memcache delete](software/cli/cmd/ucloud/memcache/delete)	 - Delete memcache instances
-* [ucloud memcache list](software/cli/cmd/ucloud/memcache/list)	 - List memcache instances
-* [ucloud memcache restart](software/cli/cmd/ucloud/memcache/restart)	 - Restart memcache instances
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud memcache create](developer/cli/cmd/ucloud/memcache/create)	 - Create memcache instance
+* [ucloud memcache delete](developer/cli/cmd/ucloud/memcache/delete)	 - Delete memcache instances
+* [ucloud memcache list](developer/cli/cmd/ucloud/memcache/list)	 - List memcache instances
+* [ucloud memcache restart](developer/cli/cmd/ucloud/memcache/restart)	 - Restart memcache instances
 

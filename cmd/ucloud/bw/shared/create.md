@@ -20,9 +20,11 @@ ucloud bw shared create [flags]
   --bandwidth-mb     int     Optional. Unit:Mb. Bandwidth of the shared bandwidth. Range
                              [20,5000] (default 20) 
 
-  --region     string        Optional. Override default region, see 'ucloud region' 
+  --region     string        Optional. Override default region for this command invocation,
+                             see 'ucloud region' 
 
-  --project-id     string    Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string    Optional. Override default project-id for this command
+                             invocation, see 'ucloud project list' 
 
   --charge-type     string   Optional.'Year',pay yearly;'Month',pay monthly;'Dynamic', pay
                              hourly (default "Month") 
@@ -57,5 +59,5 @@ ucloud bw shared create [flags]
 
 ### SEE ALSO
 
-* [ucloud bw shared](software/cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
+* [ucloud bw shared](developer/cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
 

@@ -15,7 +15,8 @@ ucloud pathx upath list [flags]
 ### Options
 
 ```
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --upath-id     string     Optional. Resource ID of upath instance to list 
 
@@ -47,5 +48,5 @@ ucloud pathx upath list [flags]
 
 ### SEE ALSO
 
-* [ucloud pathx upath](software/cli/cmd/ucloud/pathx/upath)	 - List pathx upath instances
+* [ucloud pathx upath](developer/cli/cmd/ucloud/pathx/upath)	 - List pathx upath instances
 

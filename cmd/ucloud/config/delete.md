@@ -38,5 +38,5 @@ ucloud config delete --profile test
 
 ### SEE ALSO
 
-* [ucloud config](software/cli/cmd/ucloud/config)	 - add or update configurations
+* [ucloud config](developer/cli/cmd/ucloud/config)	 - add or update configurations
 

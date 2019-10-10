@@ -21,7 +21,8 @@ ucloud pathx uga create --name testcli1 --protocol tcp --origin-location 中国 
 ### Options
 
 ```
-  --project-id     string        Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string        Optional. Override default project-id for this command
+                                 invocation, see 'ucloud project list' 
 
   --name     string              Required. Name of uga instance to create 
 
@@ -70,5 +71,5 @@ ucloud pathx uga create --name testcli1 --protocol tcp --origin-location 中国 
 
 ### SEE ALSO
 
-* [ucloud pathx uga](software/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
+* [ucloud pathx uga](developer/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

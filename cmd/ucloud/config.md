@@ -21,31 +21,36 @@ ucloud config --profile=test --region cn-bj2 --active true
 ### Options
 
 ```
-  --public-key     string     Optional. Set public key 
+  --public-key     string         Optional. Set public key 
 
-  --private-key     string    Optional. Set private key 
+  --private-key     string        Optional. Set private key 
 
-  --region     string         Optional. Set default region. For instance 'cn-bj2' See 'ucloud
-                              region' 
+  --region     string             Optional. Set default region. For instance 'cn-bj2' See
+                                  'ucloud region' 
 
-  --zone     string           Optional. Set default zone. For instance 'cn-bj2-02'. See
-                              'ucloud region' 
+  --zone     string               Optional. Set default zone. For instance 'cn-bj2-02'. See
+                                  'ucloud region' 
 
-  --project-id     string     Optional. Set default project. For instance 'org-xxxxxx'. See
-                              'ucloud project list 
+  --project-id     string         Optional. Set default project. For instance 'org-xxxxxx'.
+                                  See 'ucloud project list 
 
-  --base-url     string       Optional. Set default base url. For instance 'https://api.ucloud.cn/' 
+  --base-url     string           Optional. Set default base url. For instance
+                                  'https://api.ucloud.cn/' 
 
-  --timeout-sec     int       Optional. Set default timeout for requesting API. Unit: seconds 
+  --timeout-sec     int           Optional. Set default timeout for requesting API. Unit: seconds 
 
-  --max-retry-times     int   Optional. Set default max-retry-times for idempotent APIs which
-                              can be called many times without side effect, for example
-                              'ReleaseEIP' 
+  --max-retry-times     int       Optional. Set default max-retry-times for idempotent APIs
+                                  which can be called many times without side effect, for
+                                  example 'ReleaseEIP' 
 
-  --active     string         Optional. Mark the profile to be effective or not. Accept
-                              valeus: true or false 
+  --active     string             Optional. Mark the profile to be effective or not. Accept
+                                  valeus: true or false 
 
-  --help, -h                  help for config 
+  --agree-upload-log     string   Optional. Agree to upload log in local file
+                                  ~/.ucloud/cli.log or not. Accept valeus: true or false
+                                  (default "false") 
+
+  --help, -h                      help for config 
 
 ```
 
@@ -62,9 +67,9 @@ ucloud config --profile=test --region cn-bj2 --active true
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud config add](software/cli/cmd/ucloud/config/add)	 - add configuration
-* [ucloud config delete](software/cli/cmd/ucloud/config/delete)	 - delete configurations by profile name
-* [ucloud config list](software/cli/cmd/ucloud/config/list)	 - list all configurations
-* [ucloud config update](software/cli/cmd/ucloud/config/update)	 - update configurations
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud config add](developer/cli/cmd/ucloud/config/add)	 - add configuration
+* [ucloud config delete](developer/cli/cmd/ucloud/config/delete)	 - delete configurations by profile name
+* [ucloud config list](developer/cli/cmd/ucloud/config/list)	 - list all configurations
+* [ucloud config update](developer/cli/cmd/ucloud/config/update)	 - update configurations
 

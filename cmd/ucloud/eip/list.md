@@ -29,9 +29,11 @@ ucloud eip list
 
   --page-off                Optional. Paging or not. Accept values: true or false 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
 ```
 
@@ -59,5 +61,5 @@ ucloud eip list
 
 ### SEE ALSO
 
-* [ucloud eip](software/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud eip](developer/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

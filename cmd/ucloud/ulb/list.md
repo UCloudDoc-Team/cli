@@ -15,9 +15,11 @@ ucloud ulb list [flags]
 ### Options
 
 ```
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --ulb-id     string       Optional. Resource ID of ULB instance to list 
 
@@ -60,5 +62,5 @@ ucloud ulb list [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb](software/cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
+* [ucloud ulb](developer/cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
 

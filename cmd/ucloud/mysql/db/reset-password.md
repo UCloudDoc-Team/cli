@@ -19,11 +19,14 @@ ucloud mysql db reset-password [flags]
 
   --password     string     Required. New password 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
   --help, -h                help for reset-password 
 
@@ -53,5 +56,5 @@ ucloud mysql db reset-password [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql db](software/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
+* [ucloud mysql db](developer/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

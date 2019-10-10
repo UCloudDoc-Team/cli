@@ -31,10 +31,11 @@ ucloud eip allocate --line BGP --bandwidth-mb 2
                                     'International' could be set in the regions beyond
                                     mainland, such as hk, tw-kh, us-ws etc. 
 
-  --project-id     string           Optional. Override default project-id, see 'ucloud project
-                                    list' 
+  --project-id     string           Optional. Override default project-id for this command
+                                    invocation, see 'ucloud project list' 
 
-  --region     string               Optional. Override default region, see 'ucloud region' 
+  --region     string               Optional. Override default region for this command
+                                    invocation, see 'ucloud region' 
 
   --traffic-mode     string         Optional. traffic-mode is an enumeration value.
                                     'Traffic','Bandwidth' or 'ShareBandwidth' (default "Bandwidth") 
@@ -86,5 +87,5 @@ ucloud eip allocate --line BGP --bandwidth-mb 2
 
 ### SEE ALSO
 
-* [ucloud eip](software/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud eip](developer/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

@@ -23,11 +23,14 @@ ucloud mysql db restore [flags]
                                  be a time in Universal Coordinated Time (UTC) format.Example:
                                  2019-02-23T23:45:00Z 
 
-  --region     string            Optional. Override default region, see 'ucloud region' 
+  --region     string            Optional. Override default region for this command
+                                 invocation, see 'ucloud region' 
 
-  --zone     string              Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string              Optional. Override default availability zone for this command
+                                 invocation, see 'ucloud region' 
 
-  --project-id     string        Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string        Optional. Override default project-id for this command
+                                 invocation, see 'ucloud project list' 
 
   --disk-type     string         Optional. Disk type. The default is to be consistent with the
                                  source database. Accept values: normal, ssd 
@@ -69,5 +72,5 @@ ucloud mysql db restore [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql db](software/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
+* [ucloud mysql db](developer/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

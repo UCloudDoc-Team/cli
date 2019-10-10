@@ -18,10 +18,11 @@ ucloud ulb vserver create [flags]
   --ulb-id     string                  Required. Resource ID of ULB instance which the VServer
                                        to create belongs to 
 
-  --region     string                  Optional. Override default region, see 'ucloud region' 
+  --region     string                  Optional. Override default region for this command
+                                       invocation, see 'ucloud region' 
 
-  --project-id     string              Optional. Override default project-id, see 'ucloud
-                                       project list' 
+  --project-id     string              Optional. Override default project-id for this command
+                                       invocation, see 'ucloud project list' 
 
   --name     string                    Optional. Name of VServer to create 
 
@@ -96,5 +97,5 @@ ucloud ulb vserver create [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb vserver](software/cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
+* [ucloud ulb vserver](developer/cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
 

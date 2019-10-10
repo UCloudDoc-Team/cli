@@ -15,7 +15,8 @@ ucloud pathx uga delete-port [flags]
 ### Options
 
 ```
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --uga-id     string       Required. Resource ID of uga instance to delete port 
 
@@ -52,5 +53,5 @@ ucloud pathx uga delete-port [flags]
 
 ### SEE ALSO
 
-* [ucloud pathx uga](software/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
+* [ucloud pathx uga](developer/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

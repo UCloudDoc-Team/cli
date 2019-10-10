@@ -39,11 +39,11 @@ List and manipulate ULB Vserver instances
 
 ### SEE ALSO
 
-* [ucloud ulb](software/cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
-* [ucloud ulb vserver backend](software/cli/cmd/ucloud/ulb/vserver/backend)	 - List and manipulate VServer backend nodes
-* [ucloud ulb vserver create](software/cli/cmd/ucloud/ulb/vserver/create)	 - Create ULB VServer instance
-* [ucloud ulb vserver delete](software/cli/cmd/ucloud/ulb/vserver/delete)	 - Delete ULB VServer instances
-* [ucloud ulb vserver list](software/cli/cmd/ucloud/ulb/vserver/list)	 - List ULB Vserver instances
-* [ucloud ulb vserver policy](software/cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
-* [ucloud ulb vserver update](software/cli/cmd/ucloud/ulb/vserver/update)	 - Update attributes of VServer instances
+* [ucloud ulb](developer/cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
+* [ucloud ulb vserver backend](developer/cli/cmd/ucloud/ulb/vserver/backend)	 - List and manipulate VServer backend nodes
+* [ucloud ulb vserver create](developer/cli/cmd/ucloud/ulb/vserver/create)	 - Create ULB VServer instance
+* [ucloud ulb vserver delete](developer/cli/cmd/ucloud/ulb/vserver/delete)	 - Delete ULB VServer instances
+* [ucloud ulb vserver list](developer/cli/cmd/ucloud/ulb/vserver/list)	 - List ULB Vserver instances
+* [ucloud ulb vserver policy](developer/cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
+* [ucloud ulb vserver update](developer/cli/cmd/ucloud/ulb/vserver/update)	 - Update attributes of VServer instances
 

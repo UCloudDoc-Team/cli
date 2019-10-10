@@ -39,9 +39,9 @@ List and manipulate udpn instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud udpn create](software/cli/cmd/ucloud/udpn/create)	 - Create UDPN tunnel
-* [ucloud udpn delete](software/cli/cmd/ucloud/udpn/delete)	 - delete udpn instances
-* [ucloud udpn list](software/cli/cmd/ucloud/udpn/list)	 - List udpn instances
-* [ucloud udpn modify-bw](software/cli/cmd/ucloud/udpn/modify-bw)	 - Modify bandwidth of UDPN tunnel
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud udpn create](developer/cli/cmd/ucloud/udpn/create)	 - Create UDPN tunnel
+* [ucloud udpn delete](developer/cli/cmd/ucloud/udpn/delete)	 - delete udpn instances
+* [ucloud udpn list](developer/cli/cmd/ucloud/udpn/list)	 - List udpn instances
+* [ucloud udpn modify-bw](developer/cli/cmd/ucloud/udpn/modify-bw)	 - Modify bandwidth of UDPN tunnel
 

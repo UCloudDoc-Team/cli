@@ -39,6 +39,6 @@ List UPHost instances
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud uphost list](software/cli/cmd/ucloud/uphost/list)	 - List UPHost instances
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud uphost list](developer/cli/cmd/ucloud/uphost/list)	 - List UPHost instances
 

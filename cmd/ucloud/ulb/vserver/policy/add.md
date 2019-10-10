@@ -28,9 +28,11 @@ ucloud ulb vserver policy add [flags]
   --expression     string       Required. Expression of domain or path, such as
                                 "www.[123].demo.com" or "/path/img/*.jpg" 
 
-  --region     string           Optional. Override default region, see 'ucloud region' 
+  --region     string           Optional. Override default region for this command invocation,
+                                see 'ucloud region' 
 
-  --project-id     string       Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string       Optional. Override default project-id for this command
+                                invocation, see 'ucloud project list' 
 
   --help, -h                    help for add 
 
@@ -60,5 +62,5 @@ ucloud ulb vserver policy add [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb vserver policy](software/cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
+* [ucloud ulb vserver policy](developer/cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
 

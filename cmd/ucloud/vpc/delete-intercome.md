@@ -59,5 +59,5 @@ ucloud vpc delete-intercome --vpc-id xxx --dst-vpc-id xxx
 
 ### SEE ALSO
 
-* [ucloud vpc](software/cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
+* [ucloud vpc](developer/cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
 

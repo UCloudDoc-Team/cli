@@ -39,6 +39,6 @@ extended commands of UCloud CLI
 
 ### SEE ALSO
 
-* [ucloud](software/cli/cmd/ucloud)	 - UCloud CLI v0.1.24
-* [ucloud ext uhost](software/cli/cmd/ucloud/ext/uhost)	 - extended uhost commands
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud ext uhost](developer/cli/cmd/ucloud/ext/uhost)	 - extended uhost commands
 

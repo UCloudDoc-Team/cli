@@ -15,9 +15,11 @@ ucloud ulb ssl delete [flags]
 ### Options
 
 ```
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --ssl-id     strings      Required. Resource ID of SSL Certificates to delete 
 
@@ -49,5 +51,5 @@ ucloud ulb ssl delete [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb ssl](software/cli/cmd/ucloud/ulb/ssl)	 - List and manipulate SSL Certificates for ULB
+* [ucloud ulb ssl](developer/cli/cmd/ucloud/ulb/ssl)	 - List and manipulate SSL Certificates for ULB
 

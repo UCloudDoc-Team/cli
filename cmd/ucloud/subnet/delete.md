@@ -17,9 +17,11 @@ ucloud subnet delete [flags]
 ```
   --subnet-id     strings   Required. Resource ID of subent 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --help, -h                help for delete 
 
@@ -49,5 +51,5 @@ ucloud subnet delete [flags]
 
 ### SEE ALSO
 
-* [ucloud subnet](software/cli/cmd/ucloud/subnet)	 - List, create and delete subnet
+* [ucloud subnet](developer/cli/cmd/ucloud/subnet)	 - List, create and delete subnet
 

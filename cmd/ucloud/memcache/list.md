@@ -17,11 +17,14 @@ ucloud memcache list [flags]
 ```
   --umem-id     string      Optional. Resource ID of the redis to list 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --zone     string         Optional. Override default availability zone, see 'ucloud region' 
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --offset     int          Optional. The index(a number) of resource which start to list 
 
@@ -55,5 +58,5 @@ ucloud memcache list [flags]
 
 ### SEE ALSO
 
-* [ucloud memcache](software/cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
+* [ucloud memcache](developer/cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
 

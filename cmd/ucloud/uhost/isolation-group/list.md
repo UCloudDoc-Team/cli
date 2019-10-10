@@ -17,9 +17,11 @@ ucloud uhost isolation-group list [flags]
 ```
   --group-id     string     Optional. Resource ID of isolation group to describe 
 
-  --region     string       Optional. Override default region, see 'ucloud region' 
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
 
-  --project-id     string   Optional. Override default project-id, see 'ucloud project list' 
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
 
   --limit     int           Optional. The maximum number of resources per page (default 100) 
 
@@ -53,5 +55,5 @@ ucloud uhost isolation-group list [flags]
 
 ### SEE ALSO
 
-* [ucloud uhost isolation-group](software/cli/cmd/ucloud/uhost/isolation-group)	 - List and manipulate isolation group of uhost
+* [ucloud uhost isolation-group](developer/cli/cmd/ucloud/uhost/isolation-group)	 - List and manipulate isolation group of uhost
 
