@@ -79,7 +79,7 @@ tar zxf ucloud-cli-linux-0.1.23-amd64.tgz -C /usr/local/bin/
 打开ucloud-cli的[发布页面](https://github.com/ucloud/ucloud-cli/releases)，找到适合您平台的ucloud-cli压缩包。点击链接进行下载并解压，然后把可执行文件ucloud.exe所在目录添加到PATH环境变量中，添加环境变量的操作可参考[文档](https://www.java.com/en/download/help/path.xml)
 
 ## 在Docker容器中使用UCloud-CLI
-如果您已安装Docker, 通过如下命令拉取已打包UCloud-CLI的镜像。镜像打包[Dockerfile](./Dockerfile)
+如果您已安装Docker, 通过如下命令拉取已打包UCloud-CLI的镜像。镜像打包Dockerfile
 ```
 docker pull uhub.service.ucloud.cn/ucloudcli/ucloud-cli:source-code
 ```
