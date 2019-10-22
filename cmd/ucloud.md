@@ -2,7 +2,7 @@
 
 ## ucloud
 
-UCloud CLI v0.1.25
+UCloud CLI v0.1.27
 
 ### Synopsis
 

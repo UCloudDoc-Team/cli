@@ -15,34 +15,43 @@ ucloud uhost list [flags]
 ### Options
 
 ```
-  --project-id     string   Optional. Assign project-id 
+  --project-id     string        Optional. Assign project-id 
 
-  --region     string       Optional. Assign region. 
+  --region     string            Optional. Assign region. 
 
-  --zone     string         Optional. Assign availability zone 
+  --zone     string              Optional. Assign availability zone 
 
-  --uhost-id     strings    Optional. Resource ID of uhost instances, multiple values
-                            separated by comma(without space) 
+  --offset     int               Optional. Offset default 0 
 
-  --offset     int          Optional. Offset default 0 
+  --limit     int                Optional. Limit default 50, max value 100 (default 50) 
 
-  --limit     int           Optional. Limit default 50, max value 100 (default 50) 
+  --vpc-id     string            Optional. Resource ID of VPC. List uhost instances of the
+                                 specified VPC 
 
-  --all-region              Optional. Accpet values: true or false. List uhost instances of
-                            all regions when assigned true 
+  --subnet-id     string         Optional. Resource ID of Subnet. List uhost instances of the
+                                 specified Subnet 
 
-  --page-off                Optional. Paging or not. If all-region is specified this flag will
-                            be true. Accept values: true or false. If assigned, the limit flag
-                            will be disabled and list all uhost instances 
+  --isolation-group     string   Optional. Resource ID of isolation group. List uhost
+                                 instances of the specified isolation group 
 
-  --uhost-id-only           Optional. Just display resource id of uhost 
+  --uhost-id     strings         Optional. Resource ID of uhost instances, multiple values
+                                 separated by comma(without space) 
 
-  --output, -o string       Optional. Accept values: wide. Display more information about
-                            uhost such as DiskSet and Zone 
+  --all-region                   Optional. Accpet values: true or false. List uhost instances
+                                 of all regions when assigned true 
 
-  --group     string        Optional. Business group 
+  --page-off                     Optional. Paging or not. If all-region is specified this flag
+                                 will be true. Accept values: true or false. If assigned, the
+                                 limit flag will be disabled and list all uhost instances 
 
-  --help, -h                help for list 
+  --uhost-id-only                Optional. Just display resource id of uhost 
+
+  --output, -o string            Optional. Accept values: wide. Display more information about
+                                 uhost such as DiskSet and Zone 
+
+  --group     string             Optional. Business group 
+
+  --help, -h                     help for list 
 
 ```
 

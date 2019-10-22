@@ -32,5 +32,5 @@ ucloud init [flags]
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.27
 

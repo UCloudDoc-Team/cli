@@ -39,7 +39,7 @@ Manipulate EIP, such as list,allocate and release
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.27
 * [ucloud eip allocate](developer/cli/cmd/ucloud/eip/allocate)	 - Allocate EIP
 * [ucloud eip bind](developer/cli/cmd/ucloud/eip/bind)	 - Bind EIP with uhost
 * [ucloud eip join-shared-bw](developer/cli/cmd/ucloud/eip/join-shared-bw)	 - Join shared bandwidth

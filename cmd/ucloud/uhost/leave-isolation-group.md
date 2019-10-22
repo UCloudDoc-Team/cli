@@ -1,17 +1,32 @@
-{{indexmenu_n>13}}
+{{indexmenu_n>14}}
 
-## ucloud uhost isolation-group
+## ucloud uhost leave-isolation-group
 
-List and manipulate isolation group of uhost
+Detach uhost from its isolation group
 
 ### Synopsis
 
-List and manipulate isolation group of uhost
+Detach uhost from its isolation group
+
+```
+ucloud uhost leave-isolation-group [flags]
+```
 
 ### Options
 
 ```
-  --help, -h   help for isolation-group 
+  --uhost-id     strings    Required. Resource ID of uhosts to be detech from its isolation group 
+
+  --region     string       Optional. Override default region for this command invocation, see
+                            'ucloud region' 
+
+  --project-id     string   Optional. Override default project-id for this command invocation,
+                            see 'ucloud project list' 
+
+  --zone     string         Optional. Override default availability zone for this command
+                            invocation, see 'ucloud region' 
+
+  --help, -h                help for leave-isolation-group 
 
 ```
 
@@ -40,7 +55,4 @@ List and manipulate isolation group of uhost
 ### SEE ALSO
 
 * [ucloud uhost](developer/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
-* [ucloud uhost isolation-group create](developer/cli/cmd/ucloud/uhost/isolation-group/create)	 - Create isolation group instance
-* [ucloud uhost isolation-group delete](developer/cli/cmd/ucloud/uhost/isolation-group/delete)	 - Delete isolation group instances
-* [ucloud uhost isolation-group list](developer/cli/cmd/ucloud/uhost/isolation-group/list)	 - List isolation group of uhost
 

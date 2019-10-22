@@ -90,7 +90,7 @@ ucloud uhost create [flags]
                                          as before (default "Normal") 
 
   --hot-plug     string                  Optional. Enable hot plug feature or not. Accept
-                                         values: true or false (default "false") 
+                                         values: true or false (default "true") 
 
   --os-disk-type     string              Optional. Enumeration value. 'LOCAL_NORMAL', Ordinary
                                          local disk; 'CLOUD_NORMAL', Ordinary cloud disk;

@@ -39,12 +39,13 @@ List,create,delete,stop,restart,poweroff or resize UHost instance
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.25
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.27
 * [ucloud uhost clone](developer/cli/cmd/ucloud/uhost/clone)	 - Create an uhost with the same configuration as another uhost, excluding bound eip and udisk
 * [ucloud uhost create](developer/cli/cmd/ucloud/uhost/create)	 - Create UHost instance
 * [ucloud uhost create-image](developer/cli/cmd/ucloud/uhost/create-image)	 - Create image from an uhost instance
 * [ucloud uhost delete](developer/cli/cmd/ucloud/uhost/delete)	 - Delete Uhost instance
 * [ucloud uhost isolation-group](developer/cli/cmd/ucloud/uhost/isolation-group)	 - List and manipulate isolation group of uhost
+* [ucloud uhost leave-isolation-group](developer/cli/cmd/ucloud/uhost/leave-isolation-group)	 - Detach uhost from its isolation group
 * [ucloud uhost list](developer/cli/cmd/ucloud/uhost/list)	 - List all UHost Instances
 * [ucloud uhost poweroff](developer/cli/cmd/ucloud/uhost/poweroff)	 - Analog power off Uhost instnace
 * [ucloud uhost reinstall-os](developer/cli/cmd/ucloud/uhost/reinstall-os)	 - Reinstall the operating system of the UHost instance
