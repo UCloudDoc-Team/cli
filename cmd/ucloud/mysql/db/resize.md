@@ -1,4 +1,4 @@
-{{indexmenu_n>7}}
+
 
 ## ucloud mysql db resize
 
