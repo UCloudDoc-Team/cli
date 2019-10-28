@@ -99,7 +99,7 @@ UCloud-CLI支持命令自动补全，开启后，您只需要输入命令的部�
 
 **Bash shell** 
 
-把如下代码添加到文件~/.bash_profile 或 ~/.bashrc中，然后source <~/.bash_profile|~/.bashrc>，或打开一个新终端，命令补全即生效
+把如下代码添加到文件 ~/.bash_profile 或 ~/.bashrc中，然后source <~/.bash_profile|~/.bashrc>，或打开一个新终端，命令补全即生效
 
 ```
 complete -C $(which ucloud) ucloud
