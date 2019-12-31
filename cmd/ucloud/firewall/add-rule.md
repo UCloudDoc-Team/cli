@@ -1,5 +1,3 @@
-
-
 ## ucloud firewall add-rule
 
 Add rule to firewall instance

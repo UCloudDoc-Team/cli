@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db restart
 
 Restart MySQL instances by udb-id

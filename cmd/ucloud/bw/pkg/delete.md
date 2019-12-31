@@ -1,5 +1,3 @@
-
-
 ## ucloud bw pkg delete
 
 Delete bandwidth packages

@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql conf
 
 List and manipulate configuration files of MySQL instances

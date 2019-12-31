@@ -1,5 +1,3 @@
-
-
 ## ucloud udisk detach
 
 Detach udisk instances from an uhost

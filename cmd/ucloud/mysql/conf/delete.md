@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql conf delete
 
 Delete configuration of udb by conf-id

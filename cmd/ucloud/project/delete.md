@@ -1,5 +1,3 @@
-
-
 ## ucloud project delete
 
 Delete project

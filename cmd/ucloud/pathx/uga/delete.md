@@ -1,5 +1,3 @@
-
-
 ## ucloud pathx uga delete
 
 Delete uga instances

@@ -1,5 +1,3 @@
-
-
 ## ucloud bw shared create
 
 Create shared bandwidth instance

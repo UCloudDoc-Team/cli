@@ -1,5 +1,3 @@
-
-
 ## ucloud image copy
 
 Copy custom images

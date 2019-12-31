@@ -1,5 +1,3 @@
-
-
 ## ucloud pathx uga delete-port
 
 Delete port for uga instance

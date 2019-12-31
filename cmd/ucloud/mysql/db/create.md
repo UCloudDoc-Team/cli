@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db create
 
 Create MySQL instance on UCloud platform

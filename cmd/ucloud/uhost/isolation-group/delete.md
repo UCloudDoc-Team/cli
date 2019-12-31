@@ -1,5 +1,3 @@
-
-
 ## ucloud uhost isolation-group delete
 
 Delete isolation group instances

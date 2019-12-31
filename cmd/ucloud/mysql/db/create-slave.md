@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db create-slave
 
 Create slave database

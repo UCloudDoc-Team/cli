@@ -1,5 +1,3 @@
-
-
 ## ucloud eip join-shared-bw
 
 Join shared bandwidth

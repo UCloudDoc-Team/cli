@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db restore
 
 Create MySQL instance and restore the newly created db to the specified DB at a specified point in time

@@ -1,5 +1,3 @@
-
-
 ## ucloud redis delete
 
 Delete redis instances

@@ -1,5 +1,3 @@
-
-
 ## ucloud ulb delete
 
 Delete ULB instances by resource ID

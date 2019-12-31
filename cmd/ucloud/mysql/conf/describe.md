@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql conf describe
 
 Display details about a configuration file of MySQL instance

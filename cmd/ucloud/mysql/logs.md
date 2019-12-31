@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql logs
 
 List and manipulate logs of MySQL instance

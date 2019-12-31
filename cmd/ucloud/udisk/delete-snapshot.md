@@ -1,5 +1,3 @@
-
-
 ## ucloud udisk delete-snapshot
 
 Delete snapshots

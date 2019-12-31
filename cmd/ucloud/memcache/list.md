@@ -1,5 +1,3 @@
-
-
 ## ucloud memcache list
 
 List memcache instances

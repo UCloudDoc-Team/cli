@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql conf clone
 
 Create configuration file by cloning existed configuration

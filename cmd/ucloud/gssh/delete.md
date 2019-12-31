@@ -1,5 +1,3 @@
-
-
 ## ucloud gssh delete
 
 Delete GlobalSSH instance

@@ -1,5 +1,3 @@
-
-
 ## ucloud bw shared
 
 Create and manipulate shared bandwidth instances

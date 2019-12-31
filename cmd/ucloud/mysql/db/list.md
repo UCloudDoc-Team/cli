@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db list
 
 List MySQL instances

@@ -1,5 +1,3 @@
-
-
 ## ucloud ulb ssl describe
 
 Display all data associated with SSL Certificate

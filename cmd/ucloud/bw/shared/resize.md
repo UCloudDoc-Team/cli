@@ -1,5 +1,3 @@
-
-
 ## ucloud bw shared resize
 
 Resize shared bandwidth instance's bandwidth

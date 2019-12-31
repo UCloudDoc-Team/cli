@@ -1,5 +1,3 @@
-
-
 ## ucloud image create
 
 Create image from an uhost instance

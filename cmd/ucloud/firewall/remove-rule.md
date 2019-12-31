@@ -1,5 +1,3 @@
-
-
 ## ucloud firewall remove-rule
 
 Remove rule from firewall instance

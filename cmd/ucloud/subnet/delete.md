@@ -1,5 +1,3 @@
-
-
 ## ucloud subnet delete
 
 Delete subnet

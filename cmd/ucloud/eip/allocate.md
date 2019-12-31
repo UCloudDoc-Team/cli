@@ -1,5 +1,3 @@
-
-
 ## ucloud eip allocate
 
 Allocate EIP

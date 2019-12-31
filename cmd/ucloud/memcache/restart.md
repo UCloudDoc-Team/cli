@@ -1,5 +1,3 @@
-
-
 ## ucloud memcache restart
 
 Restart memcache instances

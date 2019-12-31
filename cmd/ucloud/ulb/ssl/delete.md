@@ -1,5 +1,3 @@
-
-
 ## ucloud ulb ssl delete
 
 Delete SSL Certificates by resource id(ssl id)

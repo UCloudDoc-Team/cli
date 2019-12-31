@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql logs delete
 
 Delete log archives(log files)

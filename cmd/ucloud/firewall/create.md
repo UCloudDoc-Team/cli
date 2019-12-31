@@ -1,5 +1,3 @@
-
-
 ## ucloud firewall create
 
 Create firewall

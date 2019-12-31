@@ -1,5 +1,3 @@
-
-
 ## ucloud ulb vserver policy delete
 
 Delete content forward policies of ULB VServer

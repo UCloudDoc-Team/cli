@@ -1,5 +1,3 @@
-
-
 ## ucloud uhost reset-password
 
 Reset the administrator password for the UHost instances.

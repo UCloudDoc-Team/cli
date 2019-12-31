@@ -1,5 +1,3 @@
-
-
 ## ucloud redis create
 
 Create redis instance

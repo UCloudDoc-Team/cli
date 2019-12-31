@@ -1,5 +1,3 @@
-
-
 ## ucloud bw pkg
 
 List, create and delete bandwidth package instances

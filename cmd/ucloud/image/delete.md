@@ -1,5 +1,3 @@
-
-
 ## ucloud image delete
 
 Delete custom images

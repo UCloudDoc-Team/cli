@@ -1,5 +1,3 @@
-
-
 ## ucloud vpc create-intercome
 
 Create intercome with other vpc

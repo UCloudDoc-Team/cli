@@ -1,5 +1,3 @@
-
-
 ## ucloud subnet list-resource
 
 List resources belong to subnet

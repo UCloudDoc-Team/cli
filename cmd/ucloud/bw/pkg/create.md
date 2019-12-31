@@ -1,5 +1,3 @@
-
-
 ## ucloud bw pkg create
 
 Create bandwidth package

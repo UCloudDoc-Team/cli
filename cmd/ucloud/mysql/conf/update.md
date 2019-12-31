@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql conf update
 
 Update parameters of DB's configuration

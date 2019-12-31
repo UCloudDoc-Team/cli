@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql backup delete
 
 Delete backups of MySQL instance

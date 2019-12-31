@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db delete
 
 Delete MySQL instances by udb-id

@@ -1,5 +1,3 @@
-
-
 ## ucloud gssh create
 
 Create GlobalSSH instance

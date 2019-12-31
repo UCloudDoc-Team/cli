@@ -1,5 +1,3 @@
-
-
 ## ucloud eip modify-traffic-mode
 
 Modify charge mode of EIP instances

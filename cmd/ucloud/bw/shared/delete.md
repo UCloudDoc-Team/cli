@@ -1,5 +1,3 @@
-
-
 ## ucloud bw shared delete
 
 Delete shared bandwidth instance

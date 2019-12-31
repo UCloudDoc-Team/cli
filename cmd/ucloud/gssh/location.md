@@ -1,5 +1,3 @@
-
-
 ## ucloud gssh location
 
 List SSH server locations and covered areas

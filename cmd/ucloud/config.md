@@ -1,5 +1,3 @@
-
-
 ## ucloud config
 
 add or update configurations
@@ -67,7 +65,7 @@ ucloud config --profile=test --region cn-bj2 --active true
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.27
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.29
 * [ucloud config add](developer/cli/cmd/ucloud/config/add)	 - add configuration
 * [ucloud config delete](developer/cli/cmd/ucloud/config/delete)	 - delete configurations by profile name
 * [ucloud config list](developer/cli/cmd/ucloud/config/list)	 - list all configurations

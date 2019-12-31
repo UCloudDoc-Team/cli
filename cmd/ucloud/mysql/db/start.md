@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db start
 
 Start MySQL instances by udb-id

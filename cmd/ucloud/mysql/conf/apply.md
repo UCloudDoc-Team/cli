@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql conf apply
 
 Apply configuration for UDB instances

@@ -1,5 +1,3 @@
-
-
 ## ucloud pathx uga create
 
 Create uga instance

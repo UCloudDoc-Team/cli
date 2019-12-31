@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql logs archive
 
 Archive the log of mysql as a compressed file

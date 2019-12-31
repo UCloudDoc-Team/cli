@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db stop
 
 Stop MySQL instances by udb-id

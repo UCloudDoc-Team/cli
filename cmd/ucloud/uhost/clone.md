@@ -1,5 +1,3 @@
-
-
 ## ucloud uhost clone
 
 Create an uhost with the same configuration as another uhost, excluding bound eip and udisk

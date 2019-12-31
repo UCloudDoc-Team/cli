@@ -1,5 +1,3 @@
-
-
 ## ucloud pathx upath
 
 List pathx upath instances

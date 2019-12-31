@@ -1,5 +1,3 @@
-
-
 ## ucloud gssh update
 
 Update GlobalSSH instance

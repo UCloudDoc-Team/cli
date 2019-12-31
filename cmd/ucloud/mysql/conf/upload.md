@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql conf upload
 
 Create configuration file by uploading local DB configuration file

@@ -1,5 +1,3 @@
-
-
 ## ucloud uhost resize
 
 Resize uhost instance,such as cpu core count, memory size and disk size
@@ -23,22 +21,28 @@ ucloud uhost resize --uhost-id uhost-xxx1,uhost-xxx2 --cpu 4 --memory-gb 8
 ```
   --uhost-id     strings          Required. ResourceIDs(or UhostIDs) of the uhost instances 
 
-  --project-id     string         Optional. Assign project-id 
+  --project-id     string         Optional. Override default project-id for this command
+                                  invocation, see 'ucloud project list' 
 
-  --region     string             Optional. Assign region 
+  --region     string             Optional. Override default region for this command
+                                  invocation, see 'ucloud region' 
 
-  --zone     string               Optional. Assign availability zone 
+  --zone     string               Optional. Override default availability zone for this
+                                  command invocation, see 'ucloud region' 
 
   --cpu     int                   Optional. The number of virtual CPU cores. Series1 {1, 2, 4,
                                   8, 12, 16, 24, 32}. Series2 {1,2,4,8,16} 
 
   --memory-gb     int             Optional. memory size. Unit: GB. Range: [1, 128], multiple of 2 
 
-  --data-disk-size-gb     int     Optional. Data disk size,unit GB. Range[10,1000], SSD disk
-                                  range[100,500]. Step 10 
-
   --system-disk-size-gb     int   Optional. System disk size, unit GB. Range[20,100]. Step 10.
                                   System disk does not support shrinkage 
+
+  --data-disk-size-gb     int     Optional. Data disk size,unit GB. Step 10. disk does not
+                                  support shrinkage 
+
+  --data-disk-id     string       Optional. If the uhost specified has two or more data disks,
+                                  this parameter should be assigned 
 
   --net-cap     int               Optional. NIC scale. 1,upgrade; 2,downgrade; 0,unchanged 
 

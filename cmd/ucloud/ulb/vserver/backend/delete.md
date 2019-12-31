@@ -1,5 +1,3 @@
-
-
 ## ucloud ulb vserver backend delete
 
 Delete ULB VServer backend nodes

@@ -1,5 +1,3 @@
-
-
 ## ucloud uhost delete
 
 Delete Uhost instance
@@ -33,7 +31,7 @@ ucloud uhost delete [flags]
                             (default true) 
 
   --delete-cloud-disk       Optional. false, detach cloud disk only; true, detach cloud disk
-                            and delete it 
+                            and delete it (default true) 
 
   --yes, -y                 Optional. Do not prompt for confirmation. 
 

@@ -1,5 +1,3 @@
-
-
 ## ucloud config delete
 
 delete configurations by profile name

@@ -1,5 +1,3 @@
-
-
 ## ucloud udisk delete
 
 Delete udisk instances

@@ -1,5 +1,3 @@
-
-
 ## ucloud eip leave-shared-bw
 
 Leave shared bandwidth

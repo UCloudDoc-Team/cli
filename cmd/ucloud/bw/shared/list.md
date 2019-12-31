@@ -1,5 +1,3 @@
-
-
 ## ucloud bw shared list
 
 List shared bandwidth instances

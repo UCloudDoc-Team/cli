@@ -1,5 +1,3 @@
-
-
 ## ucloud ulb vserver delete
 
 Delete ULB VServer instances

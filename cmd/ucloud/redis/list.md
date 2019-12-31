@@ -1,5 +1,3 @@
-
-
 ## ucloud redis list
 
 List redis instances

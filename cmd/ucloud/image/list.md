@@ -1,5 +1,3 @@
-
-
 ## ucloud image list
 
 List image

@@ -1,5 +1,3 @@
-
-
 ## ucloud redis restart
 
 Restart redis instances of master-replica type

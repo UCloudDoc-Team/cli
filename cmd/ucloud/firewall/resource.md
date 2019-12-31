@@ -1,5 +1,3 @@
-
-
 ## ucloud firewall resource
 
 List resources that has been applied the firewall

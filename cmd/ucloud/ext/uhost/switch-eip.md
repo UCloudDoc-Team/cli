@@ -1,5 +1,3 @@
-
-
 ## ucloud ext uhost switch-eip
 
 Switch EIP for UHost instances

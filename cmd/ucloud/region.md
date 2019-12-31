@@ -1,5 +1,3 @@
-
-
 ## ucloud region
 
 List all region and zone
@@ -49,5 +47,5 @@ ucloud region
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.27
+* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.29
 

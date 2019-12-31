@@ -1,5 +1,3 @@
-
-
 ## ucloud memcache create
 
 Create memcache instance

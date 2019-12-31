@@ -1,5 +1,3 @@
-
-
 ## ucloud pathx uga describe
 
 Display detail informations about uga instances

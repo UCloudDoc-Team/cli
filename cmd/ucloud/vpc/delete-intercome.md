@@ -1,5 +1,3 @@
-
-
 ## ucloud vpc delete-intercome
 
 delete the vpc intercome

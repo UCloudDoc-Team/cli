@@ -1,5 +1,3 @@
-
-
 ## ucloud firewall update
 
 Update firewall attribute, such as name,group and remark.

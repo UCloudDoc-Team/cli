@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db promote-slave
 
 Promote slave db to master

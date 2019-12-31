@@ -1,5 +1,3 @@
-
-
 ## ucloud mysql db reset-password
 
 Reset password of MySQL instances

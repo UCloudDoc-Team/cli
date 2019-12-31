@@ -1,5 +1,3 @@
-
-
 ## ucloud uhost reinstall-os
 
 Reinstall the operating system of the UHost instance

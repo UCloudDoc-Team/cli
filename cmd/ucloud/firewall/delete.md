@@ -1,5 +1,3 @@
-
-
 ## ucloud firewall delete
 
 Delete firewall by resource ids or names

@@ -1,5 +1,3 @@
-
-
 ## ucloud bw pkg list
 
 List bandwidth packages
