@@ -2,7 +2,7 @@
 
 # 快速开始
 
-##  UCloud CLI 
+##  UCloud CLI   
   
 ![](https://ucloud-cli.dl.ufileos.com/ucloud_cli_demo.gif)
 
