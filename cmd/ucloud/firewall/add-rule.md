@@ -60,5 +60,5 @@ ucloud firewall add-rule --fw-id firewall-2xxxxz/test.lxj2 --rules "TCP|24|0.0.0
 
 ### SEE ALSO
 
-* [ucloud firewall](developer/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
+* [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

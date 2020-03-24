@@ -45,5 +45,5 @@ ucloud udpn delete [flags]
 
 ### SEE ALSO
 
-* [ucloud udpn](developer/cli/cmd/ucloud/udpn)	 - List and manipulate udpn instances
+* [ucloud udpn](cli/cmd/ucloud/udpn)	 - List and manipulate udpn instances
 

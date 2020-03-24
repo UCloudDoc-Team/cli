@@ -95,5 +95,5 @@ ucloud ulb vserver create [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb vserver](developer/cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
+* [ucloud ulb vserver](cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
 

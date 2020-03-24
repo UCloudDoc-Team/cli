@@ -60,5 +60,5 @@ ucloud vpc create-intercome --vpc-id xx --dst-vpc-id xx --dst-region xx
 
 ### SEE ALSO
 
-* [ucloud vpc](developer/cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
+* [ucloud vpc](cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
 

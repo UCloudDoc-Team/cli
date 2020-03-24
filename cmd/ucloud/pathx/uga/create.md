@@ -69,5 +69,5 @@ ucloud pathx uga create --name testcli1 --protocol tcp --origin-location 中国 
 
 ### SEE ALSO
 
-* [ucloud pathx uga](developer/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
+* [ucloud pathx uga](cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

@@ -37,16 +37,16 @@ Manange MySQL instances
 
 ### SEE ALSO
 
-* [ucloud mysql](developer/cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
-* [ucloud mysql db create](developer/cli/cmd/ucloud/mysql/db/create)	 - Create MySQL instance on UCloud platform
-* [ucloud mysql db create-slave](developer/cli/cmd/ucloud/mysql/db/create-slave)	 - Create slave database
-* [ucloud mysql db delete](developer/cli/cmd/ucloud/mysql/db/delete)	 - Delete MySQL instances by udb-id
-* [ucloud mysql db list](developer/cli/cmd/ucloud/mysql/db/list)	 - List MySQL instances
-* [ucloud mysql db promote-slave](developer/cli/cmd/ucloud/mysql/db/promote-slave)	 - Promote slave db to master
-* [ucloud mysql db reset-password](developer/cli/cmd/ucloud/mysql/db/reset-password)	 - Reset password of MySQL instances
-* [ucloud mysql db resize](developer/cli/cmd/ucloud/mysql/db/resize)	 - Reszie MySQL instances, such as memory size, disk size and disk type
-* [ucloud mysql db restart](developer/cli/cmd/ucloud/mysql/db/restart)	 - Restart MySQL instances by udb-id
-* [ucloud mysql db restore](developer/cli/cmd/ucloud/mysql/db/restore)	 - Create MySQL instance and restore the newly created db to the specified DB at a specified point in time
-* [ucloud mysql db start](developer/cli/cmd/ucloud/mysql/db/start)	 - Start MySQL instances by udb-id
-* [ucloud mysql db stop](developer/cli/cmd/ucloud/mysql/db/stop)	 - Stop MySQL instances by udb-id
+* [ucloud mysql](cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
+* [ucloud mysql db create](cli/cmd/ucloud/mysql/db/create)	 - Create MySQL instance on UCloud platform
+* [ucloud mysql db create-slave](cli/cmd/ucloud/mysql/db/create-slave)	 - Create slave database
+* [ucloud mysql db delete](cli/cmd/ucloud/mysql/db/delete)	 - Delete MySQL instances by udb-id
+* [ucloud mysql db list](cli/cmd/ucloud/mysql/db/list)	 - List MySQL instances
+* [ucloud mysql db promote-slave](cli/cmd/ucloud/mysql/db/promote-slave)	 - Promote slave db to master
+* [ucloud mysql db reset-password](cli/cmd/ucloud/mysql/db/reset-password)	 - Reset password of MySQL instances
+* [ucloud mysql db resize](cli/cmd/ucloud/mysql/db/resize)	 - Reszie MySQL instances, such as memory size, disk size and disk type
+* [ucloud mysql db restart](cli/cmd/ucloud/mysql/db/restart)	 - Restart MySQL instances by udb-id
+* [ucloud mysql db restore](cli/cmd/ucloud/mysql/db/restore)	 - Create MySQL instance and restore the newly created db to the specified DB at a specified point in time
+* [ucloud mysql db start](cli/cmd/ucloud/mysql/db/start)	 - Start MySQL instances by udb-id
+* [ucloud mysql db stop](cli/cmd/ucloud/mysql/db/stop)	 - Stop MySQL instances by udb-id
 

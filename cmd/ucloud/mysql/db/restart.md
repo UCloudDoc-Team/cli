@@ -54,5 +54,5 @@ ucloud mysql db restart [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql db](developer/cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
+* [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

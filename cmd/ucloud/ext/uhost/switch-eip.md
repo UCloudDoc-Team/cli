@@ -88,5 +88,5 @@ ucloud ext uhost switch-eip --uhost-id uhost-1n1sxx2,uhost-li4jxx1 --create-eip-
 
 ### SEE ALSO
 
-* [ucloud ext uhost](developer/cli/cmd/ucloud/ext/uhost)	 - extended uhost commands
+* [ucloud ext uhost](cli/cmd/ucloud/ext/uhost)	 - extended uhost commands
 

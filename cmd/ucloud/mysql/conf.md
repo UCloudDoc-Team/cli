@@ -37,13 +37,13 @@ List and manipulate configuration files of MySQL instances
 
 ### SEE ALSO
 
-* [ucloud mysql](developer/cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
-* [ucloud mysql conf apply](developer/cli/cmd/ucloud/mysql/conf/apply)	 - Apply configuration for UDB instances
-* [ucloud mysql conf clone](developer/cli/cmd/ucloud/mysql/conf/clone)	 - Create configuration file by cloning existed configuration
-* [ucloud mysql conf delete](developer/cli/cmd/ucloud/mysql/conf/delete)	 - Delete configuration of udb by conf-id
-* [ucloud mysql conf describe](developer/cli/cmd/ucloud/mysql/conf/describe)	 - Display details about a configuration file of MySQL instance
-* [ucloud mysql conf download](developer/cli/cmd/ucloud/mysql/conf/download)	 - Download UDB configuration
-* [ucloud mysql conf list](developer/cli/cmd/ucloud/mysql/conf/list)	 - List configuartion files of MySQL instances
-* [ucloud mysql conf update](developer/cli/cmd/ucloud/mysql/conf/update)	 - Update parameters of DB's configuration
-* [ucloud mysql conf upload](developer/cli/cmd/ucloud/mysql/conf/upload)	 - Create configuration file by uploading local DB configuration file
+* [ucloud mysql](cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
+* [ucloud mysql conf apply](cli/cmd/ucloud/mysql/conf/apply)	 - Apply configuration for UDB instances
+* [ucloud mysql conf clone](cli/cmd/ucloud/mysql/conf/clone)	 - Create configuration file by cloning existed configuration
+* [ucloud mysql conf delete](cli/cmd/ucloud/mysql/conf/delete)	 - Delete configuration of udb by conf-id
+* [ucloud mysql conf describe](cli/cmd/ucloud/mysql/conf/describe)	 - Display details about a configuration file of MySQL instance
+* [ucloud mysql conf download](cli/cmd/ucloud/mysql/conf/download)	 - Download UDB configuration
+* [ucloud mysql conf list](cli/cmd/ucloud/mysql/conf/list)	 - List configuartion files of MySQL instances
+* [ucloud mysql conf update](cli/cmd/ucloud/mysql/conf/update)	 - Update parameters of DB's configuration
+* [ucloud mysql conf upload](cli/cmd/ucloud/mysql/conf/upload)	 - Create configuration file by uploading local DB configuration file
 

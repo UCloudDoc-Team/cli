@@ -37,9 +37,9 @@ List and manipulate forward policy for VServer
 
 ### SEE ALSO
 
-* [ucloud ulb vserver](developer/cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
-* [ucloud ulb vserver policy add](developer/cli/cmd/ucloud/ulb/vserver/policy/add)	 - Add content forward policy for VServer
-* [ucloud ulb vserver policy delete](developer/cli/cmd/ucloud/ulb/vserver/policy/delete)	 - Delete content forward policies of ULB VServer
-* [ucloud ulb vserver policy list](developer/cli/cmd/ucloud/ulb/vserver/policy/list)	 - List content forward policies of the VServer instance
-* [ucloud ulb vserver policy update](developer/cli/cmd/ucloud/ulb/vserver/policy/update)	 - Update content forward policies of ULB VServer
+* [ucloud ulb vserver](cli/cmd/ucloud/ulb/vserver)	 - List and manipulate ULB Vserver instances
+* [ucloud ulb vserver policy add](cli/cmd/ucloud/ulb/vserver/policy/add)	 - Add content forward policy for VServer
+* [ucloud ulb vserver policy delete](cli/cmd/ucloud/ulb/vserver/policy/delete)	 - Delete content forward policies of ULB VServer
+* [ucloud ulb vserver policy list](cli/cmd/ucloud/ulb/vserver/policy/list)	 - List content forward policies of the VServer instance
+* [ucloud ulb vserver policy update](cli/cmd/ucloud/ulb/vserver/policy/update)	 - Update content forward policies of ULB VServer
 

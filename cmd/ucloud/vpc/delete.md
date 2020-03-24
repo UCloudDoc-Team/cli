@@ -53,5 +53,5 @@ ucloud vpc delete --vpc-id uvnet-xxx
 
 ### SEE ALSO
 
-* [ucloud vpc](developer/cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
+* [ucloud vpc](cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
 

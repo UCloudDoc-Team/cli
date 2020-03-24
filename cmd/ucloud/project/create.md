@@ -51,5 +51,5 @@ ucloud project create --name xxx
 
 ### SEE ALSO
 
-* [ucloud project](developer/cli/cmd/ucloud/project)	 - List,create,update and delete project
+* [ucloud project](cli/cmd/ucloud/project)	 - List,create,update and delete project
 

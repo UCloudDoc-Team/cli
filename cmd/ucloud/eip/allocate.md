@@ -85,5 +85,5 @@ ucloud eip allocate --line BGP --bandwidth-mb 2
 
 ### SEE ALSO
 
-* [ucloud eip](developer/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

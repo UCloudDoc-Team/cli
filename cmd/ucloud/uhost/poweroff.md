@@ -57,5 +57,5 @@ ucloud uhost poweroff --uhost-id uhost-xxx1,uhost-xxx2
 
 ### SEE ALSO
 
-* [ucloud uhost](developer/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
+* [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

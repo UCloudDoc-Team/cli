@@ -62,5 +62,5 @@ ucloud mysql logs list [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql logs](developer/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
+* [ucloud mysql logs](cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

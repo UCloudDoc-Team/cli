@@ -37,9 +37,9 @@ Create and manipulate shared bandwidth instances
 
 ### SEE ALSO
 
-* [ucloud bw](developer/cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
-* [ucloud bw shared create](developer/cli/cmd/ucloud/bw/shared/create)	 - Create shared bandwidth instance
-* [ucloud bw shared delete](developer/cli/cmd/ucloud/bw/shared/delete)	 - Delete shared bandwidth instance
-* [ucloud bw shared list](developer/cli/cmd/ucloud/bw/shared/list)	 - List shared bandwidth instances
-* [ucloud bw shared resize](developer/cli/cmd/ucloud/bw/shared/resize)	 - Resize shared bandwidth instance's bandwidth
+* [ucloud bw](cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
+* [ucloud bw shared create](cli/cmd/ucloud/bw/shared/create)	 - Create shared bandwidth instance
+* [ucloud bw shared delete](cli/cmd/ucloud/bw/shared/delete)	 - Delete shared bandwidth instance
+* [ucloud bw shared list](cli/cmd/ucloud/bw/shared/list)	 - List shared bandwidth instances
+* [ucloud bw shared resize](cli/cmd/ucloud/bw/shared/resize)	 - Resize shared bandwidth instance's bandwidth
 

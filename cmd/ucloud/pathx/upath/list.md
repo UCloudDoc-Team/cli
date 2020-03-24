@@ -46,5 +46,5 @@ ucloud pathx upath list [flags]
 
 ### SEE ALSO
 
-* [ucloud pathx upath](developer/cli/cmd/ucloud/pathx/upath)	 - List pathx upath instances
+* [ucloud pathx upath](cli/cmd/ucloud/pathx/upath)	 - List pathx upath instances
 

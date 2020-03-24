@@ -68,5 +68,5 @@ ucloud mysql logs archive --name test.cli2 --udb-id udb-xxx/test.cli1 --log-type
 
 ### SEE ALSO
 
-* [ucloud mysql logs](developer/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
+* [ucloud mysql logs](cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

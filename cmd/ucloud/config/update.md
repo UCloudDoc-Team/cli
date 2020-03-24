@@ -57,5 +57,5 @@ ucloud config update [flags]
 
 ### SEE ALSO
 
-* [ucloud config](developer/cli/cmd/ucloud/config)	 - add or update configurations
+* [ucloud config](cli/cmd/ucloud/config)	 - add or update configurations
 

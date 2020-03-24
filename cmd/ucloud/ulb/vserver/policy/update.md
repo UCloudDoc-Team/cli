@@ -68,5 +68,5 @@ ucloud ulb vserver policy update [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb vserver policy](developer/cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
+* [ucloud ulb vserver policy](cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
 

@@ -37,8 +37,8 @@ List and manipulate isolation group of uhost
 
 ### SEE ALSO
 
-* [ucloud uhost](developer/cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
-* [ucloud uhost isolation-group create](developer/cli/cmd/ucloud/uhost/isolation-group/create)	 - Create isolation group instance
-* [ucloud uhost isolation-group delete](developer/cli/cmd/ucloud/uhost/isolation-group/delete)	 - Delete isolation group instances
-* [ucloud uhost isolation-group list](developer/cli/cmd/ucloud/uhost/isolation-group/list)	 - List isolation group of uhost
+* [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
+* [ucloud uhost isolation-group create](cli/cmd/ucloud/uhost/isolation-group/create)	 - Create isolation group instance
+* [ucloud uhost isolation-group delete](cli/cmd/ucloud/uhost/isolation-group/delete)	 - Delete isolation group instances
+* [ucloud uhost isolation-group list](cli/cmd/ucloud/uhost/isolation-group/list)	 - List isolation group of uhost
 

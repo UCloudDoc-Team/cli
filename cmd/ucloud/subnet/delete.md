@@ -49,5 +49,5 @@ ucloud subnet delete [flags]
 
 ### SEE ALSO
 
-* [ucloud subnet](developer/cli/cmd/ucloud/subnet)	 - List, create and delete subnet
+* [ucloud subnet](cli/cmd/ucloud/subnet)	 - List, create and delete subnet
 

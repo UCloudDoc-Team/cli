@@ -55,5 +55,5 @@ ucloud eip join-shared-bw --eip-id eip-xxx --shared-bw-id bwshare-xxx
 
 ### SEE ALSO
 
-* [ucloud eip](developer/cli/cmd/ucloud/eip)	 - List,allocate and release EIP
+* [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

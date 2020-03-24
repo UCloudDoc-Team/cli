@@ -56,5 +56,5 @@ ucloud gssh update --gssh-id uga-xxx --port 22
 
 ### SEE ALSO
 
-* [ucloud gssh](developer/cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
+* [ucloud gssh](cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

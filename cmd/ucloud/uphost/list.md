@@ -57,5 +57,5 @@ ucloud uphost list [flags]
 
 ### SEE ALSO
 
-* [ucloud uphost](developer/cli/cmd/ucloud/uphost)	 - List UPHost instances
+* [ucloud uphost](cli/cmd/ucloud/uphost)	 - List UPHost instances
 

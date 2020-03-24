@@ -67,5 +67,5 @@ ucloud memcache create [flags]
 
 ### SEE ALSO
 
-* [ucloud memcache](developer/cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
+* [ucloud memcache](cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
 

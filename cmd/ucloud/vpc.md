@@ -37,11 +37,11 @@ List and manipulate VPC instances
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.29
-* [ucloud vpc create](developer/cli/cmd/ucloud/vpc/create)	 - Create vpc network
-* [ucloud vpc create-intercome](developer/cli/cmd/ucloud/vpc/create-intercome)	 - Create intercome with other vpc
-* [ucloud vpc delete](developer/cli/cmd/ucloud/vpc/delete)	 - Delete vpc network
-* [ucloud vpc delete-intercome](developer/cli/cmd/ucloud/vpc/delete-intercome)	 - delete the vpc intercome
-* [ucloud vpc list](developer/cli/cmd/ucloud/vpc/list)	 - List vpc
-* [ucloud vpc list-intercome](developer/cli/cmd/ucloud/vpc/list-intercome)	 - list intercome 
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud vpc create](cli/cmd/ucloud/vpc/create)	 - Create vpc network
+* [ucloud vpc create-intercome](cli/cmd/ucloud/vpc/create-intercome)	 - Create intercome with other vpc
+* [ucloud vpc delete](cli/cmd/ucloud/vpc/delete)	 - Delete vpc network
+* [ucloud vpc delete-intercome](cli/cmd/ucloud/vpc/delete-intercome)	 - delete the vpc intercome
+* [ucloud vpc list](cli/cmd/ucloud/vpc/list)	 - List vpc
+* [ucloud vpc list-intercome](cli/cmd/ucloud/vpc/list-intercome)	 - list intercome 
 

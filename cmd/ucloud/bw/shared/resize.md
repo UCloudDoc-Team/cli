@@ -51,5 +51,5 @@ ucloud bw shared resize [flags]
 
 ### SEE ALSO
 
-* [ucloud bw shared](developer/cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
+* [ucloud bw shared](cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
 

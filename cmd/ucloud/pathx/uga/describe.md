@@ -46,5 +46,5 @@ ucloud pathx uga describe [flags]
 
 ### SEE ALSO
 
-* [ucloud pathx uga](developer/cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
+* [ucloud pathx uga](cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

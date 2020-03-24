@@ -72,5 +72,5 @@ ucloud firewall create --name test3 --rules "TCP|22|0.0.0.0/0|ACCEPT|HIGH" --rul
 
 ### SEE ALSO
 
-* [ucloud firewall](developer/cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
+* [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

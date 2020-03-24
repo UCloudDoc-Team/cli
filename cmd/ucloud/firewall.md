@@ -37,14 +37,14 @@ List and manipulate extranet firewall
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.29
-* [ucloud firewall add-rule](developer/cli/cmd/ucloud/firewall/add-rule)	 - Add rule to firewall instance
-* [ucloud firewall apply](developer/cli/cmd/ucloud/firewall/apply)	 - Applay firewall to ucloud service
-* [ucloud firewall copy](developer/cli/cmd/ucloud/firewall/copy)	 - Copy firewall
-* [ucloud firewall create](developer/cli/cmd/ucloud/firewall/create)	 - Create firewall
-* [ucloud firewall delete](developer/cli/cmd/ucloud/firewall/delete)	 - Delete firewall by resource ids or names
-* [ucloud firewall list](developer/cli/cmd/ucloud/firewall/list)	 - List extranet firewall
-* [ucloud firewall remove-rule](developer/cli/cmd/ucloud/firewall/remove-rule)	 - Remove rule from firewall instance
-* [ucloud firewall resource](developer/cli/cmd/ucloud/firewall/resource)	 - List resources that has been applied the firewall
-* [ucloud firewall update](developer/cli/cmd/ucloud/firewall/update)	 - Update firewall attribute, such as name,group and remark.
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud firewall add-rule](cli/cmd/ucloud/firewall/add-rule)	 - Add rule to firewall instance
+* [ucloud firewall apply](cli/cmd/ucloud/firewall/apply)	 - Applay firewall to ucloud service
+* [ucloud firewall copy](cli/cmd/ucloud/firewall/copy)	 - Copy firewall
+* [ucloud firewall create](cli/cmd/ucloud/firewall/create)	 - Create firewall
+* [ucloud firewall delete](cli/cmd/ucloud/firewall/delete)	 - Delete firewall by resource ids or names
+* [ucloud firewall list](cli/cmd/ucloud/firewall/list)	 - List extranet firewall
+* [ucloud firewall remove-rule](cli/cmd/ucloud/firewall/remove-rule)	 - Remove rule from firewall instance
+* [ucloud firewall resource](cli/cmd/ucloud/firewall/resource)	 - List resources that has been applied the firewall
+* [ucloud firewall update](cli/cmd/ucloud/firewall/update)	 - Update firewall attribute, such as name,group and remark.
 

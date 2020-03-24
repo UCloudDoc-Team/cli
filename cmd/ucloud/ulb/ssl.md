@@ -37,11 +37,11 @@ List and manipulate SSL Certificates for ULB
 
 ### SEE ALSO
 
-* [ucloud ulb](developer/cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
-* [ucloud ulb ssl add](developer/cli/cmd/ucloud/ulb/ssl/add)	 - Add SSL Certificate
-* [ucloud ulb ssl bind](developer/cli/cmd/ucloud/ulb/ssl/bind)	 - Bind SSL Certificate with VServer
-* [ucloud ulb ssl delete](developer/cli/cmd/ucloud/ulb/ssl/delete)	 - Delete SSL Certificates by resource id(ssl id)
-* [ucloud ulb ssl describe](developer/cli/cmd/ucloud/ulb/ssl/describe)	 - Display all data associated with SSL Certificate
-* [ucloud ulb ssl list](developer/cli/cmd/ucloud/ulb/ssl/list)	 - List SSL Certificates
-* [ucloud ulb ssl unbind](developer/cli/cmd/ucloud/ulb/ssl/unbind)	 - Unbind SSL Certificate with VServer
+* [ucloud ulb](cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
+* [ucloud ulb ssl add](cli/cmd/ucloud/ulb/ssl/add)	 - Add SSL Certificate
+* [ucloud ulb ssl bind](cli/cmd/ucloud/ulb/ssl/bind)	 - Bind SSL Certificate with VServer
+* [ucloud ulb ssl delete](cli/cmd/ucloud/ulb/ssl/delete)	 - Delete SSL Certificates by resource id(ssl id)
+* [ucloud ulb ssl describe](cli/cmd/ucloud/ulb/ssl/describe)	 - Display all data associated with SSL Certificate
+* [ucloud ulb ssl list](cli/cmd/ucloud/ulb/ssl/list)	 - List SSL Certificates
+* [ucloud ulb ssl unbind](cli/cmd/ucloud/ulb/ssl/unbind)	 - Unbind SSL Certificate with VServer
 

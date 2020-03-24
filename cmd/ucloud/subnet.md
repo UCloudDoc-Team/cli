@@ -37,9 +37,9 @@ List, create and delete subnet
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.29
-* [ucloud subnet create](developer/cli/cmd/ucloud/subnet/create)	 - Create subnet of vpc network
-* [ucloud subnet delete](developer/cli/cmd/ucloud/subnet/delete)	 - Delete subnet
-* [ucloud subnet list](developer/cli/cmd/ucloud/subnet/list)	 - List subnet
-* [ucloud subnet list-resource](developer/cli/cmd/ucloud/subnet/list-resource)	 - List resources belong to subnet
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud subnet create](cli/cmd/ucloud/subnet/create)	 - Create subnet of vpc network
+* [ucloud subnet delete](cli/cmd/ucloud/subnet/delete)	 - Delete subnet
+* [ucloud subnet list](cli/cmd/ucloud/subnet/list)	 - List subnet
+* [ucloud subnet list-resource](cli/cmd/ucloud/subnet/list-resource)	 - List resources belong to subnet
 

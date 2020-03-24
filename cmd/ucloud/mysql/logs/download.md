@@ -60,5 +60,5 @@ ucloud mysql logs download --udb-id udb-urixxx/test.cli1 --archive-id 35044
 
 ### SEE ALSO
 
-* [ucloud mysql logs](developer/cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
+* [ucloud mysql logs](cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

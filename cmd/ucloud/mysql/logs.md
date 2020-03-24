@@ -37,9 +37,9 @@ List and manipulate logs of MySQL instance
 
 ### SEE ALSO
 
-* [ucloud mysql](developer/cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
-* [ucloud mysql logs archive](developer/cli/cmd/ucloud/mysql/logs/archive)	 - Archive the log of mysql as a compressed file
-* [ucloud mysql logs delete](developer/cli/cmd/ucloud/mysql/logs/delete)	 - Delete log archives(log files)
-* [ucloud mysql logs download](developer/cli/cmd/ucloud/mysql/logs/download)	 - Display url of an archive(log file)
-* [ucloud mysql logs list](developer/cli/cmd/ucloud/mysql/logs/list)	 - List mysql log archives(log files)
+* [ucloud mysql](cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
+* [ucloud mysql logs archive](cli/cmd/ucloud/mysql/logs/archive)	 - Archive the log of mysql as a compressed file
+* [ucloud mysql logs delete](cli/cmd/ucloud/mysql/logs/delete)	 - Delete log archives(log files)
+* [ucloud mysql logs download](cli/cmd/ucloud/mysql/logs/download)	 - Display url of an archive(log file)
+* [ucloud mysql logs list](cli/cmd/ucloud/mysql/logs/list)	 - List mysql log archives(log files)
 

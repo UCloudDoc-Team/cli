@@ -61,5 +61,5 @@ ucloud subnet create --vpc-id uvnet-vpcxid --name testName --segment 192.168.2.0
 
 ### SEE ALSO
 
-* [ucloud subnet](developer/cli/cmd/ucloud/subnet)	 - List, create and delete subnet
+* [ucloud subnet](cli/cmd/ucloud/subnet)	 - List, create and delete subnet
 

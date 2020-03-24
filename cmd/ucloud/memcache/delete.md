@@ -58,5 +58,5 @@ ucloud memcache delete --umem-id umemcache-rl5xuxx/testcli1,umemcache-xsdfa/test
 
 ### SEE ALSO
 
-* [ucloud memcache](developer/cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
+* [ucloud memcache](cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
 

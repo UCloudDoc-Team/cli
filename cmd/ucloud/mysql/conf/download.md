@@ -52,5 +52,5 @@ ucloud mysql conf download [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql conf](developer/cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
+* [ucloud mysql conf](cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

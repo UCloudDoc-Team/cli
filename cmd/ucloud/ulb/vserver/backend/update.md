@@ -59,5 +59,5 @@ ucloud ulb vserver backend update [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb vserver backend](developer/cli/cmd/ucloud/ulb/vserver/backend)	 - List and manipulate VServer backend nodes
+* [ucloud ulb vserver backend](cli/cmd/ucloud/ulb/vserver/backend)	 - List and manipulate VServer backend nodes
 

@@ -59,5 +59,5 @@ ucloud vpc create --name xxx --segment 192.168.0.0/16
 
 ### SEE ALSO
 
-* [ucloud vpc](developer/cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
+* [ucloud vpc](cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
 

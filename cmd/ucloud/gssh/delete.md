@@ -53,5 +53,5 @@ ucloud gssh delete --gssh-id uga-xx1  --id uga-xx2
 
 ### SEE ALSO
 
-* [ucloud gssh](developer/cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
+* [ucloud gssh](cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

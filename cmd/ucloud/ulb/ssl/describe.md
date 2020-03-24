@@ -49,5 +49,5 @@ ucloud ulb ssl describe [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb ssl](developer/cli/cmd/ucloud/ulb/ssl)	 - List and manipulate SSL Certificates for ULB
+* [ucloud ulb ssl](cli/cmd/ucloud/ulb/ssl)	 - List and manipulate SSL Certificates for ULB
 

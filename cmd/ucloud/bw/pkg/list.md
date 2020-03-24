@@ -51,5 +51,5 @@ ucloud bw pkg list [flags]
 
 ### SEE ALSO
 
-* [ucloud bw pkg](developer/cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
+* [ucloud bw pkg](cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
 

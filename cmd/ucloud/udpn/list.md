@@ -51,5 +51,5 @@ ucloud udpn list [flags]
 
 ### SEE ALSO
 
-* [ucloud udpn](developer/cli/cmd/ucloud/udpn)	 - List and manipulate udpn instances
+* [ucloud udpn](cli/cmd/ucloud/udpn)	 - List and manipulate udpn instances
 

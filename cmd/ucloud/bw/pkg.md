@@ -37,8 +37,8 @@ List, create and delete bandwidth package instances
 
 ### SEE ALSO
 
-* [ucloud bw](developer/cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
-* [ucloud bw pkg create](developer/cli/cmd/ucloud/bw/pkg/create)	 - Create bandwidth package
-* [ucloud bw pkg delete](developer/cli/cmd/ucloud/bw/pkg/delete)	 - Delete bandwidth packages
-* [ucloud bw pkg list](developer/cli/cmd/ucloud/bw/pkg/list)	 - List bandwidth packages
+* [ucloud bw](cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
+* [ucloud bw pkg create](cli/cmd/ucloud/bw/pkg/create)	 - Create bandwidth package
+* [ucloud bw pkg delete](cli/cmd/ucloud/bw/pkg/delete)	 - Delete bandwidth packages
+* [ucloud bw pkg list](cli/cmd/ucloud/bw/pkg/list)	 - List bandwidth packages
 

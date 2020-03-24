@@ -37,6 +37,6 @@ List pathx upath instances
 
 ### SEE ALSO
 
-* [ucloud pathx](developer/cli/cmd/ucloud/pathx)	 - Manipulate uga and upath instances
-* [ucloud pathx upath list](developer/cli/cmd/ucloud/pathx/upath/list)	 - list upath instances
+* [ucloud pathx](cli/cmd/ucloud/pathx)	 - Manipulate uga and upath instances
+* [ucloud pathx upath list](cli/cmd/ucloud/pathx/upath/list)	 - list upath instances
 

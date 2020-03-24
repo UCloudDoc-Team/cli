@@ -49,5 +49,5 @@ ucloud ulb delete [flags]
 
 ### SEE ALSO
 
-* [ucloud ulb](developer/cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
+* [ucloud ulb](cli/cmd/ucloud/ulb)	 - List and manipulate ULB instances
 

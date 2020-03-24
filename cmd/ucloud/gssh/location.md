@@ -41,5 +41,5 @@ ucloud gssh location [flags]
 
 ### SEE ALSO
 
-* [ucloud gssh](developer/cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
+* [ucloud gssh](cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

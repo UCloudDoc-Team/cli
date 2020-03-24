@@ -54,5 +54,5 @@ ucloud mysql backup download [flags]
 
 ### SEE ALSO
 
-* [ucloud mysql backup](developer/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
+* [ucloud mysql backup](cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
 

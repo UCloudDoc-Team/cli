@@ -60,5 +60,5 @@ ucloud udisk attach --uhost-id uhost-xxxx --udisk-id bs-xxx1,bs-xxx2
 
 ### SEE ALSO
 
-* [ucloud udisk](developer/cli/cmd/ucloud/udisk)	 - Read and manipulate udisk instances
+* [ucloud udisk](cli/cmd/ucloud/udisk)	 - Read and manipulate udisk instances
 

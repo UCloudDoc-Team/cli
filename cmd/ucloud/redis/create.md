@@ -77,5 +77,5 @@ ucloud redis create [flags]
 
 ### SEE ALSO
 
-* [ucloud redis](developer/cli/cmd/ucloud/redis)	 - List and manipulate redis instances
+* [ucloud redis](cli/cmd/ucloud/redis)	 - List and manipulate redis instances
 

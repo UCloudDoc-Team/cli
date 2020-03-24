@@ -58,5 +58,5 @@ ucloud redis delete --umem-id uredis-rl5xuxx/testcli1,uredis-xsdfa/testcli2
 
 ### SEE ALSO
 
-* [ucloud redis](developer/cli/cmd/ucloud/redis)	 - List and manipulate redis instances
+* [ucloud redis](cli/cmd/ucloud/redis)	 - List and manipulate redis instances
 

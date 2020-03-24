@@ -53,5 +53,5 @@ ucloud uhost isolation-group list [flags]
 
 ### SEE ALSO
 
-* [ucloud uhost isolation-group](developer/cli/cmd/ucloud/uhost/isolation-group)	 - List and manipulate isolation group of uhost
+* [ucloud uhost isolation-group](cli/cmd/ucloud/uhost/isolation-group)	 - List and manipulate isolation group of uhost
 

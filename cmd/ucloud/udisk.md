@@ -37,16 +37,16 @@ Read and manipulate udisk instances
 
 ### SEE ALSO
 
-* [ucloud](developer/cli/cmd/ucloud)	 - UCloud CLI v0.1.29
-* [ucloud udisk attach](developer/cli/cmd/ucloud/udisk/attach)	 - Attach udisk instances to an uhost
-* [ucloud udisk clone](developer/cli/cmd/ucloud/udisk/clone)	 - Clone an udisk
-* [ucloud udisk create](developer/cli/cmd/ucloud/udisk/create)	 - Create udisk instance
-* [ucloud udisk delete](developer/cli/cmd/ucloud/udisk/delete)	 - Delete udisk instances
-* [ucloud udisk delete-snapshot](developer/cli/cmd/ucloud/udisk/delete-snapshot)	 - Delete snapshots
-* [ucloud udisk detach](developer/cli/cmd/ucloud/udisk/detach)	 - Detach udisk instances from an uhost
-* [ucloud udisk expand](developer/cli/cmd/ucloud/udisk/expand)	 - Expand udisk size
-* [ucloud udisk list](developer/cli/cmd/ucloud/udisk/list)	 - List udisk instance
-* [ucloud udisk list-snapshot](developer/cli/cmd/ucloud/udisk/list-snapshot)	 - List snaphosts
-* [ucloud udisk restore](developer/cli/cmd/ucloud/udisk/restore)	 - Restore udisk from snapshot
-* [ucloud udisk snapshot](developer/cli/cmd/ucloud/udisk/snapshot)	 - Create shapshots for udisks
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud udisk attach](cli/cmd/ucloud/udisk/attach)	 - Attach udisk instances to an uhost
+* [ucloud udisk clone](cli/cmd/ucloud/udisk/clone)	 - Clone an udisk
+* [ucloud udisk create](cli/cmd/ucloud/udisk/create)	 - Create udisk instance
+* [ucloud udisk delete](cli/cmd/ucloud/udisk/delete)	 - Delete udisk instances
+* [ucloud udisk delete-snapshot](cli/cmd/ucloud/udisk/delete-snapshot)	 - Delete snapshots
+* [ucloud udisk detach](cli/cmd/ucloud/udisk/detach)	 - Detach udisk instances from an uhost
+* [ucloud udisk expand](cli/cmd/ucloud/udisk/expand)	 - Expand udisk size
+* [ucloud udisk list](cli/cmd/ucloud/udisk/list)	 - List udisk instance
+* [ucloud udisk list-snapshot](cli/cmd/ucloud/udisk/list-snapshot)	 - List snaphosts
+* [ucloud udisk restore](cli/cmd/ucloud/udisk/restore)	 - Restore udisk from snapshot
+* [ucloud udisk snapshot](cli/cmd/ucloud/udisk/snapshot)	 - Create shapshots for udisks
 

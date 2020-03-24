@@ -58,5 +58,5 @@ ucloud udb backup delete --backup-id 65534,65535
 
 ### SEE ALSO
 
-* [ucloud mysql backup](developer/cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
+* [ucloud mysql backup](cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
 

@@ -53,5 +53,5 @@ ucloud udisk detach [flags]
 
 ### SEE ALSO
 
-* [ucloud udisk](developer/cli/cmd/ucloud/udisk)	 - Read and manipulate udisk instances
+* [ucloud udisk](cli/cmd/ucloud/udisk)	 - Read and manipulate udisk instances
 
