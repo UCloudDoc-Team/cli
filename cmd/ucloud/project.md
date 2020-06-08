@@ -43,7 +43,7 @@ ucloud project
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud project create](cli/cmd/ucloud/project/create)	 - Create project
 * [ucloud project delete](cli/cmd/ucloud/project/delete)	 - Delete project
 * [ucloud project list](cli/cmd/ucloud/project/list)	 - List project

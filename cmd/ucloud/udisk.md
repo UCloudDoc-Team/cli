@@ -37,7 +37,7 @@ Read and manipulate udisk instances
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud udisk attach](cli/cmd/ucloud/udisk/attach)	 - Attach udisk instances to an uhost
 * [ucloud udisk clone](cli/cmd/ucloud/udisk/clone)	 - Clone an udisk
 * [ucloud udisk create](cli/cmd/ucloud/udisk/create)	 - Create udisk instance

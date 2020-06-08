@@ -37,7 +37,7 @@ List and manipulate extranet firewall
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud firewall add-rule](cli/cmd/ucloud/firewall/add-rule)	 - Add rule to firewall instance
 * [ucloud firewall apply](cli/cmd/ucloud/firewall/apply)	 - Applay firewall to ucloud service
 * [ucloud firewall copy](cli/cmd/ucloud/firewall/copy)	 - Copy firewall

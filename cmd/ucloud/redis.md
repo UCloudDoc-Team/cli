@@ -37,7 +37,7 @@ List and manipulate redis instances
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud redis create](cli/cmd/ucloud/redis/create)	 - Create redis instance
 * [ucloud redis delete](cli/cmd/ucloud/redis/delete)	 - Delete redis instances
 * [ucloud redis list](cli/cmd/ucloud/redis/list)	 - List redis instances

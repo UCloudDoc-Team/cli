@@ -13,7 +13,7 @@ ucloud eip modify-bw [flags]
 ### Examples
 
 ```
-ucloud eip modify-bw --eip-id eip-xxx --bandwidth-mb 20
+ucloud eip modify-bw --eip-id eip-xx1,eip-xx2 --bandwidth-mb 20
 ```
 
 ### Options

@@ -37,7 +37,7 @@ List and manipulate ULB instances
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud ulb create](cli/cmd/ucloud/ulb/create)	 - Create ULB instance
 * [ucloud ulb delete](cli/cmd/ucloud/ulb/delete)	 - Delete ULB instances by resource ID
 * [ucloud ulb list](cli/cmd/ucloud/ulb/list)	 - List ULB instances

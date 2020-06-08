@@ -37,7 +37,7 @@ List and manipulate udpn instances
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud udpn create](cli/cmd/ucloud/udpn/create)	 - Create UDPN tunnel
 * [ucloud udpn delete](cli/cmd/ucloud/udpn/delete)	 - delete udpn instances
 * [ucloud udpn list](cli/cmd/ucloud/udpn/list)	 - List udpn instances

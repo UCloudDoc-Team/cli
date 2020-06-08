@@ -75,7 +75,7 @@ ucloud uhost create [flags]
 
   --machine-type     string              Optional. Accept values: N, C, G, O. Forward to
                                          https://docs.ucloud.cn/api/uhost-api/uhost_type for
-                                         details 
+                                         details (default "N") 
 
   --minimal-cpu-platform     string      Optional. Accpet values: Intel/Auto, Intel/IvyBridge,
                                          Intel/Haswell, Intel/Broadwell, Intel/Skylake,
@@ -83,9 +83,10 @@ ucloud uhost create [flags]
 
   --gpu     int                          Optional. The count of GPU cores. 
 
-  --net-capability     string            Optional. Default is 'Normal', also support 'Super'
-                                         which will enhance multiple times network capability
-                                         as before (default "Normal") 
+  --net-capability     string            Optional. Accept values: Normal, Super and Ultra.
+                                         'Normal' will disable network enhancement. 'Super'
+                                         will enable network enhancement 1.0. 'Ultra' will
+                                         enable network enhancement 2.0 (default "Normal") 
 
   --hot-plug     string                  Optional. Enable hot plug feature or not. Accept
                                          values: true or false (default "true") 
@@ -105,11 +106,8 @@ ucloud uhost create [flags]
                                          (Normal Local Disk and Normal Cloud Disk Only)
                                          (default "NONE") 
 
-  --data-disk-type     string            Optional. Enumeration value. 'LOCAL_NORMAL', Ordinary
-                                         local disk; 'CLOUD_NORMAL', Ordinary cloud disk;
-                                         'LOCAL_SSD',local ssd disk; 'CLOUD_SSD',cloud ssd
-                                         disk; 'EXCLUSIVE_LOCAL_DISK',big data. The disk only
-                                         supports a limited combination. (default "CLOUD_SSD") 
+  --data-disk-type     string            Optional. Accept values:
+                                         'LOCAL_NORMAL','LOCAL_SSD','CLOUD_NORMAL',CLOUD_SSD','CLOUD_RSSD','EXCLUSIVE_LOCAL_DISK' and 'NONE'. 'LOCAL_NORMAL', Ordinary local disk; 'CLOUD_NORMAL', Ordinary cloud disk; 'LOCAL_SSD',local ssd disk; 'CLOUD_SSD',cloud ssd disk; 'CLOUD_RSSD', coud rssd disk; 'EXCLUSIVE_LOCAL_DISK',big data. The disk only supports a limited combination. 'NONE', create uhost without data disk. More details https://docs.ucloud.cn/api/uhost-api/disk_type (default "CLOUD_SSD") 
 
   --data-disk-size-gb     int            Optional. Disk size. Unit GB (default 20) 
 

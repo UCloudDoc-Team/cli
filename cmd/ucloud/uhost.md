@@ -37,7 +37,7 @@ List,create,delete,stop,restart,poweroff or resize UHost instance
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud uhost clone](cli/cmd/ucloud/uhost/clone)	 - Create an uhost with the same configuration as another uhost, excluding bound eip and udisk
 * [ucloud uhost create](cli/cmd/ucloud/uhost/create)	 - Create UHost instance
 * [ucloud uhost create-image](cli/cmd/ucloud/uhost/create-image)	 - Create image from an uhost instance

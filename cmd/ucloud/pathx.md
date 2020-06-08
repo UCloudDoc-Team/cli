@@ -37,7 +37,7 @@ Manipulate uga and upath instances
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud pathx uga](cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 * [ucloud pathx upath](cli/cmd/ucloud/pathx/upath)	 - List pathx upath instances
 

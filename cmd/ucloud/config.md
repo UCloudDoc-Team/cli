@@ -65,7 +65,7 @@ ucloud config --profile=test --region cn-bj2 --active true
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud config add](cli/cmd/ucloud/config/add)	 - add configuration
 * [ucloud config delete](cli/cmd/ucloud/config/delete)	 - delete configurations by profile name
 * [ucloud config list](cli/cmd/ucloud/config/list)	 - list all configurations

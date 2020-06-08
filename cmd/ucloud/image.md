@@ -37,7 +37,7 @@ List and manipulate images
 
 ### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.29
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud image copy](cli/cmd/ucloud/image/copy)	 - Copy custom images
 * [ucloud image create](cli/cmd/ucloud/image/create)	 - Create image from an uhost instance
 * [ucloud image delete](cli/cmd/ucloud/image/delete)	 - Delete custom images
