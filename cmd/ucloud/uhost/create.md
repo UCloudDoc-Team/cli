@@ -14,9 +14,9 @@ ucloud uhost create [flags]
 
 ```
   --cpu     int                          Required. The count of CPU cores. Optional
-                                         parameters: {1, 2, 4, 8, 12, 16, 24, 32} (default 4) 
+                                         parameters: {1, 2, 4, 8, 12, 16, 24, 32, 64} (default 4) 
 
-  --memory-gb     int                    Required. Memory size. Unit: GB. Range: [1, 128],
+  --memory-gb     int                    Required. Memory size. Unit: GB. Range: [1, 512],
                                          multiple of 2 (default 8) 
 
   --password     string                  Required. Password of the uhost user(root/ubuntu) 
@@ -73,11 +73,11 @@ ucloud uhost create [flags]
   --zone     string                      Optional. Override default availability zone for this
                                          command invocation, see 'ucloud region' 
 
-  --machine-type     string              Optional. Accept values: N, C, G, O. Forward to
+  --machine-type     string              Optional. Accept values: N, C, G, O, OS. Forward to
                                          https://docs.ucloud.cn/api/uhost-api/uhost_type for
                                          details (default "N") 
 
-  --minimal-cpu-platform     string      Optional. Accpet values: Intel/Auto, Intel/IvyBridge,
+  --minimal-cpu-platform     string      Optional. Accept values: Intel/Auto, Intel/IvyBridge,
                                          Intel/Haswell, Intel/Broadwell, Intel/Skylake,
                                          Intel/Cascadelake 
 
@@ -124,6 +124,24 @@ ucloud uhost create [flags]
 
   --isolation-group     string           Optional. Resource ID of isolation group. see 'ucloud
                                          uhost isolation-group list 
+
+  --gpu-type     machine-type            Optional. The type of GPU instance. Required if
+                                         defined the machine-type as 'G'. Accept values:
+                                         'K80', 'P40', 'V100'. Forward to
+                                         https://docs.ucloud.cn/api/uhost-api/uhost_type for
+                                         details. 
+
+  --user-data     user-data-base64       Optional. Conflicts with user-data-base64.
+                                         ConCustomize the startup behaviors when launching the
+                                         instance. Forward to
+                                         https://docs.ucloud.cn/uhost/guide/metadata/userdata
+                                         for details. 
+
+  --user-data-base64     user-data       Optional. Conflicts with user-data. Customize the
+                                         startup behaviors when launching the instance. The
+                                         value must be base64-encode. Forward to
+                                         https://docs.ucloud.cn/uhost/guide/metadata/userdata
+                                         for details. 
 
   --help, -h                             help for create 
 
