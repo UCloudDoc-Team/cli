@@ -1,4 +1,3 @@
-<div class="sidebar_title"> UCloud CLI</div>
 
 * [概览](/cli/README)
 * [快速开始](/cli/intro)
