@@ -3,28 +3,28 @@
 * [快速开始](/cli/intro)
 * 命令列表
     * ucloud
-        *[概览](/cli/cmd/ucloud)
+        * [概览](/cli/cmd/ucloud)
         * bw
-            *[概览](/cli/cmd/ucloud/bw)
+            * [概览](/cli/cmd/ucloud/bw)
             * pkg
-                *[概览](/cli/cmd/ucloud/bw/pkg)
+                * [概览](/cli/cmd/ucloud/bw/pkg)
                 * [create](/cli/cmd/ucloud/bw/pkg/create)
                 * [delete](/cli/cmd/ucloud/bw/pkg/delete)
                 * [list](/cli/cmd/ucloud/bw/pkg/list)
             * shared
-                *[概览](/cli/cmd/ucloud/bw/shared)
+                * [概览](/cli/cmd/ucloud/bw/shared)
                 * [create](/cli/cmd/ucloud/bw/shared/create)
                 * [delete](/cli/cmd/ucloud/bw/shared/delete)
                 * [list](/cli/cmd/ucloud/bw/shared/list)
                 * [resize](/cli/cmd/ucloud/bw/shared/resize)
         * config
-            *[概览](/cli/cmd/ucloud/config)
+            * [概览](/cli/cmd/ucloud/config)
             * [add](/cli/cmd/ucloud/config/add)
             * [delete](/cli/cmd/ucloud/config/delete)
             * [list](/cli/cmd/ucloud/config/list)
             * [update](/cli/cmd/ucloud/config/update)
         * eip
-            *[概览](/cli/cmd/ucloud/eip)
+            * [概览](/cli/cmd/ucloud/eip)
             * [allocate](/cli/cmd/ucloud/eip/allocate)
             * [bind](/cli/cmd/ucloud/eip/bind)
             * [join-shared-bw](/cli/cmd/ucloud/eip/join-shared-bw)
@@ -35,12 +35,12 @@
             * [release](/cli/cmd/ucloud/eip/release)
             * [unbind](/cli/cmd/ucloud/eip/unbind)
         * ext
-            *[概览](/cli/cmd/ucloud/ext)
+            * [概览](/cli/cmd/ucloud/ext)
             * uhost
-                *[概览](/cli/cmd/ucloud/ext/uhost)
+                * [概览](/cli/cmd/ucloud/ext/uhost)
                 * [switch-eip](/cli/cmd/ucloud/ext/uhost/switch-eip)
         * firewall
-            *[概览](/cli/cmd/ucloud/firewall)
+            * [概览](/cli/cmd/ucloud/firewall)
             * [add-rule](/cli/cmd/ucloud/firewall/add-rule)
             * [apply](/cli/cmd/ucloud/firewall/apply)
             * [copy](/cli/cmd/ucloud/firewall/copy)
@@ -52,35 +52,35 @@
             * [update](/cli/cmd/ucloud/firewall/update)
         * [gendoc](/cli/cmd/ucloud/gendoc)
         * gssh
-            *[概览](/cli/cmd/ucloud/gssh)
+            * [概览](/cli/cmd/ucloud/gssh)
             * [create](/cli/cmd/ucloud/gssh/create)
             * [delete](/cli/cmd/ucloud/gssh/delete)
             * [list](/cli/cmd/ucloud/gssh/list)
             * [location](/cli/cmd/ucloud/gssh/location)
             * [update](/cli/cmd/ucloud/gssh/update)
         * image
-            *[概览](/cli/cmd/ucloud/image)
+            * [概览](/cli/cmd/ucloud/image)
             * [copy](/cli/cmd/ucloud/image/copy)
             * [create](/cli/cmd/ucloud/image/create)
             * [delete](/cli/cmd/ucloud/image/delete)
             * [list](/cli/cmd/ucloud/image/list)
         * [init](/cli/cmd/ucloud/init)
         * memcache
-            *[概览](/cli/cmd/ucloud/memcache)
+            * [概览](/cli/cmd/ucloud/memcache)
             * [create](/cli/cmd/ucloud/memcache/create)
             * [delete](/cli/cmd/ucloud/memcache/delete)
             * [list](/cli/cmd/ucloud/memcache/list)
             * [restart](/cli/cmd/ucloud/memcache/restart)
         * mysql
-            *[概览](/cli/cmd/ucloud/mysql)
+            * [概览](/cli/cmd/ucloud/mysql)
             * backup
-                *[概览](/cli/cmd/ucloud/mysql/backup)
+                * [概览](/cli/cmd/ucloud/mysql/backup)
                 * [create](/cli/cmd/ucloud/mysql/backup/create)
                 * [delete](/cli/cmd/ucloud/mysql/backup/delete)
                 * [download](/cli/cmd/ucloud/mysql/backup/download)
                 * [list](/cli/cmd/ucloud/mysql/backup/list)
             * conf
-                *[概览](/cli/cmd/ucloud/mysql/conf)
+                * [概览](/cli/cmd/ucloud/mysql/conf)
                 * [apply](/cli/cmd/ucloud/mysql/conf/apply)
                 * [clone](/cli/cmd/ucloud/mysql/conf/clone)
                 * [delete](/cli/cmd/ucloud/mysql/conf/delete)
@@ -90,7 +90,7 @@
                 * [update](/cli/cmd/ucloud/mysql/conf/update)
                 * [upload](/cli/cmd/ucloud/mysql/conf/upload)
             * db
-                *[概览](/cli/cmd/ucloud/mysql/db)
+                * [概览](/cli/cmd/ucloud/mysql/db)
                 * [create](/cli/cmd/ucloud/mysql/db/create)
                 * [create-slave](/cli/cmd/ucloud/mysql/db/create-slave)
                 * [delete](/cli/cmd/ucloud/mysql/db/delete)
@@ -103,15 +103,15 @@
                 * [start](/cli/cmd/ucloud/mysql/db/start)
                 * [stop](/cli/cmd/ucloud/mysql/db/stop)
             * logs
-                *[概览](/cli/cmd/ucloud/mysql/logs)
+                * [概览](/cli/cmd/ucloud/mysql/logs)
                 * [archive](/cli/cmd/ucloud/mysql/logs/archive)
                 * [delete](/cli/cmd/ucloud/mysql/logs/delete)
                 * [download](/cli/cmd/ucloud/mysql/logs/download)
                 * [list](/cli/cmd/ucloud/mysql/logs/list)
         * pathx
-            *[概览](/cli/cmd/ucloud/pathx)
+            * [概览](/cli/cmd/ucloud/pathx)
             * uga
-                *[概览](/cli/cmd/ucloud/pathx/uga)
+                * [概览](/cli/cmd/ucloud/pathx/uga)
                 * [add-port](/cli/cmd/ucloud/pathx/uga/add-port)
                 * [create](/cli/cmd/ucloud/pathx/uga/create)
                 * [delete](/cli/cmd/ucloud/pathx/uga/delete)
@@ -119,29 +119,29 @@
                 * [describe](/cli/cmd/ucloud/pathx/uga/describe)
                 * [list](/cli/cmd/ucloud/pathx/uga/list)
             * upath
-                *[概览](/cli/cmd/ucloud/pathx/upath)
+                * [概览](/cli/cmd/ucloud/pathx/upath)
                 * [list](/cli/cmd/ucloud/pathx/upath/list)
         * project
-            *[概览](/cli/cmd/ucloud/project)
+            * [概览](/cli/cmd/ucloud/project)
             * [create](/cli/cmd/ucloud/project/create)
             * [delete](/cli/cmd/ucloud/project/delete)
             * [list](/cli/cmd/ucloud/project/list)
             * [update](/cli/cmd/ucloud/project/update)
         * redis
-            *[概览](/cli/cmd/ucloud/redis)
+            * [概览](/cli/cmd/ucloud/redis)
             * [create](/cli/cmd/ucloud/redis/create)
             * [delete](/cli/cmd/ucloud/redis/delete)
             * [list](/cli/cmd/ucloud/redis/list)
             * [restart](/cli/cmd/ucloud/redis/restart)
         * [region](/cli/cmd/ucloud/region)
         * subnet
-            *[概览](/cli/cmd/ucloud/subnet)
+            * [概览](/cli/cmd/ucloud/subnet)
             * [create](/cli/cmd/ucloud/subnet/create)
             * [delete](/cli/cmd/ucloud/subnet/delete)
             * [list](/cli/cmd/ucloud/subnet/list)
             * [list-resource](/cli/cmd/ucloud/subnet/list-resource)
         * udisk
-            *[概览](/cli/cmd/ucloud/udisk)
+            * [概览](/cli/cmd/ucloud/udisk)
             * [attach](/cli/cmd/ucloud/udisk/attach)
             * [clone](/cli/cmd/ucloud/udisk/clone)
             * [create](/cli/cmd/ucloud/udisk/create)
@@ -154,19 +154,19 @@
             * [restore](/cli/cmd/ucloud/udisk/restore)
             * [snapshot](/cli/cmd/ucloud/udisk/snapshot)
         * udpn
-            *[概览](/cli/cmd/ucloud/udpn)
+            * [概览](/cli/cmd/ucloud/udpn)
             * [create](/cli/cmd/ucloud/udpn/create)
             * [delete](/cli/cmd/ucloud/udpn/delete)
             * [list](/cli/cmd/ucloud/udpn/list)
             * [modify-bw](/cli/cmd/ucloud/udpn/modify-bw)
         * uhost
-            *[概览](/cli/cmd/ucloud/uhost)
+            * [概览](/cli/cmd/ucloud/uhost)
             * [clone](/cli/cmd/ucloud/uhost/clone)
             * [create](/cli/cmd/ucloud/uhost/create)
             * [create-image](/cli/cmd/ucloud/uhost/create-image)
             * [delete](/cli/cmd/ucloud/uhost/delete)
             * isolation-group
-                *[概览](/cli/cmd/ucloud/uhost/isolation-group)
+                * [概览](/cli/cmd/ucloud/uhost/isolation-group)
                 * [create](/cli/cmd/ucloud/uhost/isolation-group/create)
                 * [delete](/cli/cmd/ucloud/uhost/isolation-group/delete)
                 * [list](/cli/cmd/ucloud/uhost/isolation-group/list)
@@ -180,12 +180,12 @@
             * [start](/cli/cmd/ucloud/uhost/start)
             * [stop](/cli/cmd/ucloud/uhost/stop)
         * ulb
-            *[概览](/cli/cmd/ucloud/ulb)
+            * [概览](/cli/cmd/ucloud/ulb)
             * [create](/cli/cmd/ucloud/ulb/create)
             * [delete](/cli/cmd/ucloud/ulb/delete)
             * [list](/cli/cmd/ucloud/ulb/list)
             * ssl
-                *[概览](/cli/cmd/ucloud/ulb/ssl)
+                * [概览](/cli/cmd/ucloud/ulb/ssl)
                 * [add](/cli/cmd/ucloud/ulb/ssl/add)
                 * [bind](/cli/cmd/ucloud/ulb/ssl/bind)
                 * [delete](/cli/cmd/ucloud/ulb/ssl/delete)
@@ -194,9 +194,9 @@
                 * [unbind](/cli/cmd/ucloud/ulb/ssl/unbind)
             * [update](/cli/cmd/ucloud/ulb/update)
             * vserver
-                *[概览](/cli/cmd/ucloud/ulb/vserver)
+                * [概览](/cli/cmd/ucloud/ulb/vserver)
                 * backend
-                    *[概览](/cli/cmd/ucloud/ulb/vserver/backend)
+                    * [概览](/cli/cmd/ucloud/ulb/vserver/backend)
                     * [add](/cli/cmd/ucloud/ulb/vserver/backend/add)
                     * [delete](/cli/cmd/ucloud/ulb/vserver/backend/delete)
                     * [list](/cli/cmd/ucloud/ulb/vserver/backend/list)
@@ -205,17 +205,17 @@
                 * [delete](/cli/cmd/ucloud/ulb/vserver/delete)
                 * [list](/cli/cmd/ucloud/ulb/vserver/list)
                 * policy
-                    *[概览](/cli/cmd/ucloud/ulb/vserver/policy)
+                    * [概览](/cli/cmd/ucloud/ulb/vserver/policy)
                     * [add](/cli/cmd/ucloud/ulb/vserver/policy/add)
                     * [delete](/cli/cmd/ucloud/ulb/vserver/policy/delete)
                     * [list](/cli/cmd/ucloud/ulb/vserver/policy/list)
                     * [update](/cli/cmd/ucloud/ulb/vserver/policy/update)
                 * [update](/cli/cmd/ucloud/ulb/vserver/update)
         * uphost
-            *[概览](/cli/cmd/ucloud/uphost)
+            * [概览](/cli/cmd/ucloud/uphost)
             * [list](/cli/cmd/ucloud/uphost/list)
         * vpc
-            *[概览](/cli/cmd/ucloud/vpc)
+            * [概览](/cli/cmd/ucloud/vpc)
             * [create](/cli/cmd/ucloud/vpc/create)
             * [create-intercome](/cli/cmd/ucloud/vpc/create-intercome)
             * [delete](/cli/cmd/ucloud/vpc/delete)
