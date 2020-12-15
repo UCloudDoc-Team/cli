@@ -1,6 +1,6 @@
 # 概览
 
-* [快速开始](/cli/intro)
+* [快速开始。](/cli/intro)
 * 命令列表
     * [ucloud](/cli/cmd/ucloud)
         * [bw](/cli/cmd/ucloud/bw)
