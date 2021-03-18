@@ -1,8 +1,8 @@
-## ucloud firewall resource
+# ucloud firewall resource
 
 List resources that has been applied the firewall
 
-### Synopsis
+## Synopsis
 
 List resources that has been applied the firewall
 
@@ -10,7 +10,7 @@ List resources that has been applied the firewall
 ucloud firewall resource [flags]
 ```
 
-### Options
+## Options
 
 ```
   --fw-id     string        Required. Resource ID of firewall 
@@ -27,7 +27,7 @@ ucloud firewall resource [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -49,7 +49,7 @@ ucloud firewall resource [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

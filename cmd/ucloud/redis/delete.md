@@ -1,8 +1,8 @@
-## ucloud redis delete
+# ucloud redis delete
 
 Delete redis instances
 
-### Synopsis
+## Synopsis
 
 Delete redis instances
 
@@ -10,13 +10,13 @@ Delete redis instances
 ucloud redis delete [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud redis delete --umem-id uredis-rl5xuxx/testcli1,uredis-xsdfa/testcli2
 ```
 
-### Options
+## Options
 
 ```
   --umem-id     strings     Required. Resource ID of redis intances to delete 
@@ -34,7 +34,7 @@ ucloud redis delete --umem-id uredis-rl5xuxx/testcli1,uredis-xsdfa/testcli2
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -56,7 +56,7 @@ ucloud redis delete --umem-id uredis-rl5xuxx/testcli1,uredis-xsdfa/testcli2
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud redis](cli/cmd/ucloud/redis)	 - List and manipulate redis instances
 

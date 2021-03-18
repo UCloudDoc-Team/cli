@@ -1,8 +1,8 @@
-## ucloud mysql db reset-password
+# ucloud mysql db reset-password
 
 Reset password of MySQL instances
 
-### Synopsis
+## Synopsis
 
 Reset password of MySQL instances
 
@@ -10,7 +10,7 @@ Reset password of MySQL instances
 ucloud mysql db reset-password [flags]
 ```
 
-### Options
+## Options
 
 ```
   --udb-id     strings      Required. Resource ID of UDB instances to reset password 
@@ -30,7 +30,7 @@ ucloud mysql db reset-password [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -52,7 +52,7 @@ ucloud mysql db reset-password [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

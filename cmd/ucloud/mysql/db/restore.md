@@ -1,8 +1,8 @@
-## ucloud mysql db restore
+# ucloud mysql db restore
 
 Create MySQL instance and restore the newly created db to the specified DB at a specified point in time
 
-### Synopsis
+## Synopsis
 
 Create MySQL instance and restore the newly created db to the specified DB at a specified point in time
 
@@ -10,7 +10,7 @@ Create MySQL instance and restore the newly created db to the specified DB at a 
 ucloud mysql db restore [flags]
 ```
 
-### Options
+## Options
 
 ```
   --name     string              Required. Name of UDB instance to create 
@@ -46,7 +46,7 @@ ucloud mysql db restore [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -68,7 +68,7 @@ ucloud mysql db restore [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

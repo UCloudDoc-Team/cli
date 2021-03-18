@@ -1,8 +1,8 @@
-## ucloud mysql db delete
+# ucloud mysql db delete
 
 Delete MySQL instances by udb-id
 
-### Synopsis
+## Synopsis
 
 Delete MySQL instances by udb-id
 
@@ -10,7 +10,7 @@ Delete MySQL instances by udb-id
 ucloud mysql db delete [flags]
 ```
 
-### Options
+## Options
 
 ```
   --udb-id     strings      Required. Resource ID of UDB instances to delete 
@@ -30,7 +30,7 @@ ucloud mysql db delete [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -52,7 +52,7 @@ ucloud mysql db delete [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

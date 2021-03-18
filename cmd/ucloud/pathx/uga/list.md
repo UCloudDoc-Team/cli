@@ -1,8 +1,8 @@
-## ucloud pathx uga list
+# ucloud pathx uga list
 
 list uga instances
 
-### Synopsis
+## Synopsis
 
 list uga instances
 
@@ -10,7 +10,7 @@ list uga instances
 ucloud pathx uga list [flags]
 ```
 
-### Options
+## Options
 
 ```
   --uga-id     string       Optional. Resource ID of uga instance 
@@ -22,7 +22,7 @@ ucloud pathx uga list [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -44,7 +44,7 @@ ucloud pathx uga list [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud pathx uga](cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

@@ -1,8 +1,8 @@
-## ucloud uhost create-image
+# ucloud uhost create-image
 
 Create image from an uhost instance
 
-### Synopsis
+## Synopsis
 
 Create image from an uhost instance
 
@@ -10,7 +10,7 @@ Create image from an uhost instance
 ucloud uhost create-image [flags]
 ```
 
-### Options
+## Options
 
 ```
   --uhost-id     string     Resource ID of uhost to create image from 
@@ -31,7 +31,7 @@ ucloud uhost create-image [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -53,7 +53,7 @@ ucloud uhost create-image [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

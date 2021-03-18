@@ -1,8 +1,8 @@
-## ucloud
+# ucloud
 
 UCloud CLI v0.1.33
 
-### Synopsis
+## Synopsis
 
 UCloud CLI - manage UCloud resources and developer workflow
 
@@ -10,7 +10,7 @@ UCloud CLI - manage UCloud resources and developer workflow
 ucloud [flags]
 ```
 
-### Options
+## Options
 
 ```
   --completion           Turn on auto completion according to the prompt 
@@ -31,7 +31,7 @@ ucloud [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud bw](cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
 * [ucloud config](cli/cmd/ucloud/config)	 - add or update configurations

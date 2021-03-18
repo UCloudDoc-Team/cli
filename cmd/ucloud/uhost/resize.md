@@ -1,8 +1,8 @@
-## ucloud uhost resize
+# ucloud uhost resize
 
 Resize uhost instance,such as cpu core count, memory size and disk size
 
-### Synopsis
+## Synopsis
 
 Resize uhost instance,such as cpu core count, memory size and disk size
 
@@ -10,13 +10,13 @@ Resize uhost instance,such as cpu core count, memory size and disk size
 ucloud uhost resize [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud uhost resize --uhost-id uhost-xxx1,uhost-xxx2 --cpu 4 --memory-gb 8
 ```
 
-### Options
+## Options
 
 ```
   --uhost-id     strings          Required. ResourceIDs(or UhostIDs) of the uhost instances 
@@ -54,7 +54,7 @@ ucloud uhost resize --uhost-id uhost-xxx1,uhost-xxx2 --cpu 4 --memory-gb 8
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -76,7 +76,7 @@ ucloud uhost resize --uhost-id uhost-xxx1,uhost-xxx2 --cpu 4 --memory-gb 8
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

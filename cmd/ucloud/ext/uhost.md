@@ -1,19 +1,19 @@
-## ucloud ext uhost
+# ucloud ext uhost
 
 extended uhost commands
 
-### Synopsis
+## Synopsis
 
 extended uhost commands
 
-### Options
+## Options
 
 ```
   --help, -h   help for uhost 
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -35,7 +35,7 @@ extended uhost commands
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud ext](cli/cmd/ucloud/ext)	 - extended commands of UCloud CLI
 * [ucloud ext uhost switch-eip](cli/cmd/ucloud/ext/uhost/switch-eip)	 - Switch EIP for UHost instances

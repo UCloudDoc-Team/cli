@@ -1,8 +1,8 @@
-## ucloud eip allocate
+# ucloud eip allocate
 
 Allocate EIP
 
-### Synopsis
+## Synopsis
 
 Allocate EIP
 
@@ -10,13 +10,13 @@ Allocate EIP
 ucloud eip allocate [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud eip allocate --line BGP --bandwidth-mb 2
 ```
 
-### Options
+## Options
 
 ```
   --bandwidth-mb     int            Required. Bandwidth(Unit:Mbps).The range of value related
@@ -61,7 +61,7 @@ ucloud eip allocate --line BGP --bandwidth-mb 2
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -83,7 +83,7 @@ ucloud eip allocate --line BGP --bandwidth-mb 2
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

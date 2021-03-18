@@ -1,8 +1,8 @@
-## ucloud bw shared delete
+# ucloud bw shared delete
 
 Delete shared bandwidth instance
 
-### Synopsis
+## Synopsis
 
 Delete shared bandwidth instance
 
@@ -10,7 +10,7 @@ Delete shared bandwidth instance
 ucloud bw shared delete [flags]
 ```
 
-### Options
+## Options
 
 ```
   --shared-bw-id     strings   Required. Resource ID of shared bandwidth instances to delete 
@@ -31,7 +31,7 @@ ucloud bw shared delete [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -53,7 +53,7 @@ ucloud bw shared delete [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud bw shared](cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
 

@@ -1,8 +1,8 @@
-## ucloud config add
+# ucloud config add
 
 add configuration
 
-### Synopsis
+## Synopsis
 
 add configuration
 
@@ -10,7 +10,7 @@ add configuration
 ucloud config add [flags]
 ```
 
-### Options
+## Options
 
 ```
   --public-key     string         Required. Set public key 
@@ -47,7 +47,7 @@ ucloud config add [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -58,7 +58,7 @@ ucloud config add [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud config](cli/cmd/ucloud/config)	 - add or update configurations
 

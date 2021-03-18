@@ -1,12 +1,12 @@
-## ucloud mysql
+# ucloud mysql
 
 Manipulate MySQL on UCloud platform
 
-### Synopsis
+## Synopsis
 
 Manipulate MySQL on UCloud platform
 
-### Options
+## Options
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -24,7 +24,7 @@ Manipulate MySQL on UCloud platform
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -35,7 +35,7 @@ Manipulate MySQL on UCloud platform
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud mysql backup](cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance

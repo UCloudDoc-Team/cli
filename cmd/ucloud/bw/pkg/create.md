@@ -1,8 +1,8 @@
-## ucloud bw pkg create
+# ucloud bw pkg create
 
 Create bandwidth package
 
-### Synopsis
+## Synopsis
 
 Create bandwidth package
 
@@ -10,13 +10,13 @@ Create bandwidth package
 ucloud bw pkg create [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud bw pkg create --eip-id eip-xxx --bandwidth-mb 20 --start-time 2018-12-15/09:20:00 --end-time 2018-12-16/09:20:00
 ```
 
-### Options
+## Options
 
 ```
   --eip-id     strings      Required. Resource ID of eip to be bound with created bandwidth package 
@@ -40,7 +40,7 @@ ucloud bw pkg create --eip-id eip-xxx --bandwidth-mb 20 --start-time 2018-12-15/
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -62,7 +62,7 @@ ucloud bw pkg create --eip-id eip-xxx --bandwidth-mb 20 --start-time 2018-12-15/
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud bw pkg](cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
 

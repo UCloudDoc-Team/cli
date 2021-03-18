@@ -1,8 +1,8 @@
-## ucloud uhost leave-isolation-group
+# ucloud uhost leave-isolation-group
 
 Detach uhost from its isolation group
 
-### Synopsis
+## Synopsis
 
 Detach uhost from its isolation group
 
@@ -10,7 +10,7 @@ Detach uhost from its isolation group
 ucloud uhost leave-isolation-group [flags]
 ```
 
-### Options
+## Options
 
 ```
   --uhost-id     strings    Required. Resource ID of uhosts to be detech from its isolation group 
@@ -28,7 +28,7 @@ ucloud uhost leave-isolation-group [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -50,7 +50,7 @@ ucloud uhost leave-isolation-group [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

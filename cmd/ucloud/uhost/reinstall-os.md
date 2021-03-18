@@ -1,8 +1,8 @@
-## ucloud uhost reinstall-os
+# ucloud uhost reinstall-os
 
 Reinstall the operating system of the UHost instance
 
-### Synopsis
+## Synopsis
 
 Reinstall the operating system of the UHost instance. we will detach all udisk disks if the uhost attached some, and then stop the uhost if it's running
 
@@ -10,7 +10,7 @@ Reinstall the operating system of the UHost instance. we will detach all udisk d
 ucloud uhost reinstall-os [flags]
 ```
 
-### Options
+## Options
 
 ```
   --uhost-id     string     Required. Resource ID of the uhost to reinstall operating system 
@@ -37,7 +37,7 @@ ucloud uhost reinstall-os [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -59,7 +59,7 @@ ucloud uhost reinstall-os [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

@@ -1,8 +1,8 @@
-## ucloud eip join-shared-bw
+# ucloud eip join-shared-bw
 
 Join shared bandwidth
 
-### Synopsis
+## Synopsis
 
 Join shared bandwidth
 
@@ -10,13 +10,13 @@ Join shared bandwidth
 ucloud eip join-shared-bw [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud eip join-shared-bw --eip-id eip-xxx --shared-bw-id bwshare-xxx
 ```
 
-### Options
+## Options
 
 ```
   --eip-id     strings        Required. Resource ID of EIPs to join shared bandwdith 
@@ -31,7 +31,7 @@ ucloud eip join-shared-bw --eip-id eip-xxx --shared-bw-id bwshare-xxx
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -53,7 +53,7 @@ ucloud eip join-shared-bw --eip-id eip-xxx --shared-bw-id bwshare-xxx
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

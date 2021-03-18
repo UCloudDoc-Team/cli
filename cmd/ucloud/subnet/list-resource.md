@@ -1,8 +1,8 @@
-## ucloud subnet list-resource
+# ucloud subnet list-resource
 
 List resources belong to subnet
 
-### Synopsis
+## Synopsis
 
 List resources belong to subnet
 
@@ -10,7 +10,7 @@ List resources belong to subnet
 ucloud subnet list-resource [flags]
 ```
 
-### Options
+## Options
 
 ```
   --subnet-id     string       Required. Resource ID of subnet which resources to list belong to 
@@ -32,7 +32,7 @@ ucloud subnet list-resource [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -54,7 +54,7 @@ ucloud subnet list-resource [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud subnet](cli/cmd/ucloud/subnet)	 - List, create and delete subnet
 

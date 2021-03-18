@@ -1,8 +1,8 @@
-## ucloud mysql backup download
+# ucloud mysql backup download
 
 Display download url of backup
 
-### Synopsis
+## Synopsis
 
 Display download url of backup
 
@@ -10,7 +10,7 @@ Display download url of backup
 ucloud mysql backup download [flags]
 ```
 
-### Options
+## Options
 
 ```
   --backup-id     int       Required. BackupID of backup to delete (default -1) 
@@ -30,7 +30,7 @@ ucloud mysql backup download [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -52,7 +52,7 @@ ucloud mysql backup download [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql backup](cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
 

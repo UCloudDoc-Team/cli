@@ -1,8 +1,8 @@
-## ucloud eip modify-bw
+# ucloud eip modify-bw
 
 Modify bandwith of EIP instances
 
-### Synopsis
+## Synopsis
 
 Modify bandwith of EIP instances
 
@@ -10,13 +10,13 @@ Modify bandwith of EIP instances
 ucloud eip modify-bw [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud eip modify-bw --eip-id eip-xx1,eip-xx2 --bandwidth-mb 20
 ```
 
-### Options
+## Options
 
 ```
   --eip-id     strings      Required, Resource ID of EIPs to modify bandwidth 
@@ -32,7 +32,7 @@ ucloud eip modify-bw --eip-id eip-xx1,eip-xx2 --bandwidth-mb 20
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -54,7 +54,7 @@ ucloud eip modify-bw --eip-id eip-xx1,eip-xx2 --bandwidth-mb 20
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

@@ -1,8 +1,8 @@
-## ucloud config update
+# ucloud config update
 
 update configurations
 
-### Synopsis
+## Synopsis
 
 update configurations
 
@@ -10,7 +10,7 @@ update configurations
 ucloud config update [flags]
 ```
 
-### Options
+## Options
 
 ```
   --public-key     string         Required. Set public key 
@@ -44,7 +44,7 @@ ucloud config update [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -55,7 +55,7 @@ ucloud config update [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud config](cli/cmd/ucloud/config)	 - add or update configurations
 

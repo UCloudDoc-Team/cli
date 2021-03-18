@@ -1,8 +1,8 @@
-## ucloud mysql conf describe
+# ucloud mysql conf describe
 
 Display details about a configuration file of MySQL instance
 
-### Synopsis
+## Synopsis
 
 Display details about a configuration file of MySQL instance
 
@@ -10,7 +10,7 @@ Display details about a configuration file of MySQL instance
 ucloud mysql conf describe [flags]
 ```
 
-### Options
+## Options
 
 ```
   --conf-id     string      Requried. Configuration identifier for the configuration to be
@@ -29,7 +29,7 @@ ucloud mysql conf describe [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -51,7 +51,7 @@ ucloud mysql conf describe [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql conf](cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

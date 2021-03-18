@@ -1,8 +1,8 @@
-## ucloud init
+# ucloud init
 
 Initialize UCloud CLI options
 
-### Synopsis
+## Synopsis
 
 Initialize UCloud CLI options such as private-key,public-key,default region,zone and project.
 
@@ -10,14 +10,14 @@ Initialize UCloud CLI options such as private-key,public-key,default region,zone
 ucloud init [flags]
 ```
 
-### Options
+## Options
 
 ```
   --help, -h   help for init 
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -28,7 +28,7 @@ ucloud init [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 

@@ -1,8 +1,8 @@
-## ucloud project update
+# ucloud project update
 
 Update project name
 
-### Synopsis
+## Synopsis
 
 Update project name
 
@@ -10,13 +10,13 @@ Update project name
 ucloud project update [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud project update --id org-xxx --name new_name
 ```
 
-### Options
+## Options
 
 ```
   --help, -h          help for update 
@@ -27,7 +27,7 @@ ucloud project update --id org-xxx --name new_name
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -49,7 +49,7 @@ ucloud project update --id org-xxx --name new_name
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud project](cli/cmd/ucloud/project)	 - List,create,update and delete project
 

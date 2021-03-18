@@ -1,19 +1,19 @@
-## ucloud mysql db
+# ucloud mysql db
 
 Manange MySQL instances
 
-### Synopsis
+## Synopsis
 
 Manange MySQL instances
 
-### Options
+## Options
 
 ```
   --help, -h   help for db 
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -35,7 +35,7 @@ Manange MySQL instances
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql](cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
 * [ucloud mysql db create](cli/cmd/ucloud/mysql/db/create)	 - Create MySQL instance on UCloud platform

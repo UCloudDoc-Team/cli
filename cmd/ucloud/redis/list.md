@@ -1,8 +1,8 @@
-## ucloud redis list
+# ucloud redis list
 
 List redis instances
 
-### Synopsis
+## Synopsis
 
 List redis instances
 
@@ -10,7 +10,7 @@ List redis instances
 ucloud redis list [flags]
 ```
 
-### Options
+## Options
 
 ```
   --umem-id     string      Optional. Resource ID of the redis to list 
@@ -32,7 +32,7 @@ ucloud redis list [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -54,7 +54,7 @@ ucloud redis list [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud redis](cli/cmd/ucloud/redis)	 - List and manipulate redis instances
 

@@ -1,8 +1,8 @@
-## ucloud firewall update
+# ucloud firewall update
 
 Update firewall attribute, such as name,group and remark.
 
-### Synopsis
+## Synopsis
 
 Update firewall attribute, such as name,group and remark.
 
@@ -10,13 +10,13 @@ Update firewall attribute, such as name,group and remark.
 ucloud firewall update [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud firewall update --fw-id firewall-2xxxx/test2 --name test_update.1 --remark "this is a remark"
 ```
 
-### Options
+## Options
 
 ```
   --fw-id     strings       Required. Resource ID of firewalls 
@@ -35,7 +35,7 @@ ucloud firewall update --fw-id firewall-2xxxx/test2 --name test_update.1 --remar
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -57,7 +57,7 @@ ucloud firewall update --fw-id firewall-2xxxx/test2 --name test_update.1 --remar
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

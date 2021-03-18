@@ -1,8 +1,8 @@
-## ucloud bw pkg delete
+# ucloud bw pkg delete
 
 Delete bandwidth packages
 
-### Synopsis
+## Synopsis
 
 Delete bandwidth packages
 
@@ -10,13 +10,13 @@ Delete bandwidth packages
 ucloud bw pkg delete [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud bw pkg delete --resource-id bwpack-xxx
 ```
 
-### Options
+## Options
 
 ```
   --resource-id     strings   Required, Resource ID of bandwidth package to delete 
@@ -31,7 +31,7 @@ ucloud bw pkg delete --resource-id bwpack-xxx
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -53,7 +53,7 @@ ucloud bw pkg delete --resource-id bwpack-xxx
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud bw pkg](cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
 

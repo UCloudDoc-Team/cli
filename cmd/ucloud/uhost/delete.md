@@ -1,8 +1,8 @@
-## ucloud uhost delete
+# ucloud uhost delete
 
 Delete Uhost instance
 
-### Synopsis
+## Synopsis
 
 Delete Uhost instance
 
@@ -10,7 +10,7 @@ Delete Uhost instance
 ucloud uhost delete [flags]
 ```
 
-### Options
+## Options
 
 ```
   --uhost-id     strings    Requried. ResourceIDs(UhostIds) of the uhost instance 
@@ -39,7 +39,7 @@ ucloud uhost delete [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -61,7 +61,7 @@ ucloud uhost delete [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

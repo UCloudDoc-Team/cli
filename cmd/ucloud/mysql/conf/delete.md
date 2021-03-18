@@ -1,8 +1,8 @@
-## ucloud mysql conf delete
+# ucloud mysql conf delete
 
 Delete configuration of udb by conf-id
 
-### Synopsis
+## Synopsis
 
 Delete configuration of udb by conf-id
 
@@ -10,7 +10,7 @@ Delete configuration of udb by conf-id
 ucloud mysql conf delete [flags]
 ```
 
-### Options
+## Options
 
 ```
   --conf-id     string      Required. ConfID of the configuration to delete 
@@ -28,7 +28,7 @@ ucloud mysql conf delete [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -50,7 +50,7 @@ ucloud mysql conf delete [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql conf](cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

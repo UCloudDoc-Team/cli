@@ -1,8 +1,8 @@
-## ucloud memcache delete
+# ucloud memcache delete
 
 Delete memcache instances
 
-### Synopsis
+## Synopsis
 
 Delete memcache instances
 
@@ -10,13 +10,13 @@ Delete memcache instances
 ucloud memcache delete [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud memcache delete --umem-id umemcache-rl5xuxx/testcli1,umemcache-xsdfa/testcli2
 ```
 
-### Options
+## Options
 
 ```
   --umem-id     strings     Required. Resource ID of memcache intances to delete 
@@ -34,7 +34,7 @@ ucloud memcache delete --umem-id umemcache-rl5xuxx/testcli1,umemcache-xsdfa/test
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -56,7 +56,7 @@ ucloud memcache delete --umem-id umemcache-rl5xuxx/testcli1,umemcache-xsdfa/test
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud memcache](cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
 

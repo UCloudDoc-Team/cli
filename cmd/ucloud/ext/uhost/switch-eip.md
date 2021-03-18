@@ -1,8 +1,8 @@
-## ucloud ext uhost switch-eip
+# ucloud ext uhost switch-eip
 
 Switch EIP for UHost instances
 
-### Synopsis
+## Synopsis
 
 Switch EIP for UHost instances
 
@@ -10,13 +10,13 @@ Switch EIP for UHost instances
 ucloud ext uhost switch-eip [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud ext uhost switch-eip --uhost-id uhost-1n1sxx2,uhost-li4jxx1 --create-eip-bandwidth-mb 2
 ```
 
-### Options
+## Options
 
 ```
   --uhost-id     strings                       Required. Resource ID of uhost instances to
@@ -64,7 +64,7 @@ ucloud ext uhost switch-eip --uhost-id uhost-1n1sxx2,uhost-li4jxx1 --create-eip-
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -86,7 +86,7 @@ ucloud ext uhost switch-eip --uhost-id uhost-1n1sxx2,uhost-li4jxx1 --create-eip-
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud ext uhost](cli/cmd/ucloud/ext/uhost)	 - extended uhost commands
 

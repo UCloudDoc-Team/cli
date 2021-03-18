@@ -1,8 +1,8 @@
-## ucloud eip release
+# ucloud eip release
 
 Release EIP
 
-### Synopsis
+## Synopsis
 
 Release EIP
 
@@ -10,13 +10,13 @@ Release EIP
 ucloud eip release [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud eip release --eip-id eip-xx1,eip-xx2
 ```
 
-### Options
+## Options
 
 ```
   --eip-id     strings      Required. Resource ID of the EIPs you want to release 
@@ -31,7 +31,7 @@ ucloud eip release --eip-id eip-xx1,eip-xx2
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -53,7 +53,7 @@ ucloud eip release --eip-id eip-xx1,eip-xx2
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

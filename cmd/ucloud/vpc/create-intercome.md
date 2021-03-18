@@ -1,8 +1,8 @@
-## ucloud vpc create-intercome
+# ucloud vpc create-intercome
 
 Create intercome with other vpc
 
-### Synopsis
+## Synopsis
 
 Create intercome with other vpc
 
@@ -10,13 +10,13 @@ Create intercome with other vpc
 ucloud vpc create-intercome [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud vpc create-intercome --vpc-id xx --dst-vpc-id xx --dst-region xx
 ```
 
-### Options
+## Options
 
 ```
   --vpc-id     string           Required. The source vpc you want to establish the intercome 
@@ -36,7 +36,7 @@ ucloud vpc create-intercome --vpc-id xx --dst-vpc-id xx --dst-region xx
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -58,7 +58,7 @@ ucloud vpc create-intercome --vpc-id xx --dst-vpc-id xx --dst-region xx
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud vpc](cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
 

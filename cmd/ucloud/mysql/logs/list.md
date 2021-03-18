@@ -1,8 +1,8 @@
-## ucloud mysql logs list
+# ucloud mysql logs list
 
 List mysql log archives(log files)
 
-### Synopsis
+## Synopsis
 
 List mysql log archives(log files)
 
@@ -10,7 +10,7 @@ List mysql log archives(log files)
 ucloud mysql logs list [flags]
 ```
 
-### Options
+## Options
 
 ```
   --log-type     strings    Optional. Type of log. Accept Values: binlog, slow_query and error 
@@ -38,7 +38,7 @@ ucloud mysql logs list [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -60,7 +60,7 @@ ucloud mysql logs list [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql logs](cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

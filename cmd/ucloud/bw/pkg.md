@@ -1,19 +1,19 @@
-## ucloud bw pkg
+# ucloud bw pkg
 
 List, create and delete bandwidth package instances
 
-### Synopsis
+## Synopsis
 
 List, create and delete bandwidth package instances
 
-### Options
+## Options
 
 ```
   --help, -h   help for pkg 
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -35,7 +35,7 @@ List, create and delete bandwidth package instances
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud bw](cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
 * [ucloud bw pkg create](cli/cmd/ucloud/bw/pkg/create)	 - Create bandwidth package

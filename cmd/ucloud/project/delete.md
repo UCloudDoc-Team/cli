@@ -1,8 +1,8 @@
-## ucloud project delete
+# ucloud project delete
 
 Delete project
 
-### Synopsis
+## Synopsis
 
 Delete project
 
@@ -10,13 +10,13 @@ Delete project
 ucloud project delete [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud project delete --id org-xxx
 ```
 
-### Options
+## Options
 
 ```
   --help, -h        help for delete 
@@ -25,7 +25,7 @@ ucloud project delete --id org-xxx
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -47,7 +47,7 @@ ucloud project delete --id org-xxx
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud project](cli/cmd/ucloud/project)	 - List,create,update and delete project
 

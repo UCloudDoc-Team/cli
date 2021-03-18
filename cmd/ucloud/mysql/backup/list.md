@@ -1,8 +1,8 @@
-## ucloud mysql backup list
+# ucloud mysql backup list
 
 List backups of MySQL instance
 
-### Synopsis
+## Synopsis
 
 List backups of MySQL instance
 
@@ -10,7 +10,7 @@ List backups of MySQL instance
 ucloud mysql backup list [flags]
 ```
 
-### Options
+## Options
 
 ```
   --udb-id     string        Optional. Resource ID of UDB for list the backups of the specifid UDB 
@@ -42,7 +42,7 @@ ucloud mysql backup list [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -64,7 +64,7 @@ ucloud mysql backup list [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql backup](cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
 

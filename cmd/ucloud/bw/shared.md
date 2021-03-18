@@ -1,19 +1,19 @@
-## ucloud bw shared
+# ucloud bw shared
 
 Create and manipulate shared bandwidth instances
 
-### Synopsis
+## Synopsis
 
 Create and manipulate shared bandwidth instances
 
-### Options
+## Options
 
 ```
   --help, -h   help for shared 
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -35,7 +35,7 @@ Create and manipulate shared bandwidth instances
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud bw](cli/cmd/ucloud/bw)	 - Manipulate bandwidth package and shared bandwidth
 * [ucloud bw shared create](cli/cmd/ucloud/bw/shared/create)	 - Create shared bandwidth instance

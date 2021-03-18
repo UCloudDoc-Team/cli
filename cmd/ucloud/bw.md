@@ -1,12 +1,12 @@
-## ucloud bw
+# ucloud bw
 
 Manipulate bandwidth package and shared bandwidth
 
-### Synopsis
+## Synopsis
 
 Manipulate bandwidth package and shared bandwidth
 
-### Options
+## Options
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -24,7 +24,7 @@ Manipulate bandwidth package and shared bandwidth
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -35,7 +35,7 @@ Manipulate bandwidth package and shared bandwidth
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud bw pkg](cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances

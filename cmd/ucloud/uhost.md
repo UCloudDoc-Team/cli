@@ -1,12 +1,12 @@
-## ucloud uhost
+# ucloud uhost
 
 List,create,delete,stop,restart,poweroff or resize UHost instance
 
-### Synopsis
+## Synopsis
 
 List,create,delete,stop,restart,poweroff or resize UHost instance
 
-### Options
+## Options
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -24,7 +24,7 @@ List,create,delete,stop,restart,poweroff or resize UHost instance
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -35,7 +35,7 @@ List,create,delete,stop,restart,poweroff or resize UHost instance
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
 * [ucloud uhost clone](cli/cmd/ucloud/uhost/clone)	 - Create an uhost with the same configuration as another uhost, excluding bound eip and udisk

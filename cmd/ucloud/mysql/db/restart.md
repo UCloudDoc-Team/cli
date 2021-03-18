@@ -1,8 +1,8 @@
-## ucloud mysql db restart
+# ucloud mysql db restart
 
 Restart MySQL instances by udb-id
 
-### Synopsis
+## Synopsis
 
 Restart MySQL instances by udb-id
 
@@ -10,7 +10,7 @@ Restart MySQL instances by udb-id
 ucloud mysql db restart [flags]
 ```
 
-### Options
+## Options
 
 ```
   --udb-id     strings      Required. Resource ID of UDB instances to restart 
@@ -30,7 +30,7 @@ ucloud mysql db restart [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -52,7 +52,7 @@ ucloud mysql db restart [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

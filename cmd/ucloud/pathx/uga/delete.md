@@ -1,8 +1,8 @@
-## ucloud pathx uga delete
+# ucloud pathx uga delete
 
 Delete uga instances
 
-### Synopsis
+## Synopsis
 
 Delete uga instances
 
@@ -10,7 +10,7 @@ Delete uga instances
 ucloud pathx uga delete [flags]
 ```
 
-### Options
+## Options
 
 ```
   --project-id     string   Optional. Override default project-id for this command invocation,
@@ -23,7 +23,7 @@ ucloud pathx uga delete [flags]
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -45,7 +45,7 @@ ucloud pathx uga delete [flags]
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud pathx uga](cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

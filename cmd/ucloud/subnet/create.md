@@ -1,8 +1,8 @@
-## ucloud subnet create
+# ucloud subnet create
 
 Create subnet of vpc network
 
-### Synopsis
+## Synopsis
 
 Create subnet of vpc network
 
@@ -10,13 +10,13 @@ Create subnet of vpc network
 ucloud subnet create [flags]
 ```
 
-### Examples
+## Examples
 
 ```
 ucloud subnet create --vpc-id uvnet-vpcxid --name testName --segment 192.168.2.0/24
 ```
 
-### Options
+## Options
 
 ```
   --vpc-id     string       Required. Assign the VPC network of the subnet 
@@ -37,7 +37,7 @@ ucloud subnet create --vpc-id uvnet-vpcxid --name testName --segment 192.168.2.0
 
 ```
 
-### Options inherited from parent commands
+## Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -59,7 +59,7 @@ ucloud subnet create --vpc-id uvnet-vpcxid --name testName --segment 192.168.2.0
 
 ```
 
-### SEE ALSO
+## SEE ALSO
 
 * [ucloud subnet](cli/cmd/ucloud/subnet)	 - List, create and delete subnet
 
