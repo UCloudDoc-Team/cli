@@ -8,7 +8,7 @@ Manipulate bandwidth package and shared bandwidth
 
 ## Options
 
-```
+```bash
   --base-url     string       Set base-url to override the base-url in local config file 
 
   --help, -h                  help for bw 
