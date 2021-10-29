@@ -1,8 +1,8 @@
-# ucloud mysql db resize
+## ucloud mysql db resize
 
 Reszie MySQL instances, such as memory size, disk size and disk type
 
-## Synopsis
+### Synopsis
 
 Reszie MySQL instances, such as memory size, disk size and disk type
 
@@ -10,7 +10,7 @@ Reszie MySQL instances, such as memory size, disk size and disk type
 ucloud mysql db resize [flags]
 ```
 
-## Options
+### Options
 
 ```
   --udb-id     strings        Required. Resource ID of UDB instances to restart 
@@ -43,7 +43,7 @@ ucloud mysql db resize [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -65,7 +65,7 @@ ucloud mysql db resize [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

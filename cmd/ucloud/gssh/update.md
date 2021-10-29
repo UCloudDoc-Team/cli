@@ -1,8 +1,8 @@
-# ucloud gssh update
+## ucloud gssh update
 
 Update GlobalSSH instance
 
-## Synopsis
+### Synopsis
 
 Update GlobalSSH instance, including port and remark attribute
 
@@ -10,13 +10,13 @@ Update GlobalSSH instance, including port and remark attribute
 ucloud gssh update [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud gssh update --gssh-id uga-xxx --port 22
 ```
 
-## Options
+### Options
 
 ```
   --gssh-id     strings     Required. ResourceID of your GlobalSSH instances 
@@ -32,7 +32,7 @@ ucloud gssh update --gssh-id uga-xxx --port 22
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -54,7 +54,7 @@ ucloud gssh update --gssh-id uga-xxx --port 22
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud gssh](cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

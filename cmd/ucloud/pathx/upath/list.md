@@ -1,8 +1,8 @@
-# ucloud pathx upath list
+## ucloud pathx upath list
 
 list upath instances
 
-## Synopsis
+### Synopsis
 
 list upath instances
 
@@ -10,7 +10,7 @@ list upath instances
 ucloud pathx upath list [flags]
 ```
 
-## Options
+### Options
 
 ```
   --project-id     string   Optional. Override default project-id for this command invocation,
@@ -22,7 +22,7 @@ ucloud pathx upath list [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -44,7 +44,7 @@ ucloud pathx upath list [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud pathx upath](cli/cmd/ucloud/pathx/upath)	 - List pathx upath instances
 

@@ -1,8 +1,8 @@
-# ucloud mysql conf clone
+## ucloud mysql conf clone
 
 Create configuration file by cloning existed configuration
 
-## Synopsis
+### Synopsis
 
 Create configuration file by cloning existed configuration
 
@@ -10,7 +10,7 @@ Create configuration file by cloning existed configuration
 ucloud mysql conf clone [flags]
 ```
 
-## Options
+### Options
 
 ```
   --db-version     string    Required. Version of DB. Accept values:mysql-5.1, mysql-5.5,
@@ -37,7 +37,7 @@ ucloud mysql conf clone [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -59,7 +59,7 @@ ucloud mysql conf clone [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql conf](cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

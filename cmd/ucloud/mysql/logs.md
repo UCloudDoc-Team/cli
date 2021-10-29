@@ -1,19 +1,19 @@
-# ucloud mysql logs
+## ucloud mysql logs
 
 List and manipulate logs of MySQL instance
 
-## Synopsis
+### Synopsis
 
 List and manipulate logs of MySQL instance
 
-## Options
+### Options
 
 ```
   --help, -h   help for logs 
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -35,7 +35,7 @@ List and manipulate logs of MySQL instance
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql](cli/cmd/ucloud/mysql)	 - Manipulate MySQL on UCloud platform
 * [ucloud mysql logs archive](cli/cmd/ucloud/mysql/logs/archive)	 - Archive the log of mysql as a compressed file

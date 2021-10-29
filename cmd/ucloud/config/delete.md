@@ -1,8 +1,8 @@
-# ucloud config delete
+## ucloud config delete
 
 delete configurations by profile name
 
-## Synopsis
+### Synopsis
 
 delete configurations by profile name
 
@@ -10,20 +10,20 @@ delete configurations by profile name
 ucloud config delete [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud config delete --profile test
 ```
 
-## Options
+### Options
 
 ```
   --help, -h   help for delete 
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -34,7 +34,7 @@ ucloud config delete --profile test
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud config](cli/cmd/ucloud/config)	 - add or update configurations
 

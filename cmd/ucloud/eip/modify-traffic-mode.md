@@ -1,8 +1,8 @@
-# ucloud eip modify-traffic-mode
+## ucloud eip modify-traffic-mode
 
 Modify charge mode of EIP instances
 
-## Synopsis
+### Synopsis
 
 Modify charge mode of EIP instances
 
@@ -10,13 +10,13 @@ Modify charge mode of EIP instances
 ucloud eip modify-traffic-mode [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud eip modify-traffic-mode --eip-id eip-xx1,eip-xx2 --traffic-mode Traffic
 ```
 
-## Options
+### Options
 
 ```
   --eip-id     strings        Required, Resource ID of EIPs to modify charge mode 
@@ -32,7 +32,7 @@ ucloud eip modify-traffic-mode --eip-id eip-xx1,eip-xx2 --traffic-mode Traffic
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -54,7 +54,7 @@ ucloud eip modify-traffic-mode --eip-id eip-xx1,eip-xx2 --traffic-mode Traffic
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

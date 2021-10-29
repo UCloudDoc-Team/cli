@@ -1,8 +1,8 @@
-# ucloud bw shared list
+## ucloud bw shared list
 
 List shared bandwidth instances
 
-## Synopsis
+### Synopsis
 
 List shared bandwidth instances
 
@@ -10,7 +10,7 @@ List shared bandwidth instances
 ucloud bw shared list [flags]
 ```
 
-## Options
+### Options
 
 ```
   --region     string          Optional. Override default region for this command invocation,
@@ -25,7 +25,7 @@ ucloud bw shared list [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -47,7 +47,7 @@ ucloud bw shared list [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud bw shared](cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
 

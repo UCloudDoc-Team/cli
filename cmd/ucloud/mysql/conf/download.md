@@ -1,8 +1,8 @@
-# ucloud mysql conf download
+## ucloud mysql conf download
 
 Download UDB configuration
 
-## Synopsis
+### Synopsis
 
 Download UDB configuration
 
@@ -10,7 +10,7 @@ Download UDB configuration
 ucloud mysql conf download [flags]
 ```
 
-## Options
+### Options
 
 ```
   --conf-id     string      Required. ConfID of configuration to download 
@@ -28,7 +28,7 @@ ucloud mysql conf download [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -50,7 +50,7 @@ ucloud mysql conf download [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql conf](cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

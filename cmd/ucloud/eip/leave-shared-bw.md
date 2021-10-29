@@ -1,8 +1,8 @@
-# ucloud eip leave-shared-bw
+## ucloud eip leave-shared-bw
 
 Leave shared bandwidth
 
-## Synopsis
+### Synopsis
 
 Leave shared bandwidth
 
@@ -10,13 +10,13 @@ Leave shared bandwidth
 ucloud eip leave-shared-bw [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud eip leave-shared-bw --eip-id eip-b2gvu3
 ```
 
-## Options
+### Options
 
 ```
   --eip-id     strings        Required. Resource ID of EIPs to leave shared bandwidth 
@@ -39,7 +39,7 @@ ucloud eip leave-shared-bw --eip-id eip-b2gvu3
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -61,7 +61,7 @@ ucloud eip leave-shared-bw --eip-id eip-b2gvu3
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

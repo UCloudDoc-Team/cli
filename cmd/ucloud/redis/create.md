@@ -1,8 +1,8 @@
-# ucloud redis create
+## ucloud redis create
 
 Create redis instance
 
-## Synopsis
+### Synopsis
 
 Create redis instance
 
@@ -10,7 +10,7 @@ Create redis instance
 ucloud redis create [flags]
 ```
 
-## Options
+### Options
 
 ```
   --name     string          Required. Name of the redis to create. Range of the password
@@ -53,7 +53,7 @@ ucloud redis create [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -75,7 +75,7 @@ ucloud redis create [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud redis](cli/cmd/ucloud/redis)	 - List and manipulate redis instances
 

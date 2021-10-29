@@ -1,12 +1,12 @@
-# ucloud uphost
+## ucloud uphost
 
 List UPHost instances
 
-## Synopsis
+### Synopsis
 
 List UPHost instances
 
-## Options
+### Options
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -24,7 +24,7 @@ List UPHost instances
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -35,8 +35,8 @@ List UPHost instances
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.37
 * [ucloud uphost list](cli/cmd/ucloud/uphost/list)	 - List UPHost instances
 

@@ -1,8 +1,8 @@
-# ucloud region
+## ucloud region
 
 List all region and zone
 
-## Synopsis
+### Synopsis
 
 List all region and zone
 
@@ -10,13 +10,13 @@ List all region and zone
 ucloud region [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud region
 ```
 
-## Options
+### Options
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -34,7 +34,7 @@ ucloud region
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -45,7 +45,7 @@ ucloud region
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.37
 

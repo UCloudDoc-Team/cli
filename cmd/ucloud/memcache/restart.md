@@ -1,8 +1,8 @@
-# ucloud memcache restart
+## ucloud memcache restart
 
 Restart memcache instances
 
-## Synopsis
+### Synopsis
 
 Restart memcache instances
 
@@ -10,7 +10,7 @@ Restart memcache instances
 ucloud memcache restart [flags]
 ```
 
-## Options
+### Options
 
 ```
   --umem-id     strings     Required. Resource ID of memcache to restart 
@@ -28,7 +28,7 @@ ucloud memcache restart [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -50,7 +50,7 @@ ucloud memcache restart [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud memcache](cli/cmd/ucloud/memcache)	 - List and manipulate memcache instances
 

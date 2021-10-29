@@ -1,8 +1,8 @@
-# ucloud gssh create
+## ucloud gssh create
 
 Create GlobalSSH instance
 
-## Synopsis
+### Synopsis
 
 Create GlobalSSH instance
 
@@ -10,37 +10,46 @@ Create GlobalSSH instance
 ucloud gssh create [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud gssh create --location Washington --target-ip 8.8.8.8
 ```
 
-## Options
+### Options
 
 ```
-  --location     string      Required. Location of the source server. See 'ucloud gssh location' 
+  --location     string         Required. Location of the source server. See 'ucloud gssh location' 
 
-  --target-ip     ip         Required. IP of the source server. Required 
+  --target-ip     ip            Required. IP of the source server. Required 
 
-  --project-id     string    Optional. Override default project-id for this command
-                             invocation, see 'ucloud project list' 
+  --project-id     string       Optional. Override default project-id for this command
+                                invocation, see 'ucloud project list' 
 
-  --port     int             Optional. Port of The SSH service between 1 and 65535. Do not use
-                             ports such as 80,443. (default 22) 
+  --port     int                Optional. Port of The SSH service between 1 and 65535. Do not
+                                use ports such as 80, 443 or 65123. (default 22) 
 
-  --remark     string        Optional. Remark of your GlobalSSH. 
+  --remark     string           Optional. Remark of your GlobalSSH. 
 
-  --charge-type     string   Optional.'Year',pay yearly;'Month',pay monthly;'Dynamic', pay
-                             hourly(requires access) (default "Month") 
+  --charge-type     string      Optional.'Year',pay yearly;'Month',pay monthly;'Dynamic', pay
+                                hourly(requires access) (default "Month") 
 
-  --quantity     int         Optional. The duration of the instance. N years/months. (default 1) 
+  --quantity     int            Optional. The duration of the instance. N years/months. (default 1) 
 
-  --help, -h                 help for create 
+  --instance-type     string    Optional. Possible values: 'Ultimate','Enterprise', 'Basic',
+                                'Free'(Default value) 
+
+  --forward-region     string   Optional. You can select one of 'cn-bj2','cn-sh2','cn-gd' When
+                                instance-type is 'Basic' 
+
+  --bandwidth-package     int   Optional. You can set one of 0, 20, 40 When instance-type is
+                                'Ultimate' 
+
+  --help, -h                    help for create 
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -62,7 +71,7 @@ ucloud gssh create --location Washington --target-ip 8.8.8.8
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud gssh](cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

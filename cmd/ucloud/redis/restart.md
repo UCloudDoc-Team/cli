@@ -1,8 +1,8 @@
-# ucloud redis restart
+## ucloud redis restart
 
 Restart redis instances of master-replica type
 
-## Synopsis
+### Synopsis
 
 Restart redis instances of master-replica type
 
@@ -10,7 +10,7 @@ Restart redis instances of master-replica type
 ucloud redis restart [flags]
 ```
 
-## Options
+### Options
 
 ```
   --umem-id     strings     Required. Resource ID of redis instances to restart 
@@ -28,7 +28,7 @@ ucloud redis restart [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -50,7 +50,7 @@ ucloud redis restart [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud redis](cli/cmd/ucloud/redis)	 - List and manipulate redis instances
 

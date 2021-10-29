@@ -1,8 +1,8 @@
-# ucloud firewall delete
+## ucloud firewall delete
 
 Delete firewall by resource ids or names
 
-## Synopsis
+### Synopsis
 
 Delete firewall by resource ids or names
 
@@ -10,13 +10,13 @@ Delete firewall by resource ids or names
 ucloud firewall delete [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud firewall delete --fw-id firewall-xxx
 ```
 
-## Options
+### Options
 
 ```
   --fw-id     strings       Required. Resource IDs of firewall to delete 
@@ -29,7 +29,7 @@ ucloud firewall delete --fw-id firewall-xxx
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -51,7 +51,7 @@ ucloud firewall delete --fw-id firewall-xxx
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

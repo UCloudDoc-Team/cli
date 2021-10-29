@@ -1,8 +1,8 @@
-# ucloud uhost clone
+## ucloud uhost clone
 
 Create an uhost with the same configuration as another uhost, excluding bound eip and udisk
 
-## Synopsis
+### Synopsis
 
 Create an uhost with the same configuration as another uhost, excluding bound eip and udisk
 
@@ -10,7 +10,7 @@ Create an uhost with the same configuration as another uhost, excluding bound ei
 ucloud uhost clone [flags]
 ```
 
-## Options
+### Options
 
 ```
   --uhost-id     string     Required. Resource ID of the uhost to clone from 
@@ -31,7 +31,7 @@ ucloud uhost clone [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -53,7 +53,7 @@ ucloud uhost clone [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

@@ -1,8 +1,8 @@
-# ucloud eip bind
+## ucloud eip bind
 
 Bind EIP with uhost
 
-## Synopsis
+### Synopsis
 
 Bind EIP with uhost
 
@@ -10,13 +10,13 @@ Bind EIP with uhost
 ucloud eip bind [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud eip bind --eip-id eip-xxx --resource-id uhost-xxx
 ```
 
-## Options
+### Options
 
 ```
   --eip-id     strings         Required. EIPId to bind 
@@ -34,7 +34,7 @@ ucloud eip bind --eip-id eip-xxx --resource-id uhost-xxx
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -56,7 +56,7 @@ ucloud eip bind --eip-id eip-xxx --resource-id uhost-xxx
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud eip](cli/cmd/ucloud/eip)	 - List,allocate and release EIP
 

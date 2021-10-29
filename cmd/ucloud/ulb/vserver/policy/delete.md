@@ -1,8 +1,8 @@
-# ucloud ulb vserver policy delete
+## ucloud ulb vserver policy delete
 
 Delete content forward policies of ULB VServer
 
-## Synopsis
+### Synopsis
 
 Delete content forward policies of ULB VServer
 
@@ -10,7 +10,7 @@ Delete content forward policies of ULB VServer
 ucloud ulb vserver policy delete [flags]
 ```
 
-## Options
+### Options
 
 ```
   --region     string       Optional. Override default region for this command invocation, see
@@ -27,7 +27,7 @@ ucloud ulb vserver policy delete [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -49,7 +49,7 @@ ucloud ulb vserver policy delete [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud ulb vserver policy](cli/cmd/ucloud/ulb/vserver/policy)	 - List and manipulate forward policy for VServer
 

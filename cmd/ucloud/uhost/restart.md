@@ -1,8 +1,8 @@
-# ucloud uhost restart
+## ucloud uhost restart
 
 Restart uhost instance
 
-## Synopsis
+### Synopsis
 
 Restart uhost instance
 
@@ -10,13 +10,13 @@ Restart uhost instance
 ucloud uhost restart [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud uhost restart --uhost-id uhost-xxx1,uhost-xxx2
 ```
 
-## Options
+### Options
 
 ```
   --uhost-id     strings       Required. ResourceIDs(UHostIds) of the uhost instance 
@@ -35,7 +35,7 @@ ucloud uhost restart --uhost-id uhost-xxx1,uhost-xxx2
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -57,7 +57,7 @@ ucloud uhost restart --uhost-id uhost-xxx1,uhost-xxx2
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

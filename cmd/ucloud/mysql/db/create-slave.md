@@ -1,8 +1,8 @@
-# ucloud mysql db create-slave
+## ucloud mysql db create-slave
 
 Create slave database
 
-## Synopsis
+### Synopsis
 
 Create slave database
 
@@ -10,7 +10,7 @@ Create slave database
 ucloud mysql db create-slave [flags]
 ```
 
-## Options
+### Options
 
 ```
   --master-udb-id     string   Required. Resource ID of master UDB instance 
@@ -42,7 +42,7 @@ ucloud mysql db create-slave [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -64,7 +64,7 @@ ucloud mysql db create-slave [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

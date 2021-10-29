@@ -1,8 +1,8 @@
-# ucloud image delete
+## ucloud image delete
 
 Delete custom images
 
-## Synopsis
+### Synopsis
 
 Delete custom images
 
@@ -10,7 +10,7 @@ Delete custom images
 ucloud image delete [flags]
 ```
 
-## Options
+### Options
 
 ```
   --image-id     strings    Required. Resource ID of images 
@@ -25,7 +25,7 @@ ucloud image delete [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -47,7 +47,7 @@ ucloud image delete [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud image](cli/cmd/ucloud/image)	 - List and manipulate images
 

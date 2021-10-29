@@ -1,8 +1,8 @@
-# ucloud mysql backup delete
+## ucloud mysql backup delete
 
 Delete backups of MySQL instance
 
-## Synopsis
+### Synopsis
 
 Delete backups of MySQL instance
 
@@ -10,13 +10,13 @@ Delete backups of MySQL instance
 ucloud mysql backup delete [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud udb backup delete --backup-id 65534,65535
 ```
 
-## Options
+### Options
 
 ```
   --backup-id     ints      Required. BackupID of backups to delete 
@@ -34,7 +34,7 @@ ucloud udb backup delete --backup-id 65534,65535
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -56,7 +56,7 @@ ucloud udb backup delete --backup-id 65534,65535
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql backup](cli/cmd/ucloud/mysql/backup)	 - List and manipulate backups of MySQL instance
 

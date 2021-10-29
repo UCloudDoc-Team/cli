@@ -1,19 +1,19 @@
-# ucloud pathx upath
+## ucloud pathx upath
 
 List pathx upath instances
 
-## Synopsis
+### Synopsis
 
 List pathx upath instances
 
-## Options
+### Options
 
 ```
   --help, -h   help for upath 
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -35,7 +35,7 @@ List pathx upath instances
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud pathx](cli/cmd/ucloud/pathx)	 - Manipulate uga and upath instances
 * [ucloud pathx upath list](cli/cmd/ucloud/pathx/upath/list)	 - list upath instances

@@ -1,8 +1,8 @@
-# ucloud firewall copy
+## ucloud firewall copy
 
 Copy firewall
 
-## Synopsis
+### Synopsis
 
 Copy firewall
 
@@ -10,13 +10,13 @@ Copy firewall
 ucloud firewall copy [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud firewall copy --src-fw firewall-xxx --target-region cn-bj2 --name test
 ```
 
-## Options
+### Options
 
 ```
   --src-fw     string          Required. ResourceID or name of source firewall 
@@ -33,7 +33,7 @@ ucloud firewall copy --src-fw firewall-xxx --target-region cn-bj2 --name test
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -55,7 +55,7 @@ ucloud firewall copy --src-fw firewall-xxx --target-region cn-bj2 --name test
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

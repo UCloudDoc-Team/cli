@@ -1,8 +1,8 @@
-# ucloud gssh delete
+## ucloud gssh delete
 
 Delete GlobalSSH instance
 
-## Synopsis
+### Synopsis
 
 Delete GlobalSSH instance
 
@@ -10,13 +10,13 @@ Delete GlobalSSH instance
 ucloud gssh delete [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud gssh delete --gssh-id uga-xx1  --id uga-xx2
 ```
 
-## Options
+### Options
 
 ```
   --gssh-id     strings     Required. ID of the GlobalSSH instances you want to delete.
@@ -29,7 +29,7 @@ ucloud gssh delete --gssh-id uga-xx1  --id uga-xx2
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -51,7 +51,7 @@ ucloud gssh delete --gssh-id uga-xx1  --id uga-xx2
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud gssh](cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

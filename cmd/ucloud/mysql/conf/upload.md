@@ -1,8 +1,8 @@
-# ucloud mysql conf upload
+## ucloud mysql conf upload
 
 Create configuration file by uploading local DB configuration file
 
-## Synopsis
+### Synopsis
 
 Create configuration file by uploading local DB configuration file
 
@@ -10,7 +10,7 @@ Create configuration file by uploading local DB configuration file
 ucloud mysql conf upload [flags]
 ```
 
-## Options
+### Options
 
 ```
   --conf-file     string     Required. Path of local configuration file 
@@ -37,7 +37,7 @@ ucloud mysql conf upload [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -59,7 +59,7 @@ ucloud mysql conf upload [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql conf](cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

@@ -1,12 +1,12 @@
-# ucloud ext
+## ucloud ext
 
 extended commands of UCloud CLI
 
-## Synopsis
+### Synopsis
 
 extended commands of UCloud CLI
 
-## Options
+### Options
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -24,7 +24,7 @@ extended commands of UCloud CLI
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -35,8 +35,8 @@ extended commands of UCloud CLI
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.37
 * [ucloud ext uhost](cli/cmd/ucloud/ext/uhost)	 - extended uhost commands
 

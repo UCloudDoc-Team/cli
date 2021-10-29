@@ -1,8 +1,8 @@
-# ucloud bw pkg list
+## ucloud bw pkg list
 
 List bandwidth packages
 
-## Synopsis
+### Synopsis
 
 List bandwidth packages
 
@@ -10,7 +10,7 @@ List bandwidth packages
 ucloud bw pkg list [flags]
 ```
 
-## Options
+### Options
 
 ```
   --region     string       Optional. Override default region for this command invocation, see
@@ -27,7 +27,7 @@ ucloud bw pkg list [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -49,7 +49,7 @@ ucloud bw pkg list [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud bw pkg](cli/cmd/ucloud/bw/pkg)	 - List, create and delete bandwidth package instances
 

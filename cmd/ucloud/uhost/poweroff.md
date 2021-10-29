@@ -1,8 +1,8 @@
-# ucloud uhost poweroff
+## ucloud uhost poweroff
 
 Analog power off Uhost instnace
 
-## Synopsis
+### Synopsis
 
 Analog power off Uhost instnace
 
@@ -10,13 +10,13 @@ Analog power off Uhost instnace
 ucloud uhost poweroff [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud uhost poweroff --uhost-id uhost-xxx1,uhost-xxx2
 ```
 
-## Options
+### Options
 
 ```
   --uhost-id     strings    ResourceIDs(UHostIds) of the uhost instance 
@@ -33,7 +33,7 @@ ucloud uhost poweroff --uhost-id uhost-xxx1,uhost-xxx2
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -55,7 +55,7 @@ ucloud uhost poweroff --uhost-id uhost-xxx1,uhost-xxx2
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

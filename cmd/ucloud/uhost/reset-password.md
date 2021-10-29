@@ -1,8 +1,8 @@
-# ucloud uhost reset-password
+## ucloud uhost reset-password
 
 Reset the administrator password for the UHost instances.
 
-## Synopsis
+### Synopsis
 
 Reset the administrator password for the UHost instances.
 
@@ -10,7 +10,7 @@ Reset the administrator password for the UHost instances.
 ucloud uhost reset-password [flags]
 ```
 
-## Options
+### Options
 
 ```
   --uhost-id     strings    Required. Resource IDs of the uhosts to reset the administrator's
@@ -30,7 +30,7 @@ ucloud uhost reset-password [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -52,7 +52,7 @@ ucloud uhost reset-password [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud uhost](cli/cmd/ucloud/uhost)	 - List,create,delete,stop,restart,poweroff or resize UHost instance
 

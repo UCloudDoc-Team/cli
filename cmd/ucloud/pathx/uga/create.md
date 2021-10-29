@@ -1,8 +1,8 @@
-# ucloud pathx uga create
+## ucloud pathx uga create
 
 Create uga instance
 
-## Synopsis
+### Synopsis
 
 Create uga instance
 
@@ -10,13 +10,13 @@ Create uga instance
 ucloud pathx uga create [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud pathx uga create --name testcli1 --protocol tcp --origin-location 中国 --origin-domain lixiaojun.xyz --upath-id upath-auvfexxx/test_0 --port 80-90,100,110-115
 ```
 
-## Options
+### Options
 
 ```
   --project-id     string        Optional. Override default project-id for this command
@@ -45,7 +45,7 @@ ucloud pathx uga create --name testcli1 --protocol tcp --origin-location 中国 
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -67,7 +67,7 @@ ucloud pathx uga create --name testcli1 --protocol tcp --origin-location 中国 
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud pathx uga](cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

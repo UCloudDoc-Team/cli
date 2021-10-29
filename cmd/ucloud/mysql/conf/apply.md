@@ -1,8 +1,8 @@
-# ucloud mysql conf apply
+## ucloud mysql conf apply
 
 Apply configuration for UDB instances
 
-## Synopsis
+### Synopsis
 
 Apply configuration for UDB instances
 
@@ -10,7 +10,7 @@ Apply configuration for UDB instances
 ucloud mysql conf apply [flags]
 ```
 
-## Options
+### Options
 
 ```
   --conf-id     string        Required. ConfID of the configuration to be applied 
@@ -37,7 +37,7 @@ ucloud mysql conf apply [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -59,7 +59,7 @@ ucloud mysql conf apply [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql conf](cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

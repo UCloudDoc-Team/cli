@@ -1,8 +1,8 @@
-# ucloud firewall create
+## ucloud firewall create
 
 Create firewall
 
-## Synopsis
+### Synopsis
 
 Create firewall
 
@@ -10,13 +10,13 @@ Create firewall
 ucloud firewall create [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud firewall create --name test3 --rules "TCP|22|0.0.0.0/0|ACCEPT|HIGH" --rules-file firewall_rules.txt
 ```
 
-## Options
+### Options
 
 ```
   --rules     strings       Required if rules-file doesn't exist. Schema:
@@ -48,7 +48,7 @@ ucloud firewall create --name test3 --rules "TCP|22|0.0.0.0/0|ACCEPT|HIGH" --rul
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -70,7 +70,7 @@ ucloud firewall create --name test3 --rules "TCP|22|0.0.0.0/0|ACCEPT|HIGH" --rul
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

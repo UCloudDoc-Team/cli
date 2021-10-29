@@ -1,8 +1,8 @@
-# ucloud mysql db promote-slave
+## ucloud mysql db promote-slave
 
 Promote slave db to master
 
-## Synopsis
+### Synopsis
 
 Promote slave db to master
 
@@ -10,7 +10,7 @@ Promote slave db to master
 ucloud mysql db promote-slave [flags]
 ```
 
-## Options
+### Options
 
 ```
   --udb-id     strings      Required. Resource ID of slave db to promote 
@@ -31,7 +31,7 @@ ucloud mysql db promote-slave [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -53,7 +53,7 @@ ucloud mysql db promote-slave [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

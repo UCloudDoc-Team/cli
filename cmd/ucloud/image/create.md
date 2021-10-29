@@ -1,8 +1,8 @@
-# ucloud image create
+## ucloud image create
 
 Create image from an uhost instance
 
-## Synopsis
+### Synopsis
 
 Create image from an uhost instance
 
@@ -10,7 +10,7 @@ Create image from an uhost instance
 ucloud image create [flags]
 ```
 
-## Options
+### Options
 
 ```
   --uhost-id     string     Resource ID of uhost to create image from 
@@ -31,7 +31,7 @@ ucloud image create [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -53,7 +53,7 @@ ucloud image create [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud image](cli/cmd/ucloud/image)	 - List and manipulate images
 

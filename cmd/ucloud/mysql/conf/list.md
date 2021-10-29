@@ -1,8 +1,8 @@
-# ucloud mysql conf list
+## ucloud mysql conf list
 
 List configuartion files of MySQL instances
 
-## Synopsis
+### Synopsis
 
 List configuartion files of MySQL instances
 
@@ -10,7 +10,7 @@ List configuartion files of MySQL instances
 ucloud mysql conf list [flags]
 ```
 
-## Options
+### Options
 
 ```
   --region     string       Optional. Override default region for this command invocation, see
@@ -33,7 +33,7 @@ ucloud mysql conf list [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -55,7 +55,7 @@ ucloud mysql conf list [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql conf](cli/cmd/ucloud/mysql/conf)	 - List and manipulate configuration files of MySQL instances
 

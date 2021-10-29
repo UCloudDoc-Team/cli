@@ -1,8 +1,8 @@
-# ucloud bw shared create
+## ucloud bw shared create
 
 Create shared bandwidth instance
 
-## Synopsis
+### Synopsis
 
 Create shared bandwidth instance
 
@@ -10,7 +10,7 @@ Create shared bandwidth instance
 ucloud bw shared create [flags]
 ```
 
-## Options
+### Options
 
 ```
   --name     string          Required. Name of the shared bandwidth instance 
@@ -33,7 +33,7 @@ ucloud bw shared create [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -55,7 +55,7 @@ ucloud bw shared create [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud bw shared](cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
 

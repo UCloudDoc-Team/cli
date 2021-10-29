@@ -1,8 +1,8 @@
-# ucloud firewall remove-rule
+## ucloud firewall remove-rule
 
 Remove rule from firewall instance
 
-## Synopsis
+### Synopsis
 
 Remove rule from firewall instance
 
@@ -10,13 +10,13 @@ Remove rule from firewall instance
 ucloud firewall remove-rule [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud firewall remove-rule --fw-id firewall-2cxxxz/test.lxj2 --rules "TCP|24|0.0.0.0/0|ACCEPT|HIGH" --rules-file firewall_rules.txt
 ```
 
-## Options
+### Options
 
 ```
   --fw-id     strings       Required. Resource ID of firewalls to update 
@@ -36,7 +36,7 @@ ucloud firewall remove-rule --fw-id firewall-2cxxxz/test.lxj2 --rules "TCP|24|0.
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -58,7 +58,7 @@ ucloud firewall remove-rule --fw-id firewall-2cxxxz/test.lxj2 --rules "TCP|24|0.
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

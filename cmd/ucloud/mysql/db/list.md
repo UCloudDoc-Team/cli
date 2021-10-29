@@ -1,8 +1,8 @@
-# ucloud mysql db list
+## ucloud mysql db list
 
 List MySQL instances
 
-## Synopsis
+### Synopsis
 
 List MySQL instances
 
@@ -10,7 +10,7 @@ List MySQL instances
 ucloud mysql db list [flags]
 ```
 
-## Options
+### Options
 
 ```
   --udb-id     string       Optional. List the specified mysql 
@@ -35,7 +35,7 @@ ucloud mysql db list [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -57,7 +57,7 @@ ucloud mysql db list [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 

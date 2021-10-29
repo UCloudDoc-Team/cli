@@ -1,8 +1,8 @@
-# ucloud gendoc
+## ucloud gendoc
 
 Generate documents for all commands
 
-## Synopsis
+### Synopsis
 
 Generate documents for all commands. Support markdown, rst and douku
 
@@ -10,7 +10,7 @@ Generate documents for all commands. Support markdown, rst and douku
 ucloud gendoc [flags]
 ```
 
-## Options
+### Options
 
 ```
   --dir     string      Required. The directory where documents of commands are stored 
@@ -22,7 +22,7 @@ ucloud gendoc [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -33,7 +33,7 @@ ucloud gendoc [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.37
 

@@ -1,8 +1,8 @@
-# ucloud bw shared resize
+## ucloud bw shared resize
 
 Resize shared bandwidth instance's bandwidth
 
-## Synopsis
+### Synopsis
 
 Resize shared bandwidth instance's bandwidth
 
@@ -10,7 +10,7 @@ Resize shared bandwidth instance's bandwidth
 ucloud bw shared resize [flags]
 ```
 
-## Options
+### Options
 
 ```
   --shared-bw-id     string   Required. Resource ID of shared bandwidth instance to resize 
@@ -27,7 +27,7 @@ ucloud bw shared resize [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -49,7 +49,7 @@ ucloud bw shared resize [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud bw shared](cli/cmd/ucloud/bw/shared)	 - Create and manipulate shared bandwidth instances
 

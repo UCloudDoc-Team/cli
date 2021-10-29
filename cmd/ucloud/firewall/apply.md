@@ -1,8 +1,8 @@
-# ucloud firewall apply
+## ucloud firewall apply
 
 Applay firewall to ucloud service
 
-## Synopsis
+### Synopsis
 
 Applay firewall to ucloud service
 
@@ -10,13 +10,13 @@ Applay firewall to ucloud service
 ucloud firewall apply [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud firewall apply --fw-id firewall-xxx --resource-id uhost-xxx --resource-type uhost
 ```
 
-## Options
+### Options
 
 ```
   --fw-id     string           Required. Resource ID of firewall to apply to some ucloud resource 
@@ -35,7 +35,7 @@ ucloud firewall apply --fw-id firewall-xxx --resource-id uhost-xxx --resource-ty
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -57,7 +57,7 @@ ucloud firewall apply --fw-id firewall-xxx --resource-id uhost-xxx --resource-ty
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

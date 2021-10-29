@@ -1,12 +1,12 @@
-# ucloud redis
+## ucloud redis
 
 List and manipulate redis instances
 
-## Synopsis
+### Synopsis
 
 List and manipulate redis instances
 
-## Options
+### Options
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -24,7 +24,7 @@ List and manipulate redis instances
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -35,9 +35,9 @@ List and manipulate redis instances
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.37
 * [ucloud redis create](cli/cmd/ucloud/redis/create)	 - Create redis instance
 * [ucloud redis delete](cli/cmd/ucloud/redis/delete)	 - Delete redis instances
 * [ucloud redis list](cli/cmd/ucloud/redis/list)	 - List redis instances

@@ -1,8 +1,8 @@
-# ucloud vpc delete-intercome
+## ucloud vpc delete-intercome
 
 delete the vpc intercome
 
-## Synopsis
+### Synopsis
 
 delete the vpc intercome
 
@@ -10,13 +10,13 @@ delete the vpc intercome
 ucloud vpc delete-intercome [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud vpc delete-intercome --vpc-id xxx --dst-vpc-id xxx
 ```
 
-## Options
+### Options
 
 ```
   --vpc-id     string       Required. Resource ID of source VPC to disconnect with destination VPC 
@@ -33,7 +33,7 @@ ucloud vpc delete-intercome --vpc-id xxx --dst-vpc-id xxx
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -55,7 +55,7 @@ ucloud vpc delete-intercome --vpc-id xxx --dst-vpc-id xxx
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud vpc](cli/cmd/ucloud/vpc)	 - List and manipulate VPC instances
 

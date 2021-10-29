@@ -1,8 +1,8 @@
-# ucloud config
+## ucloud config
 
 add or update configurations
 
-## Synopsis
+### Synopsis
 
 add or update configurations, such as private-key, public-key, default region and zone, base-url, timeout-sec, and default project-id
 
@@ -10,13 +10,13 @@ add or update configurations, such as private-key, public-key, default region an
 ucloud config [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud config --profile=test --region cn-bj2 --active true
 ```
 
-## Options
+### Options
 
 ```
   --public-key     string         Optional. Set public key 
@@ -52,7 +52,7 @@ ucloud config --profile=test --region cn-bj2 --active true
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -63,9 +63,9 @@ ucloud config --profile=test --region cn-bj2 --active true
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
-* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.33
+* [ucloud](cli/cmd/ucloud)	 - UCloud CLI v0.1.37
 * [ucloud config add](cli/cmd/ucloud/config/add)	 - add configuration
 * [ucloud config delete](cli/cmd/ucloud/config/delete)	 - delete configurations by profile name
 * [ucloud config list](cli/cmd/ucloud/config/list)	 - list all configurations

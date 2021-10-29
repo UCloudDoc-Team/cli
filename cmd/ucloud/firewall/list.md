@@ -1,8 +1,8 @@
-# ucloud firewall list
+## ucloud firewall list
 
 List extranet firewall
 
-## Synopsis
+### Synopsis
 
 List extranet firewall
 
@@ -10,7 +10,7 @@ List extranet firewall
 ucloud firewall list [flags]
 ```
 
-## Options
+### Options
 
 ```
   --region     string                Optional. Region, see 'ucloud region' 
@@ -32,7 +32,7 @@ ucloud firewall list [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -54,7 +54,7 @@ ucloud firewall list [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

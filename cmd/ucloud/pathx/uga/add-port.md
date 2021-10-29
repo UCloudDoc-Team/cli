@@ -1,8 +1,8 @@
-# ucloud pathx uga add-port
+## ucloud pathx uga add-port
 
 Add port for uga instance
 
-## Synopsis
+### Synopsis
 
 Add port for uga instance
 
@@ -10,7 +10,7 @@ Add port for uga instance
 ucloud pathx uga add-port [flags]
 ```
 
-## Options
+### Options
 
 ```
   --project-id     string   Optional. Override default project-id for this command invocation,
@@ -27,7 +27,7 @@ ucloud pathx uga add-port [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -49,7 +49,7 @@ ucloud pathx uga add-port [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud pathx uga](cli/cmd/ucloud/pathx/uga)	 - Create,list,update and delete pathx uga instances
 

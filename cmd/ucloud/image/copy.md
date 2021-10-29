@@ -1,8 +1,8 @@
-# ucloud image copy
+## ucloud image copy
 
 Copy custom images
 
-## Synopsis
+### Synopsis
 
 Copy custom images
 
@@ -10,7 +10,7 @@ Copy custom images
 ucloud image copy [flags]
 ```
 
-## Options
+### Options
 
 ```
   --source-image-id     strings    Required. Resource ID of source image 
@@ -35,7 +35,7 @@ ucloud image copy [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -57,7 +57,7 @@ ucloud image copy [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud image](cli/cmd/ucloud/image)	 - List and manipulate images
 

@@ -1,8 +1,8 @@
-# ucloud gssh location
+## ucloud gssh location
 
 List SSH server locations and covered areas
 
-## Synopsis
+### Synopsis
 
 List SSH server locations and covered areas
 
@@ -10,14 +10,14 @@ List SSH server locations and covered areas
 ucloud gssh location [flags]
 ```
 
-## Options
+### Options
 
 ```
   --help, -h   help for location 
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -39,7 +39,7 @@ ucloud gssh location [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud gssh](cli/cmd/ucloud/gssh)	 - Create,list,update and delete globalssh instance
 

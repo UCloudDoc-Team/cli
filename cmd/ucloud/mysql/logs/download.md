@@ -1,8 +1,8 @@
-# ucloud mysql logs download
+## ucloud mysql logs download
 
 Display url of an archive(log file)
 
-## Synopsis
+### Synopsis
 
 Display url of an archive(log file)
 
@@ -10,13 +10,13 @@ Display url of an archive(log file)
 ucloud mysql logs download [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud mysql logs download --udb-id udb-urixxx/test.cli1 --archive-id 35044
 ```
 
-## Options
+### Options
 
 ```
   --archive-id     int      Required. ArchiveID of archive to download 
@@ -36,7 +36,7 @@ ucloud mysql logs download --udb-id udb-urixxx/test.cli1 --archive-id 35044
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -58,7 +58,7 @@ ucloud mysql logs download --udb-id udb-urixxx/test.cli1 --archive-id 35044
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql logs](cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

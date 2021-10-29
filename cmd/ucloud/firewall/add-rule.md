@@ -1,8 +1,8 @@
-# ucloud firewall add-rule
+## ucloud firewall add-rule
 
 Add rule to firewall instance
 
-## Synopsis
+### Synopsis
 
 Add rule to firewall instance
 
@@ -10,13 +10,13 @@ Add rule to firewall instance
 ucloud firewall add-rule [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud firewall add-rule --fw-id firewall-2xxxxz/test.lxj2 --rules "TCP|24|0.0.0.0/0|ACCEPT|HIGH" --rules-file firewall_rules.txt
 ```
 
-## Options
+### Options
 
 ```
   --fw-id     strings       Required. Resource ID of firewalls to update 
@@ -36,7 +36,7 @@ ucloud firewall add-rule --fw-id firewall-2xxxxz/test.lxj2 --rules "TCP|24|0.0.0
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -58,7 +58,7 @@ ucloud firewall add-rule --fw-id firewall-2xxxxz/test.lxj2 --rules "TCP|24|0.0.0
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud firewall](cli/cmd/ucloud/firewall)	 - List and manipulate extranet firewall
 

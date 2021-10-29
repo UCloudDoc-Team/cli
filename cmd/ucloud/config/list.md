@@ -1,8 +1,8 @@
-# ucloud config list
+## ucloud config list
 
 list all configurations
 
-## Synopsis
+### Synopsis
 
 list all configurations
 
@@ -10,14 +10,14 @@ list all configurations
 ucloud config list [flags]
 ```
 
-## Options
+### Options
 
 ```
   --help, -h   help for list 
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --debug, -d            Running in debug mode 
@@ -28,7 +28,7 @@ ucloud config list [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud config](cli/cmd/ucloud/config)	 - add or update configurations
 

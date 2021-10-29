@@ -1,8 +1,8 @@
-# ucloud mysql logs delete
+## ucloud mysql logs delete
 
 Delete log archives(log files)
 
-## Synopsis
+### Synopsis
 
 Delete log archives(log files)
 
@@ -10,13 +10,13 @@ Delete log archives(log files)
 ucloud mysql logs delete [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud mysql logs delete --archive-id 35025
 ```
 
-## Options
+### Options
 
 ```
   --archive-id     ints     Optional. ArchiveID of log archives to delete 
@@ -34,7 +34,7 @@ ucloud mysql logs delete --archive-id 35025
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -56,7 +56,7 @@ ucloud mysql logs delete --archive-id 35025
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql logs](cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

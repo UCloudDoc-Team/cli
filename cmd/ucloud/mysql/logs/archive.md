@@ -1,8 +1,8 @@
-# ucloud mysql logs archive
+## ucloud mysql logs archive
 
 Archive the log of mysql as a compressed file
 
-## Synopsis
+### Synopsis
 
 Archive the log of mysql as a compressed file
 
@@ -10,13 +10,13 @@ Archive the log of mysql as a compressed file
 ucloud mysql logs archive [flags]
 ```
 
-## Examples
+### Examples
 
 ```
 ucloud mysql logs archive --name test.cli2 --udb-id udb-xxx/test.cli1 --log-type slow_query --begin-time 2019-02-23/15:30:00 --end-time 2019-02-24/15:31:00
 ```
 
-## Options
+### Options
 
 ```
   --udb-id     string       Required. Resource ID of UDB instance which we fetch logs from 
@@ -44,7 +44,7 @@ ucloud mysql logs archive --name test.cli2 --udb-id udb-xxx/test.cli1 --log-type
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -66,7 +66,7 @@ ucloud mysql logs archive --name test.cli2 --udb-id udb-xxx/test.cli1 --log-type
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql logs](cli/cmd/ucloud/mysql/logs)	 - List and manipulate logs of MySQL instance
 

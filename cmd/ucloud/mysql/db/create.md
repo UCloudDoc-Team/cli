@@ -1,8 +1,8 @@
-# ucloud mysql db create
+## ucloud mysql db create
 
 Create MySQL instance on UCloud platform
 
-## Synopsis
+### Synopsis
 
 Create MySQL instance on UCloud platform
 
@@ -10,7 +10,7 @@ Create MySQL instance on UCloud platform
 ucloud mysql db create [flags]
 ```
 
-## Options
+### Options
 
 ```
   --project-id     string        Optional. Override default project-id for this command
@@ -76,7 +76,7 @@ ucloud mysql db create [flags]
 
 ```
 
-## Options inherited from parent commands
+### Options inherited from parent commands
 
 ```
   --base-url     string       Set base-url to override the base-url in local config file 
@@ -98,7 +98,7 @@ ucloud mysql db create [flags]
 
 ```
 
-## SEE ALSO
+### SEE ALSO
 
 * [ucloud mysql db](cli/cmd/ucloud/mysql/db)	 - Manange MySQL instances
 
