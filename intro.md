@@ -81,12 +81,12 @@ tar zxf ucloud-cli-linux-0.1.23-amd64.tgz -C /usr/local/bin/
 ## 在Docker容器中使用UCloud-CLI
 如果您已安装Docker, 通过如下命令拉取已打包UCloud-CLI的镜像。镜像打包Dockerfile
 ```
-docker pull uhub.service.ucloud.cn/ucloudcli/ucloud-cli:source-code
+docker pull uhub.service.ucloud.cn/ucloudcli/ucloud-cli:v0.1.42
 ```
 
 基于此镜像创建容器
 ```
-docker run --name ucloud-cli -it -d uhub.service.ucloud.cn/ucloudcli/ucloud-cli:source-code
+docker run --name ucloud-cli -it -d uhub.service.ucloud.cn/ucloudcli/ucloud-cli:v0.1.42
 ```
 连接到容器，开始使用UCloud-CLI
 ```
