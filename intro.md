@@ -213,7 +213,7 @@ $ ucloud uhost create --cpu 1 --memory-gb 1 --password **** --image-id uimage-fy
 配置GlobalSSH，然后通过GlobalSSH登陆主机
 
 ```
-$ ucloud gssh create --location Washington --target-ip 152.32.140.92
+$ ucloud gssh create --location US(US(US(US(Washington)))) --target-ip 152.32.140.92
 gssh[uga-0psxxx] created
 
 $ ssh root@152.32.140.92.ipssh.net
