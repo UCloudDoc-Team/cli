@@ -32,7 +32,7 @@ ucloud pathx create --bandwidth 10 --area-code DXB--charge-type Month --quantity
 
   --area-code     string       Optional. When it is empty,the nearest zone will be selected
                                based on the origin-domain and origin-ip. Acceptable
-                               values:'BKK'(曼谷),'DXB'(迪拜),'FRA'(法兰克福),'SGN'(胡志明市),'HKG'(香港),'CGK'(雅加达),'LOS'(拉各斯),'LHR'(伦敦),'LAX'(洛杉矶),'MNL'(马尼拉),'BOM'(孟买),'MSP'(圣保罗),'ICN'(首尔),'PVG'(上海),'SIN'(新加坡),'NRT'(东京),'IAD'(华盛顿),'TPE'(台北) 
+                               values:'BKK'(泰国（曼谷）),'DXB'(阿联酋（迪拜）),'FRA'(德国（法兰克福）),'SGN'(越南（胡志明）),'HKG'(香港),'CGK'(印度尼西亚（雅加达）),'LOS'(尼日利亚（拉各斯）),'LHR'(英国（伦敦）),'LAX'(美国（洛杉矶）),'MNL'(菲律宾（马尼拉）),'BOM'(印度（孟买）),'MSP'(巴西（圣保罗）),'ICN'(韩国（首尔）),'PVG'(上海),'SIN'(新加坡),'NRT'(日本（东京）),'IAD'(美国（华盛顿）),'TPE'(台湾（台北）) 
 
   --charge-type     string     Optional. Payment method,its value is not case
                                sensitive,acceptable values:'Year',pay yearly;'Month',pay

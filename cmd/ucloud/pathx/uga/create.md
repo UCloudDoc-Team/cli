@@ -30,7 +30,7 @@ ucloud pathx uga create --name testcli1 --protocol tcp --origin-location 中国 
   --origin-domain     string     Required if origin-ip is empty. 
 
   --origin-location     string   Required. Location of origin ip or domain. accpet
-                                 valeus:'中国','洛杉矶','法兰克福','中国香港','雅加达','孟买','东京','新加坡','曼谷','中国台北','华盛顿','首尔' 
+                                 valeus:'中国','美国（洛杉矶）','德国（法兰克福）','中国香港','印度尼西亚（雅加达）','印度（孟买）','日本（东京）','新加坡','泰国（曼谷）','中国台湾（台北）','美国（华盛顿）','韩国（首尔）' 
 
   --protocol     string          Required. accept values: tcp,udp 
 

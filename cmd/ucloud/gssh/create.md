@@ -13,7 +13,7 @@ ucloud gssh create [flags]
 ### Examples
 
 ```
-ucloud gssh create --location Washington --target-ip 8.8.8.8
+ucloud gssh create --location US(Washington) --target-ip 8.8.8.8
 ```
 
 ### Options
