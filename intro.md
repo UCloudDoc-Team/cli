@@ -81,12 +81,12 @@ unzip ucloud-linux_amd64.zip -d /tmp/ucloud-cli && sudo mv /tmp/ucloud-cli/bin/u
 ## 在Docker容器中使用UCloud-CLI
 如果您已安装Docker, 通过如下命令拉取已打包UCloud-CLI的镜像。镜像打包Dockerfile
 ```
-docker pull uhub.service.ucloud.cn/ucloudcli/ucloud-cli:v0.1.42
+docker pull uhub.service.ucloud.cn/ucloudcli/ucloud-cli:v0.1.53
 ```
 
 基于此镜像创建容器
 ```
-docker run --name ucloud-cli -it -d uhub.service.ucloud.cn/ucloudcli/ucloud-cli:v0.1.42
+docker run --name ucloud-cli -it -d uhub.service.ucloud.cn/ucloudcli/ucloud-cli:v0.1.53
 ```
 连接到容器，开始使用UCloud-CLI
 ```
