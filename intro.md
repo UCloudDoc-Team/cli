@@ -60,9 +60,9 @@ make install
 
 举个例子
 ```
-curl -OL https://github.com/ucloud/ucloud-cli/releases/download/0.1.23/ucloud-cli-linux-0.1.23-amd64.tgz
-echo "b480f8621e8d0bd2c121221857029320eb49be708f4d7cb1b197cdc58b071c09 *ucloud-cli-linux-0.1.23-amd64.tgz" | shasum -c //检查下载的tar包是否被劫持，从发布页面获取sha256摘要
-tar zxf ucloud-cli-linux-0.1.23-amd64.tgz -C /usr/local/bin/
+curl -OL https://github.com/ucloud/ucloud-cli/releases/download/v0.3.0/ucloud-linux_amd64.zip
+echo "24e60516a0b4642ab58c66e9bd073313f51e277d9033a08027490323e37b9ada *ucloud-linux_amd64.zip" | shasum -c //检查下载的压缩包是否被劫持，从发布页面获取sha256摘要
+unzip ucloud-linux_amd64.zip -d /tmp/ucloud-cli && sudo mv /tmp/ucloud-cli/bin/ucloud /usr/local/bin/
 ```
 
 ## 在Windows平台上安装UCloud-CLI
